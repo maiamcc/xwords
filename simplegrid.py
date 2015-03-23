@@ -38,7 +38,7 @@ def random_grid():
 
 # Fill in acr, dwn, acr, down, acr, down
 global fourletter
-fourletter = list(set([word for word in WORDS if len(word) == 4]))
+fourletter = list(set([word.lower() for word in WORDS if len(word) == 4]))
 
 def make_blank_grid():
     row = ["_", "_", "_", "_"]
@@ -78,7 +78,7 @@ def get_options(xword_entry):
 
 def valid_wd_or_options_exist(xword_entry):
     # or should i return the option list?
-    if str(xword_entry).lower() in fourletter:
+    if str(xword_entry) in fourletter:
         return True
     else:
         options = get_options(xword_entry)
