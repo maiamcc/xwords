@@ -38,10 +38,12 @@ def random_grid():
 
 # Fill in acr, dwn, acr, down, acr, down
 global fourletter
-fourletter = [word for word in WORDS if len(word) == 4]
+fourletter = list(set([word for word in WORDS if len(word) == 4]))
 
-row = ["_", "_", "_", "_"]
-g = [copy(row), copy(row), copy(row), copy(row)]
+def make_blank_grid():
+    row = ["_", "_", "_", "_"]
+    g = [copy(row), copy(row), copy(row), copy(row)]
+    return g
 
 def get_row(grid, y):
     """Given the y value (index of the row), return row contents."""
@@ -67,17 +69,24 @@ def get_entries_affected(grid, index, dir):
 
     return results
 
+def get_options(xword_entry):
+    """Expects xword_entry as a list. Returns a list of all possible words that fit the
+        existing string."""
+    pattern = "".join(xword_entry).replace("_", ".")
+    options = [word for word in fourletter if re.match(pattern, word)]
+    return options
+
 def valid_wd_or_options_exist(xword_entry):
     # or should i return the option list?
     if str(xword_entry).lower() in fourletter:
         return True
     else:
-        pattern = "".join(xword_entry).replace("_", ".")
-        options = [word for word in fourletter if re.match(pattern, word)]
+        options = get_options(xword_entry)
         print xword_entry, "--", options
         return bool(options)
 
 def check_fill_in(affected_list, new_word):
+    print("checking word:", new_word)
     for affected in affected_list:
         wd_to_check = affected.wd_so_far
         wd_to_check[affected.old_wd_index] = new_word[affected.new_wd_index]
@@ -94,3 +103,47 @@ def fill_in_col(grid, x, word):
     """Place the given word in the column at index x."""
     for i, row in enumerate(grid):
         row[x] = word[i]
+
+def solve_incomplete_at_random(grid):
+    print_grid(grid)
+    for index in xrange(4):
+        across = get_row(grid, index)
+        if "_" in across: # entry at index-across incomplete
+            # solve the across
+            options = get_options(across)
+            entries_affected = get_entries_affected(grid, index, dir="acr")
+            valid_choice = False
+            while not valid_choice:
+                random.shuffle(options)
+                try:
+                    choice = options.pop()
+                except IndexError:
+                    print "Grid failed. Moving on."
+                    return False
+                if check_fill_in(entries_affected, choice):
+                    fill_in_row(grid, index, choice)
+                    valid_choice = True
+                    print_grid(grid)
+                else:
+                    pass
+
+        down = get_col(grid, index)
+        if "_" in down: # entry at index-down incomplete
+            # solve the down
+            options = get_options(down)
+            entries_affected = get_entries_affected(grid, index, dir="dwn")
+            valid_choice = False
+            while not valid_choice:
+                random.shuffle(options)
+                try:
+                    choice = options.pop()
+                except IndexError:
+                    print "Grid failed. Moving on."
+                    return False
+                if check_fill_in(entries_affected, choice):
+                    fill_in_col(grid, index, choice)
+                    valid_choice = True
+                    print_grid(grid)
+                else:
+                    pass
+    return True
