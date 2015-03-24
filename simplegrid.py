@@ -5,6 +5,7 @@ from copy import copy
 import string
 import re
 import random
+from trie import Trie
 import nltk.corpus
 LETTERS = string.lowercase
 WORDS = nltk.corpus.words.words()
@@ -23,22 +24,15 @@ def print_grid(grid):
     for row in grid:
         print "\t", "   ".join(row), "\n"
 
-# Fill a 4x4 grid at random.
-def random_grid():
-    grid = []
-    for y in range(4):
-        row = []
-        for x in range(4):
-            row.append(random.choice(LETTERS))
-        grid.append(row)
-    return grid
-
 # Check that all things in a 4x4 grid are valid words.
 # ...
 
 # Fill in acr, dwn, acr, down, acr, down
+fourletter_list = list(set([word.lower() for word in WORDS if len(word) == 4]))
 global fourletter
-fourletter = list(set([word.lower() for word in WORDS if len(word) == 4]))
+fourletter = Trie()
+for wd in fourletter_list:
+    fourletter.add_word(wd)
 
 def make_blank_grid():
     row = ["_", "_", "_", "_"]

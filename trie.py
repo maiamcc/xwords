@@ -1,5 +1,5 @@
 class Trie():
-    def __init__(self, key):
+    def __init__(self, key=""):
         self.key = key
         self.children = {}
         self.terminates = False
@@ -25,13 +25,11 @@ class Trie():
         if letters_so_far is None:
             letters_so_far = ""
 
-        letters_so_far += self.key
-
         if self.terminates:
             wds_so_far.append(letters_so_far)
 
         for child in self.children.values():
-            child.get_all_completions(wds_so_far, letters_so_far)
+            child.get_all_completions(wds_so_far, letters_so_far + child.key)
 
         return wds_so_far
 
