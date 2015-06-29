@@ -1,0 +1,2410 @@
+>>> simplegrid.solve_incomplete_at_random(g)
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'tchu')
+[u't', '_', '_', '_'] -- [u'taar', u'tabu', u'tach', u'tack', u'tact', u'tade', u'tael', u'taen', u'taft', u'taha', u'tahr', u'tail', u'tain', u'tait', u'take', u'takt', u'taky', u'tala', u'talc', u'tald'
+, u'tale', u'tali', u'talk', u'tall', u'tame', u'tamp', u'tana', u'tane', u'tang', u'tanh', u'tank', u'tapa', u'tape', u'taps', u'tapu', u'tara', u'tare', u'tari', u'tarn', u'taro', u'tarp', u'tarr', u'ta
+rs', u'tart', u'tash', u'task', u'tass', u'tasu', u'tate', u'tath', u'tatu', u'taum', u'taun', u'taur', u'taut', u'tave', u'tawa', u'tawn', u'taws', u'taxi', u'taxy', u'tche', u'tchu', u'tead', u'teak', u
+'teal', u'team', u'tean', u'teap', u'tear', u'teat', u'teca', u'tech', u'teck', u'teel', u'teem', u'teen', u'teer', u'teet', u'teff', u'teil', u'teju', u'tele', u'teli', u'tell', u'telt', u'temp', u'tend'
+, u'teng', u'tent', u'tera', u'term', u'tern', u'terp', u'test', u'tete', u'teth', u'teuk', u'text', u'than', u'thar', u'that', u'thaw', u'theb', u'thee', u'them', u'then', u'thew', u'they', u'thig', u'th
+in', u'thio', u'thir', u'this', u'thob', u'thof', u'thon', u'thoo', u'thou', u'thow', u'thro', u'thud', u'thug', u'thus', u'tiao', u'tiar', u'tice', u'tick', u'tide', u'tidy', u'tied', u'tien', u'tier', u
+'tiff', u'tift', u'tige', u'tile', u'till', u'tilt', u'time', u'tind', u'tine', u'ting', u'tink', u'tint', u'tiny', u'tipe', u'tire', u'tirl', u'tirr', u'tite', u'titi', u'tivy', u'tiza', u'toad', u'toat'
+, u'tobe', u'toby', u'tock', u'toco', u'tode', u'tody', u'toed', u'toff', u'toft', u'tofu', u'toga', u'togs', u'togt', u'toho', u'toil', u'toit', u'toke', u'toko', u'told', u'tole', u'toll', u'tolt', u'to
+lu', u'tomb', u'tome', u'tone', u'tong', u'tonk', u'tony', u'took', u'tool', u'toom', u'toon', u'toop', u'toot', u'tope', u'toph', u'topi', u'topo', u'tops', u'tora', u'torc', u'tore', u'torn', u'toro', u
+'tort', u'toru', u'tory', u'tosh', u'toss', u'tost', u'tosy', u'tote', u'toto', u'toty', u'toug', u'toup', u'tour', u'tout', u'towd', u'town', u'towy', u'toxa', u'toze', u'trag', u'trah', u'tram', u'trap'
+, u'tray', u'tree', u'tref', u'trek', u'tret', u'trey', u'trig', u'trim', u'trin', u'trio', u'trip', u'trod', u'trog', u'tron', u'trot', u'trow', u'troy', u'trub', u'true', u'trug', u'trun', u'tryp', u'tr
+yt', u'tsar', u'tsia', u'tsun', u'tuan', u'tuba', u'tube', u'tuck', u'tufa', u'tuff', u'tuft', u'tuik', u'tuke', u'tula', u'tule', u'tume', u'tump', u'tuna', u'tund', u'tune', u'tung', u'tunk', u'tuno', u
+'tunu', u'tuny', u'turb', u'turd', u'turf', u'turk', u'turm', u'turn', u'turp', u'turr', u'tush', u'tusk', u'tute', u'tuth', u'tuts', u'tutu', u'tuwi', u'tuza', u'twae', u'twal', u'twas', u'twat', u'tway'
+, u'twee', u'twig', u'twin', u'twit', u'tyee', u'tyke', u'tymp', u'tynd', u'type', u'typo', u'typp', u'typy', u'tyre', u'tyro', u'tail', u'take', u'talk', u'tall', u'test', u'than', u'that', u'then', u'th
+in', u'this', u'till', u'time', u'town', u'tray', u'tree', u'true', u'turn']
+[u'c', '_', '_', '_'] -- [u'caam', u'caba', u'cack', u'cade', u'cadi', u'cafh', u'cage', u'caid', u'cain', u'cake', u'caky', u'calf', u'calk', u'call', u'calm', u'calp', u'calx', u'camb', u'came', u'camp'
+, u'cand', u'cane', u'cank', u'cant', u'cany', u'cape', u'caph', u'card', u'care', u'cark', u'carl', u'carp', u'carr', u'cart', u'case', u'cash', u'cask', u'cass', u'cast', u'cate', u'cauk', u'caul', u'ca
+um', u'caup', u'cava', u'cave', u'cavy', u'cawk', u'caza', u'cede', u'ceil', u'cell', u'celt', u'cent', u'cepa', u'cepe', u'ceps', u'cere', u'cern', u'cero', u'cess', u'cest', u'ceti', u'chaa', u'chab', u
+'chad', u'chai', u'chal', u'cham', u'chao', u'chap', u'char', u'chat', u'chaw', u'chay', u'chee', u'chef', u'chew', u'chia', u'chic', u'chid', u'chih', u'chil', u'chin', u'chip', u'chit', u'chob', u'chol'
+, u'chop', u'chow', u'chub', u'chug', u'chum', u'chun', u'chut', u'cine', u'cion', u'cipo', u'cise', u'cist', u'cite', u'city', u'cive', u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'cl
+ay', u'cled', u'clee', u'clef', u'cleg', u'clem', u'clep', u'clew', u'clip', u'clit', u'clod', u'clog', u'clop', u'clot', u'clow', u'cloy', u'club', u'clue', u'coak', u'coal', u'coat', u'coax', u'coca', u
+'cock', u'coco', u'coda', u'code', u'codo', u'coed', u'coff', u'coft', u'coho', u'coif', u'coil', u'coin', u'coir', u'coke', u'coky', u'cola', u'cold', u'cole', u'coli', u'colk', u'coll', u'colp', u'colt'
+, u'coly', u'coma', u'comb', u'come', u'cond', u'cone', u'conk', u'conn', u'cony', u'coof', u'cook', u'cool', u'coom', u'coon', u'coop', u'coot', u'copa', u'cope', u'copr', u'copy', u'cora', u'cord', u'co
+re', u'corf', u'cork', u'corm', u'corn', u'corp', u'cosh', u'coss', u'cost', u'cosy', u'cote', u'coth', u'coto', u'coue', u'coul', u'coup', u'cove', u'cowl', u'cowy', u'coxa', u'coxy', u'coyo', u'coze', u
+'cozy', u'crab', u'crag', u'cram', u'cran', u'crap', u'craw', u'crea', u'cree', u'crew', u'crib', u'cric', u'crig', u'crin', u'croc', u'crop', u'crow', u'croy', u'crum', u'crus', u'crux', u'cube', u'cubi'
+, u'cuck', u'cuff', u'cuir', u'cuke', u'cull', u'culm', u'cult', u'cump', u'curb', u'curd', u'cure', u'curl', u'curn', u'curr', u'curt', u'cush', u'cusk', u'cusp', u'cuss', u'cute', u'cuvy', u'cuya', u'cy
+an', u'cyke', u'cyma', u'cyme', u'cyst', u'czar', u'cake', u'card', u'care', u'cart', u'chin', u'coal', u'coat', u'cold', u'comb', u'come', u'cook', u'copy', u'cord', u'cork']
+[u'h', '_', '_', '_'] -- [u'haab', u'haaf', u'habu', u'hack', u'hade', u'hadj', u'haec', u'haem', u'haet', u'haff', u'haft', u'hagi', u'haik', u'hail', u'hain', u'hair', u'haje', u'hake', u'hako', u'haku'
+, u'hala', u'hale', u'half', u'hall', u'halo', u'hals', u'halt', u'hame', u'hami', u'hand', u'hank', u'hant', u'hapu', u'hard', u'hare', u'hark', u'harl', u'harm', u'harn', u'harp', u'harr', u'hart', u'ha
+sh', u'hask', u'hasp', u'hate', u'hath', u'hatt', u'haul', u'have', u'hawk', u'hawm', u'haya', u'hayz', u'haze', u'hazy', u'head', u'heaf', u'heal', u'heap', u'hear', u'heat', u'hech', u'heck', u'heed', u
+'heel', u'heer', u'heft', u'heii', u'heir', u'hele', u'hell', u'helm', u'help', u'heme', u'heml', u'hemp', u'hend', u'hent', u'herb', u'herd', u'here', u'herl', u'hern', u'hero', u'hers', u'hest', u'hevi'
+, u'hewn', u'hewt', u'hexa', u'hick', u'hide', u'high', u'hike', u'hill', u'hilt', u'himp', u'hind', u'hing', u'hint', u'hipe', u'hire', u'hiro', u'hish', u'hisn', u'hiss', u'hist', u'hive', u'hizz', u'ho
+ar', u'hoax', u'hobo', u'hock', u'hoer', u'hoga', u'hoin', u'hoit', u'hoju', u'hold', u'hole', u'holl', u'holm', u'holt', u'holy', u'home', u'homo', u'homy', u'hone', u'hong', u'honk', u'hood', u'hoof', u
+'hook', u'hoon', u'hoop', u'hoot', u'hope', u'hopi', u'hora', u'horn', u'hory', u'hose', u'host', u'hoti', u'hour', u'hove', u'howe', u'howk', u'howl', u'hubb', u'huck', u'hued', u'huer', u'huff', u'huge'
+, u'huia', u'huke', u'hula', u'hulk', u'hull', u'hulu', u'hump', u'hung', u'hunh', u'hunk', u'hunt', u'hura', u'hure', u'hurl', u'hurr', u'hurt', u'huse', u'hush', u'husk', u'huso', u'huss', u'huzz', u'hy
+ke', u'hyle', u'hymn', u'hyne', u'hypo', u'hair', u'hand', u'hard', u'hate', u'have', u'head', u'heat', u'help', u'here', u'high', u'hole', u'hook', u'hope', u'horn', u'hour']
+[u'u', '_', '_', '_'] -- [u'uang', u'udal', u'ugly', u'uily', u'ulex', u'ulla', u'ulmo', u'ulna', u'ulua', u'umbo', u'umph', u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy'
+, u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'upas', u'updo', u'upgo', u'upla', u'upon', u'ural', u'uran', u'urao', u'urde', u'urea', u'urge', u'uric', u'urna', u'urus', u'urva', u'usar', u'us
+ed', u'usee', u'user', u'utai', u'utas', u'utch', u'utum', u'uval', u'uvea', u'uvic', u'uvid', u'uzan', u'unit']
+
+
+    t   c   h   u
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'tiff')
+[u't', u'c', u'h', u'u'] -- [u'tchu']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+[u'f', '_', '_', '_'] -- [u'face', u'fack', u'fact', u'facy', u'fade', u'fady', u'faff', u'fage', u'fail', u'fain', u'fair', u'fake', u'faky', u'fall', u'falx', u'fame', u'fana', u'fand', u'fang', u'fant'
+, u'faon', u'fare', u'farl', u'farm', u'faro', u'fash', u'fass', u'fast', u'fate', u'faun', u'favn', u'fawn', u'faze', u'feak', u'feal', u'fear', u'feat', u'feck', u'feed', u'feel', u'feer', u'feif', u'fe
+il', u'feis', u'fell', u'fels', u'felt', u'feme', u'fend', u'fent', u'feod', u'ferk', u'fern', u'feru', u'fess', u'fest', u'feud', u'fiar', u'fiat', u'fice', u'fico', u'fide', u'fife', u'fifo', u'fike', u
+'file', u'fill', u'film', u'filo', u'fils', u'find', u'fine', u'fink', u'fire', u'firk', u'firm', u'firn', u'fisc', u'fise', u'fish', u'fist', u'five', u'fizz', u'flag', u'flak', u'flam', u'flan', u'flap'
+, u'flat', u'flaw', u'flax', u'flay', u'flea', u'fled', u'flee', u'flet', u'flew', u'flex', u'fley', u'flip', u'flit', u'flix', u'flob', u'floc', u'floe', u'flog', u'flop', u'flot', u'flow', u'flub', u'fl
+ue', u'flux', u'foal', u'foam', u'foci', u'fogo', u'fogy', u'foil', u'fold', u'fole', u'folk', u'fono', u'fons', u'font', u'food', u'fool', u'foot', u'fora', u'forb', u'ford', u'fore', u'fork', u'form', u
+'fort', u'fosh', u'foud', u'foul', u'foun', u'four', u'fowk', u'fowl', u'foxy', u'fozy', u'frab', u'frae', u'frap', u'frat', u'fray', u'free', u'fret', u'frib', u'frig', u'frim', u'frit', u'friz', u'froe'
+, u'frog', u'from', u'frot', u'frow', u'fuci', u'fuel', u'fuff', u'fugu', u'fuji', u'fulk', u'full', u'fume', u'fumy', u'fund', u'funk', u'funt', u'furl', u'fury', u'fusc', u'fuse', u'fuss', u'fust', u'fu
+te', u'fuye', u'fuze', u'fuzz', u'fyke', u'fyrd', u'face', u'fact', u'fall', u'farm', u'fear', u'fire', u'fish', u'flag', u'flat', u'fold', u'food', u'foot', u'fork', u'form', u'fowl', u'free', u'from', u
+'full']
+[u'f', '_', '_', '_'] -- [u'face', u'fack', u'fact', u'facy', u'fade', u'fady', u'faff', u'fage', u'fail', u'fain', u'fair', u'fake', u'faky', u'fall', u'falx', u'fame', u'fana', u'fand', u'fang', u'fant'
+, u'faon', u'fare', u'farl', u'farm', u'faro', u'fash', u'fass', u'fast', u'fate', u'faun', u'favn', u'fawn', u'faze', u'feak', u'feal', u'fear', u'feat', u'feck', u'feed', u'feel', u'feer', u'feif', u'fe
+il', u'feis', u'fell', u'fels', u'felt', u'feme', u'fend', u'fent', u'feod', u'ferk', u'fern', u'feru', u'fess', u'fest', u'feud', u'fiar', u'fiat', u'fice', u'fico', u'fide', u'fife', u'fifo', u'fike', u
+'file', u'fill', u'film', u'filo', u'fils', u'find', u'fine', u'fink', u'fire', u'firk', u'firm', u'firn', u'fisc', u'fise', u'fish', u'fist', u'five', u'fizz', u'flag', u'flak', u'flam', u'flan', u'flap'
+, u'flat', u'flaw', u'flax', u'flay', u'flea', u'fled', u'flee', u'flet', u'flew', u'flex', u'fley', u'flip', u'flit', u'flix', u'flob', u'floc', u'floe', u'flog', u'flop', u'flot', u'flow', u'flub', u'fl
+ue', u'flux', u'foal', u'foam', u'foci', u'fogo', u'fogy', u'foil', u'fold', u'fole', u'folk', u'fono', u'fons', u'font', u'food', u'fool', u'foot', u'fora', u'forb', u'ford', u'fore', u'fork', u'form', u
+'fort', u'fosh', u'foud', u'foul', u'foun', u'four', u'fowk', u'fowl', u'foxy', u'fozy', u'frab', u'frae', u'frap', u'frat', u'fray', u'free', u'fret', u'frib', u'frig', u'frim', u'frit', u'friz', u'froe'
+, u'frog', u'from', u'frot', u'frow', u'fuci', u'fuel', u'fuff', u'fugu', u'fuji', u'fulk', u'full', u'fume', u'fumy', u'fund', u'funk', u'funt', u'furl', u'fury', u'fusc', u'fuse', u'fuss', u'fust', u'fu
+te', u'fuye', u'fuze', u'fuzz', u'fyke', u'fyrd', u'face', u'fact', u'fall', u'farm', u'fear', u'fire', u'fish', u'flag', u'flat', u'fold', u'food', u'foot', u'fork', u'form', u'fowl', u'free', u'from', u
+'full']
+
+
+    t   c   h   u
+
+    i   _   _   _
+
+    f   _   _   _
+
+    f   _   _   _
+
+('checking word:', u'idic')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'd', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cd__
+('checking word:', u'inbe')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cn__
+('checking word:', u'ikey')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'k', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ck__
+('checking word:', u'iffy')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cf__
+('checking word:', u'into')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cn__
+('checking word:', u'idle')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'd', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cd__
+('checking word:', u'isba')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: cs__
+('checking word:', u'iron')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', '_', '_'] -- [u'crab', u'crag', u'cram', u'cran', u'crap', u'craw', u'crea', u'cree', u'crew', u'crib', u'cric', u'crig', u'crin', u'croc', u'crop', u'crow', u'croy', u'crum', u'crus', u'crux
+']
+[u'h', u'o', '_', '_'] -- [u'hoar', u'hoax', u'hobo', u'hock', u'hoer', u'hoga', u'hoin', u'hoit', u'hoju', u'hold', u'hole', u'holl', u'holm', u'holt', u'holy', u'home', u'homo', u'homy', u'hone', u'hong
+', u'honk', u'hood', u'hoof', u'hook', u'hoon', u'hoop', u'hoot', u'hope', u'hopi', u'hora', u'horn', u'hory', u'hose', u'host', u'hoti', u'hour', u'hove', u'howe', u'howk', u'howl', u'hole', u'hook', u'h
+ope', u'horn', u'hour']
+[u'u', u'n', '_', '_'] -- [u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy', u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'unit']
+
+
+    t   c   h   u
+
+    i   r   o   n
+
+    f   _   _   _
+
+    f   _   _   _
+
+('checking word:', u'crig')
+[u't', u'c', u'h', u'u'] -- [u'tchu']
+[u'i', u'r', u'o', u'n'] -- [u'iron', u'iron']
+[u'f', u'i', '_', '_'] -- [u'fiar', u'fiat', u'fice', u'fico', u'fide', u'fife', u'fifo', u'fike', u'file', u'fill', u'film', u'filo', u'fils', u'find', u'fine', u'fink', u'fire', u'firk', u'firm', u'firn
+', u'fisc', u'fise', u'fish', u'fist', u'five', u'fizz', u'fire', u'fish']
+[u'f', u'g', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: fg__
+('checking word:', u'crea')
+[u't', u'c', u'h', u'u'] -- [u'tchu']
+[u'i', u'r', u'o', u'n'] -- [u'iron', u'iron']
+[u'f', u'e', '_', '_'] -- [u'feak', u'feal', u'fear', u'feat', u'feck', u'feed', u'feel', u'feer', u'feif', u'feil', u'feis', u'fell', u'fels', u'felt', u'feme', u'fend', u'fent', u'feod', u'ferk', u'fern
+', u'feru', u'fess', u'fest', u'feud', u'fear']
+[u'f', u'a', '_', '_'] -- [u'face', u'fack', u'fact', u'facy', u'fade', u'fady', u'faff', u'fage', u'fail', u'fain', u'fair', u'fake', u'faky', u'fall', u'falx', u'fame', u'fana', u'fand', u'fang', u'fant
+', u'faon', u'fare', u'farl', u'farm', u'faro', u'fash', u'fass', u'fast', u'fate', u'faun', u'favn', u'fawn', u'faze', u'face', u'fact', u'fall', u'farm']
+
+
+    t   c   h   u
+
+    i   r   o   n
+
+    f   e   _   _
+
+    f   a   _   _
+
+('checking word:', u'fear')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'a', '_'] -- [u'hoar', u'hoax']
+[u'u', u'n', u'r', '_'] -- []
+Whoops, at least one word isn't valid or has no options: unr_
+('checking word:', u'fear')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'a', '_'] -- [u'hoar', u'hoax']
+[u'u', u'n', u'r', '_'] -- []
+Whoops, at least one word isn't valid or has no options: unr_
+('checking word:', u'feel')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'e', '_'] -- [u'hoer']
+[u'u', u'n', u'l', '_'] -- []
+Whoops, at least one word isn't valid or has no options: unl_
+('checking word:', u'feed')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'e', '_'] -- [u'hoer']
+[u'u', u'n', u'd', '_'] -- [u'unde', u'undo', u'undy']
+
+
+    t   c   h   u
+
+    i   r   o   n
+
+    f   e   e   d
+
+    f   a   _   _
+
+('checking word:', u'hoer')
+[u't', u'c', u'h', u'u'] -- [u'tchu']
+[u'i', u'r', u'o', u'n'] -- [u'iron', u'iron']
+[u'f', u'e', u'e', u'd'] -- [u'feed']
+[u'f', u'a', u'r', '_'] -- [u'fare', u'farl', u'farm', u'faro', u'farm']
+
+
+    t   c   h   u
+
+    i   r   o   n
+
+    f   e   e   d
+
+    f   a   r   _
+
+('checking word:', u'farm')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'e', u'r'] -- [u'hoer']
+[u'u', u'n', u'd', u'm'] -- []
+Whoops, at least one word isn't valid or has no options: undm
+('checking word:', u'faro')
+[u't', u'i', u'f', u'f'] -- [u'tiff']
+[u'c', u'r', u'e', u'a'] -- [u'crea']
+[u'h', u'o', u'e', u'r'] -- [u'hoer']
+[u'u', u'n', u'd', u'o'] -- [u'undo']
+
+
+    t   c   h   u
+
+    i   r   o   n
+
+    f   e   e   d
+
+    f   a   r   o
+
+True
+
+>>> solved = False
+>>> while not solved:
+...     g = simplegrid.make_blank_grid()
+...     solved = simplegrid.solve_incomplete_at_random(g)
+...
+...
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'maco')
+[u'm', '_', '_', '_'] -- [u'maam', u'mabi', u'mace', u'mack', u'maco', u'made', u'mado', u'mage', u'magi', u'maha', u'maid', u'mail', u'maim', u'main', u'majo', u'make', u'maki', u'mako', u'mala', u'male'
+, u'mali', u'mall', u'malm', u'malo', u'malt', u'mamo', u'mana', u'mand', u'mane', u'mang', u'mani', u'mank', u'mano', u'mant', u'many', u'mapo', u'marc', u'mare', u'mark', u'marl', u'marm', u'maro', u'ma
+rt', u'maru', u'mary', u'masa', u'mash', u'mask', u'mass', u'mast', u'masu', u'mate', u'math', u'maty', u'maud', u'maul', u'maun', u'maux', u'mawk', u'mawp', u'maya', u'maza', u'maze', u'mazy', u'mead', u
+'meak', u'meal', u'mean', u'meat', u'meed', u'meek', u'meet', u'mein', u'meio', u'mela', u'meld', u'mele', u'mell', u'melt', u'memo', u'mend', u'meng', u'menu', u'meny', u'mere', u'merk', u'merl', u'mero'
+, u'mesa', u'mese', u'mesh', u'meso', u'mess', u'meta', u'mete', u'mewl', u'mian', u'mias', u'mica', u'mice', u'mick', u'mico', u'mide', u'mids', u'mien', u'miff', u'mijl', u'mike', u'mila', u'mild', u'mi
+le', u'milk', u'mill', u'milo', u'milt', u'mima', u'mime', u'mimp', u'mina', u'mind', u'mine', u'ming', u'mink', u'mino', u'mint', u'minx', u'miny', u'mird', u'mire', u'mirk', u'miro', u'miry', u'mise', u
+'miss', u'mist', u'mite', u'mitt', u'mity', u'mixy', u'moan', u'moat', u'mock', u'mode', u'moff', u'mogo', u'moha', u'moho', u'mohr', u'moil', u'moio', u'moit', u'mojo', u'moke', u'moki', u'moko', u'moky'
+, u'mola', u'mold', u'mole', u'molt', u'moly', u'mome', u'momo', u'mona', u'mone', u'mong', u'monk', u'mono', u'mood', u'mool', u'moon', u'moop', u'moor', u'moot', u'mope', u'moph', u'mora', u'more', u'mo
+rg', u'morn', u'moro', u'mort', u'moss', u'most', u'mote', u'moth', u'mott', u'moud', u'moul', u'moup', u'mout', u'move', u'mown', u'mowt', u'moxa', u'moyo', u'much', u'muck', u'mudd', u'muff', u'muga', u
+'mugg', u'muid', u'muir', u'mule', u'mulk', u'mull', u'mult', u'mump', u'mund', u'mung', u'munj', u'munt', u'mura', u'mure', u'murk', u'muse', u'mush', u'musk', u'muss', u'must', u'muta', u'mute', u'muth'
+, u'mutt', u'muzz', u'myal', u'myna', u'myst', u'myth', u'myxa', u'myxo', u'make', u'male', u'mark', u'mass', u'meal', u'meat', u'milk', u'mind', u'mine', u'mist', u'moon', u'move', u'much']
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+[u'c', '_', '_', '_'] -- [u'caam', u'caba', u'cack', u'cade', u'cadi', u'cafh', u'cage', u'caid', u'cain', u'cake', u'caky', u'calf', u'calk', u'call', u'calm', u'calp', u'calx', u'camb', u'came', u'camp'
+, u'cand', u'cane', u'cank', u'cant', u'cany', u'cape', u'caph', u'card', u'care', u'cark', u'carl', u'carp', u'carr', u'cart', u'case', u'cash', u'cask', u'cass', u'cast', u'cate', u'cauk', u'caul', u'ca
+um', u'caup', u'cava', u'cave', u'cavy', u'cawk', u'caza', u'cede', u'ceil', u'cell', u'celt', u'cent', u'cepa', u'cepe', u'ceps', u'cere', u'cern', u'cero', u'cess', u'cest', u'ceti', u'chaa', u'chab', u
+'chad', u'chai', u'chal', u'cham', u'chao', u'chap', u'char', u'chat', u'chaw', u'chay', u'chee', u'chef', u'chew', u'chia', u'chic', u'chid', u'chih', u'chil', u'chin', u'chip', u'chit', u'chob', u'chol'
+, u'chop', u'chow', u'chub', u'chug', u'chum', u'chun', u'chut', u'cine', u'cion', u'cipo', u'cise', u'cist', u'cite', u'city', u'cive', u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'cl
+ay', u'cled', u'clee', u'clef', u'cleg', u'clem', u'clep', u'clew', u'clip', u'clit', u'clod', u'clog', u'clop', u'clot', u'clow', u'cloy', u'club', u'clue', u'coak', u'coal', u'coat', u'coax', u'coca', u
+'cock', u'coco', u'coda', u'code', u'codo', u'coed', u'coff', u'coft', u'coho', u'coif', u'coil', u'coin', u'coir', u'coke', u'coky', u'cola', u'cold', u'cole', u'coli', u'colk', u'coll', u'colp', u'colt'
+, u'coly', u'coma', u'comb', u'come', u'cond', u'cone', u'conk', u'conn', u'cony', u'coof', u'cook', u'cool', u'coom', u'coon', u'coop', u'coot', u'copa', u'cope', u'copr', u'copy', u'cora', u'cord', u'co
+re', u'corf', u'cork', u'corm', u'corn', u'corp', u'cosh', u'coss', u'cost', u'cosy', u'cote', u'coth', u'coto', u'coue', u'coul', u'coup', u'cove', u'cowl', u'cowy', u'coxa', u'coxy', u'coyo', u'coze', u
+'cozy', u'crab', u'crag', u'cram', u'cran', u'crap', u'craw', u'crea', u'cree', u'crew', u'crib', u'cric', u'crig', u'crin', u'croc', u'crop', u'crow', u'croy', u'crum', u'crus', u'crux', u'cube', u'cubi'
+, u'cuck', u'cuff', u'cuir', u'cuke', u'cull', u'culm', u'cult', u'cump', u'curb', u'curd', u'cure', u'curl', u'curn', u'curr', u'curt', u'cush', u'cusk', u'cusp', u'cuss', u'cute', u'cuvy', u'cuya', u'cy
+an', u'cyke', u'cyma', u'cyme', u'cyst', u'czar', u'cake', u'card', u'care', u'cart', u'chin', u'coal', u'coat', u'cold', u'comb', u'come', u'cook', u'copy', u'cord', u'cork']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+
+
+    m   a   c   o
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'mabi')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+[u'b', '_', '_', '_'] -- [u'baal', u'baar', u'baba', u'babe', u'babu', u'baby', u'bach', u'back', u'bade', u'baff', u'baft', u'baga', u'bago', u'baho', u'baht', u'bail', u'bain', u'bait', u'baka', u'bake'
+, u'baku', u'bald', u'bale', u'bali', u'balk', u'ball', u'balm', u'balu', u'banc', u'band', u'bane', u'bang', u'bani', u'bank', u'bant', u'bara', u'barb', u'bard', u'bare', u'bari', u'bark', u'barm', u'ba
+rn', u'baru', u'base', u'bash', u'bask', u'bass', u'bast', u'bate', u'bath', u'bats', u'batt', u'batz', u'baud', u'baul', u'baun', u'bawd', u'bawl', u'bawn', u'baya', u'baze', u'bead', u'beak', u'beal', u
+'beam', u'bean', u'bear', u'beat', u'beau', u'beck', u'beef', u'beek', u'been', u'beer', u'bees', u'beet', u'bego', u'behn', u'bela', u'beld', u'bell', u'belt', u'bely', u'bema', u'bena', u'bend', u'bene'
+, u'beng', u'beni', u'benj', u'benn', u'beno', u'bent', u'bere', u'berg', u'berm', u'besa', u'best', u'beta', u'beth', u'bevy', u'bhat', u'bhoy', u'bhut', u'bias', u'bibb', u'bibi', u'bice', u'bick', u'bi
+de', u'bien', u'bier', u'biff', u'biga', u'bigg', u'bija', u'bike', u'bikh', u'bile', u'bilk', u'bill', u'bilo', u'bind', u'bine', u'bing', u'binh', u'bink', u'bino', u'bint', u'biod', u'bion', u'bios', u
+'bird', u'biri', u'birk', u'birl', u'birn', u'birr', u'bite', u'biti', u'bito', u'bitt', u'biwa', u'bizz', u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee'
+, u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue', u'blup', u'blur', u'boar', u'boat', u'boba', u'bobo', u'boce', u'bock', u'bode', u'body', u'boga', u'bogo', u'bogy', u'bo
+ho', u'boid', u'boil', u'bojo', u'boke', u'bola', u'bold', u'bole', u'bolk', u'boll', u'bolo', u'bolt', u'boma', u'bomb', u'bond', u'bone', u'bong', u'bonk', u'bony', u'boob', u'bood', u'boof', u'book', u
+'bool', u'boom', u'boon', u'boor', u'boot', u'bora', u'bord', u'bore', u'borg', u'borh', u'born', u'boro', u'bort', u'bose', u'bosh', u'bosk', u'bosn', u'boss', u'bota', u'bote', u'both', u'bott', u'boud'
+, u'bouk', u'boun', u'bout', u'bouw', u'bowk', u'bowl', u'boxy', u'boza', u'bozo', u'brab', u'brad', u'brae', u'brag', u'bran', u'brat', u'braw', u'bray', u'bred', u'bree', u'brei', u'bret', u'brew', u'br
+ey', u'brig', u'brim', u'brin', u'brit', u'brob', u'brod', u'brog', u'broo', u'brot', u'brow', u'brut', u'bual', u'buba', u'bubo', u'buck', u'buda', u'buff', u'bufo', u'buhl', u'buhr', u'bukh', u'bulb', u
+'bulk', u'bull', u'bult', u'bump', u'buna', u'bund', u'bung', u'bunk', u'bunt', u'buoy', u'burd', u'bure', u'burg', u'buri', u'burl', u'burn', u'buro', u'burp', u'burr', u'burt', u'bury', u'bush', u'busk'
+, u'buss', u'bust', u'busy', u'butt', u'buzz', u'byee', u'bygo', u'byon', u'byre', u'byth', u'baby', u'back', u'ball', u'band', u'base', u'bath', u'bell', u'bent', u'bird', u'bite', u'blow', u'blue', u'bo
+at', u'body', u'bone', u'book', u'boot', u'bulb', u'burn']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+
+
+    m   a   c   o
+
+    a   _   _   _
+
+    b   _   _   _
+
+    i   _   _   _
+
+('checking word:', u'aulu')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', '_', '_'] -- [u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto']
+[u'c', u'l', '_', '_'] -- [u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'clay', u'cled', u'clee', u'clef', u'cleg', u'clem', u'clep', u'clew', u'clip', u'clit', u'clod', u'clog', u'clop
+', u'clot', u'clow', u'cloy', u'club', u'clue']
+[u'o', u'u', '_', '_'] -- [u'ouch', u'ough', u'ours', u'oust']
+
+
+    m   a   c   o
+
+    a   u   l   u
+
+    b   _   _   _
+
+    i   _   _   _
+
+('checking word:', u'auge')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'g', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bg__
+('checking word:', u'aune')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bn__
+('checking word:', u'auca')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'c', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bc__
+('checking word:', u'aube')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'b', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bb__
+('checking word:', u'aulu')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', '_', '_'] -- [u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee', u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue
+', u'blup', u'blur', u'blow', u'blue']
+[u'i', u'u', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: iu__
+('checking word:', u'auto')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u't', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bt__
+('checking word:', u'auld')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', '_', '_'] -- [u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee', u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue
+', u'blup', u'blur', u'blow', u'blue']
+[u'i', u'd', '_', '_'] -- [u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'idea']
+
+
+    m   a   c   o
+
+    a   u   l   u
+
+    b   l   _   _
+
+    i   d   _   _
+
+('checking word:', u'blup')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'u', '_'] -- [u'club', u'clue']
+[u'o', u'u', u'p', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oup_
+('checking word:', u'blue')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'u', '_'] -- [u'club', u'clue']
+[u'o', u'u', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oue_
+('checking word:', u'blan')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'a', '_'] -- [u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'clay']
+[u'o', u'u', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oun_
+('checking word:', u'blee')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'e', '_'] -- [u'cled', u'clee', u'clef', u'cleg', u'clem', u'clep', u'clew']
+[u'o', u'u', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oue_
+('checking word:', u'blow')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'o', '_'] -- [u'clod', u'clog', u'clop', u'clot', u'clow', u'cloy']
+[u'o', u'u', u'w', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ouw_
+('checking word:', u'blat')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'a', '_'] -- [u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'clay']
+[u'o', u'u', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: out_
+('checking word:', u'blab')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'a', '_'] -- [u'clad', u'clag', u'clam', u'clan', u'clap', u'clat', u'claw', u'clay']
+[u'o', u'u', u'b', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oub_
+('checking word:', u'blob')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'o', '_'] -- [u'clod', u'clog', u'clop', u'clot', u'clow', u'cloy']
+[u'o', u'u', u'b', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oub_
+('checking word:', u'bleb')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'e', '_'] -- [u'cled', u'clee', u'clef', u'cleg', u'clem', u'clep', u'clew']
+[u'o', u'u', u'b', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oub_
+('checking word:', u'bloc')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'o', '_'] -- [u'clod', u'clog', u'clop', u'clot', u'clow', u'cloy']
+[u'o', u'u', u'c', '_'] -- [u'ouch']
+
+
+    m   a   c   o
+
+    a   u   l   u
+
+    b   l   o   c
+
+    i   d   _   _
+
+('checking word:', u'clot')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', u'o', u'c'] -- [u'bloc']
+[u'i', u'd', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: idt_
+('checking word:', u'clop')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', u'o', u'c'] -- [u'bloc']
+[u'i', u'd', u'p', '_'] -- []
+Whoops, at least one word isn't valid or has no options: idp_
+('checking word:', u'clod')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', u'o', u'c'] -- [u'bloc']
+[u'i', u'd', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: idd_
+('checking word:', u'clow')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', u'o', u'c'] -- [u'bloc']
+[u'i', u'd', u'w', '_'] -- []
+Whoops, at least one word isn't valid or has no options: idw_
+('checking word:', u'cloy')
+[u'm', u'a', u'c', u'o'] -- [u'maco']
+[u'a', u'u', u'l', u'u'] -- [u'aulu']
+[u'b', u'l', u'o', u'c'] -- [u'bloc']
+[u'i', u'd', u'y', '_'] -- [u'idyl']
+
+
+    m   a   c   o
+
+    a   u   l   u
+
+    b   l   o   c
+
+    i   d   y   _
+
+('checking word:', u'idyl')
+[u'm', u'a', u'b', u'i'] -- [u'mabi']
+[u'a', u'u', u'l', u'd'] -- [u'auld']
+[u'c', u'l', u'o', u'y'] -- [u'cloy']
+[u'o', u'u', u'c', u'l'] -- []
+Whoops, at least one word isn't valid or has no options: oucl
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'Asha')
+[u'A', '_', '_', '_'] -- [u'Aani', u'Aaru', u'Abba', u'Abby', u'Abel', u'Abie', u'Absi', u'Acer', u'Acis', u'Acts', u'Adad', u'Adai', u'Adam', u'Adar', u'Adda', u'Addu', u'Addy', u'Adib', u'Adin', u'Afar'
+, u'Agag', u'Agao', u'Agau', u'Agaz', u'Agib', u'Agra', u'Ahet', u'Ahir', u'Ahom', u'Aias', u'Ainu', u'Aira', u'Akal', u'Akan', u'Akha', u'Akim', u'Akka', u'Akra', u'Alan', u'Albi', u'Alca', u'Alea', u'Al
+ex', u'Algy', u'Alix', u'Alle', u'Ally', u'Alma', u'Alur', u'Alya', u'Amen', u'Amex', u'Amia', u'Amir', u'Amma', u'Ammi', u'Amos', u'Amoy', u'Anam', u'Anas', u'Anat', u'Anax', u'Ande', u'Andi', u'Andy', u
+'Anna', u'Anne', u'Anta', u'Anti', u'Antu', u'Aoul', u'Apis', u'Apus', u'Arab', u'Argo', u'Arne', u'Arry', u'Arum', u'Arya', u'Asha', u'Askr', u'Aten', u'Atik', u'Atka', u'Atta', u'Auca', u'Avar', u'Aves'
+, u'Avis', u'Awan', u'Awol', u'Axel', u'Axis', u'Azha']
+[u's', '_', '_', '_'] -- [u'sabe', u'sack', u'saco', u'sade', u'sadh', u'sado', u'sadr', u'safe', u'saft', u'saga', u'sage', u'sago', u'sagy', u'sahh', u'saic', u'said', u'sail', u'saim', u'sain', u'saip'
+, u'sair', u'sake', u'saki', u'sale', u'salp', u'salt', u'same', u'samh', u'samp', u'sand', u'sane', u'sang', u'sank', u'sans', u'sant', u'sapa', u'sapo', u'sard', u'sare', u'sari', u'sark', u'sart', u'sa
+sa', u'sash', u'sate', u'sauf', u'saum', u'saur', u'saut', u'save', u'sawn', u'sawt', u'saya', u'scab', u'scad', u'scam', u'scan', u'scap', u'scar', u'scat', u'scaw', u'scho', u'scob', u'scog', u'scot', u
+'scow', u'scry', u'scud', u'scug', u'scum', u'scun', u'scup', u'scur', u'scut', u'scye', u'scyt', u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek'
+, u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'se
+ss', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'shab', u'shad', u'shag', u'shah', u'sham', u'shan', u'shap', u'shat', u'shaw', u'shay', u'shea', u'shed', u'shee', u'sher', u'shih', u'shim', u
+'shin', u'ship', u'shiv', u'shod', u'shoe', u'shog', u'shoo', u'shop', u'shoq', u'shor', u'shot', u'shou', u'show', u'shug', u'shul', u'shun', u'shut', u'siak', u'sial', u'sice', u'sick', u'side', u'sidi'
+, u'sidy', u'sier', u'sife', u'sift', u'sigh', u'sign', u'sika', u'sike', u'sile', u'silk', u'sill', u'silo', u'silt', u'sima', u'sime', u'simp', u'sina', u'sind', u'sine', u'sing', u'sinh', u'sink', u'si
+ol', u'sion', u'sipe', u'sire', u'sise', u'sish', u'sisi', u'siss', u'sist', u'site', u'sith', u'siva', u'size', u'sizy', u'sizz', u'skag', u'skal', u'skat', u'skaw', u'skee', u'skeg', u'skel', u'sken', u
+'skeo', u'skep', u'sker', u'skew', u'skey', u'skid', u'skil', u'skim', u'skin', u'skip', u'skit', u'skiv', u'skoo', u'skua', u'skun', u'slab', u'slad', u'slae', u'slag', u'slam', u'slap', u'slat', u'slaw'
+, u'slay', u'sled', u'slee', u'slew', u'sley', u'slid', u'slim', u'slip', u'slit', u'slob', u'slod', u'sloe', u'slog', u'slon', u'sloo', u'slop', u'slot', u'slow', u'slub', u'slud', u'slue', u'slug', u'sl
+um', u'slur', u'slut', u'smee', u'smew', u'smit', u'smog', u'smug', u'smur', u'smut', u'snab', u'snag', u'snap', u'snaw', u'sneb', u'sned', u'snee', u'snew', u'snib', u'snig', u'snip', u'snob', u'snod', u
+'snog', u'snop', u'snot', u'snow', u'snub', u'snug', u'snum', u'snup', u'snur', u'soak', u'soam', u'soap', u'soar', u'soce', u'sock', u'soco', u'soda', u'sody', u'sofa', u'soft', u'soho', u'soil', u'soja'
+, u'soka', u'soke', u'sola', u'sold', u'sole', u'soli', u'solo', u'soma', u'some', u'sond', u'song', u'sonk', u'sons', u'sook', u'sool', u'soon', u'soot', u'sope', u'soph', u'sora', u'sorb', u'sore', u'so
+ri', u'sorn', u'sort', u'sory', u'sosh', u'soso', u'soss', u'sots', u'soud', u'soul', u'soum', u'soup', u'sour', u'sowl', u'sown', u'sowt', u'soya', u'spad', u'spae', u'spak', u'span', u'spar', u'spat', u
+'spay', u'spec', u'sped', u'spet', u'spew', u'spex', u'spig', u'spin', u'spit', u'spiv', u'spor', u'spot', u'spry', u'spud', u'spug', u'spun', u'spur', u'sput', u'stab', u'stag', u'stam', u'stap', u'star'
+, u'staw', u'stay', u'steg', u'stem', u'sten', u'step', u'stet', u'stew', u'stey', u'stib', u'stid', u'stim', u'stir', u'stoa', u'stob', u'stod', u'stof', u'stog', u'stop', u'stot', u'stow', u'stra', u'st
+re', u'stub', u'stud', u'stue', u'stug', u'stum', u'stun', u'stut', u'such', u'suck', u'sudd', u'suds', u'suer', u'suet', u'suff', u'sugh', u'sugi', u'suid', u'suit', u'suji', u'suld', u'sulk', u'sull', u
+'sump', u'sune', u'sung', u'sunk', u'sunn', u'sunt', u'supa', u'supe', u'sura', u'surd', u'sure', u'surf', u'susi', u'susu', u'suum', u'suwe', u'swab', u'swad', u'swag', u'swam', u'swan', u'swap', u'swat'
+, u'sway', u'swep', u'swig', u'swim', u'swiz', u'swob', u'swom', u'swot', u'swow', u'swum', u'syce', u'sync', u'syne', u'syre', u'syrt', u'safe', u'sail', u'salt', u'same', u'sand', u'seat', u'seed', u'se
+em', u'self', u'send', u'ship', u'shoe', u'shut', u'side', u'sign', u'silk', u'size', u'skin', u'slip', u'slow', u'snow', u'soap', u'sock', u'soft', u'some', u'song', u'sort', u'soup', u'star', u'stem', u
+'step', u'stop', u'such', u'swim']
+[u'h', '_', '_', '_'] -- [u'haab', u'haaf', u'habu', u'hack', u'hade', u'hadj', u'haec', u'haem', u'haet', u'haff', u'haft', u'hagi', u'haik', u'hail', u'hain', u'hair', u'haje', u'hake', u'hako', u'haku'
+, u'hala', u'hale', u'half', u'hall', u'halo', u'hals', u'halt', u'hame', u'hami', u'hand', u'hank', u'hant', u'hapu', u'hard', u'hare', u'hark', u'harl', u'harm', u'harn', u'harp', u'harr', u'hart', u'ha
+sh', u'hask', u'hasp', u'hate', u'hath', u'hatt', u'haul', u'have', u'hawk', u'hawm', u'haya', u'hayz', u'haze', u'hazy', u'head', u'heaf', u'heal', u'heap', u'hear', u'heat', u'hech', u'heck', u'heed', u
+'heel', u'heer', u'heft', u'heii', u'heir', u'hele', u'hell', u'helm', u'help', u'heme', u'heml', u'hemp', u'hend', u'hent', u'herb', u'herd', u'here', u'herl', u'hern', u'hero', u'hers', u'hest', u'hevi'
+, u'hewn', u'hewt', u'hexa', u'hick', u'hide', u'high', u'hike', u'hill', u'hilt', u'himp', u'hind', u'hing', u'hint', u'hipe', u'hire', u'hiro', u'hish', u'hisn', u'hiss', u'hist', u'hive', u'hizz', u'ho
+ar', u'hoax', u'hobo', u'hock', u'hoer', u'hoga', u'hoin', u'hoit', u'hoju', u'hold', u'hole', u'holl', u'holm', u'holt', u'holy', u'home', u'homo', u'homy', u'hone', u'hong', u'honk', u'hood', u'hoof', u
+'hook', u'hoon', u'hoop', u'hoot', u'hope', u'hopi', u'hora', u'horn', u'hory', u'hose', u'host', u'hoti', u'hour', u'hove', u'howe', u'howk', u'howl', u'hubb', u'huck', u'hued', u'huer', u'huff', u'huge'
+, u'huia', u'huke', u'hula', u'hulk', u'hull', u'hulu', u'hump', u'hung', u'hunh', u'hunk', u'hunt', u'hura', u'hure', u'hurl', u'hurr', u'hurt', u'huse', u'hush', u'husk', u'huso', u'huss', u'huzz', u'hy
+ke', u'hyle', u'hymn', u'hyne', u'hypo', u'hair', u'hand', u'hard', u'hate', u'have', u'head', u'heat', u'help', u'here', u'high', u'hole', u'hook', u'hope', u'horn', u'hour']
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+
+
+    A   s   h   a
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'Adai')
+[u'A', u's', u'h', u'a'] -- [u'Asha']
+[u'd', '_', '_', '_'] -- [u'dabb', u'dace', u'dada', u'dade', u'dado', u'daer', u'daff', u'daft', u'dags', u'dain', u'dais', u'dale', u'dali', u'dalk', u'dalt', u'dama', u'dame', u'damn', u'damp', u'dand'
+, u'dang', u'dank', u'dare', u'darg', u'dari', u'dark', u'darn', u'darr', u'dart', u'dash', u'dasi', u'data', u'date', u'daub', u'daud', u'daut', u'dauw', u'davy', u'dawn', u'days', u'daze', u'dazy', u'de
+ad', u'deaf', u'deal', u'dean', u'dear', u'debt', u'deck', u'dedo', u'deed', u'deem', u'deep', u'deer', u'deft', u'defy', u'degu', u'dele', u'delf', u'dell', u'deme', u'demi', u'demy', u'dene', u'dent', u
+'deny', u'depa', u'dere', u'derm', u'dern', u'desi', u'desk', u'dess', u'deul', u'deva', u'dewy', u'dhai', u'dhak', u'dhan', u'dhaw', u'dhow', u'dial', u'dian', u'dibs', u'dice', u'dich', u'dick', u'dieb'
+, u'diem', u'dier', u'diet', u'digs', u'dika', u'dike', u'dill', u'dilo', u'dime', u'dine', u'ding', u'dink', u'dint', u'diol', u'dird', u'dire', u'dirk', u'dirl', u'dirt', u'disc', u'dish', u'disk', u'di
+ss', u'dita', u'dite', u'diva', u'dive', u'dixy', u'doab', u'doat', u'dobe', u'doby', u'dock', u'dodd', u'dodo', u'doer', u'does', u'doff', u'doge', u'dogs', u'dogy', u'doit', u'doke', u'dola', u'dole', u
+'doli', u'doll', u'dolt', u'dome', u'domn', u'domy', u'done', u'dong', u'dont', u'doob', u'dook', u'dool', u'doom', u'doon', u'door', u'dopa', u'dope', u'dorm', u'dorn', u'dorp', u'dory', u'dosa', u'dose'
+, u'doss', u'dote', u'doty', u'douc', u'doum', u'doup', u'dour', u'dout', u'dove', u'dowd', u'dowf', u'dowl', u'down', u'dowp', u'doxa', u'doxy', u'doze', u'dozy', u'drab', u'drag', u'dram', u'drat', u'dr
+aw', u'dray', u'dree', u'dreg', u'drew', u'drib', u'drip', u'drop', u'drow', u'drub', u'drug', u'drum', u'duad', u'dual', u'dubb', u'dubs', u'duck', u'duct', u'dude', u'duel', u'duer', u'duet', u'duff', u
+'duim', u'duit', u'duke', u'dull', u'dult', u'duly', u'duma', u'dumb', u'dump', u'dune', u'dung', u'dunk', u'dunt', u'duny', u'dupe', u'dura', u'dure', u'durn', u'duro', u'dush', u'dusk', u'dust', u'duty'
+, u'dyad', u'dyce', u'dyer', u'dyke', u'dyne', u'dark', u'dead', u'dear', u'debt', u'deep', u'door', u'down', u'drop', u'dust']
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+
+
+    A   s   h   a
+
+    d   _   _   _
+
+    a   _   _   _
+
+    i   _   _   _
+
+('checking word:', u'deme')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'e', '_', '_'] -- [u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek', u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele
+', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'sess', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'seat', u's
+eed', u'seem', u'self', u'send']
+[u'h', u'm', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hm__
+('checking word:', u'doit')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', '_', '_'] -- [u'soak', u'soam', u'soap', u'soar', u'soce', u'sock', u'soco', u'soda', u'sody', u'sofa', u'soft', u'soho', u'soil', u'soja', u'soka', u'soke', u'sola', u'sold', u'sole', u'soli
+', u'solo', u'soma', u'some', u'sond', u'song', u'sonk', u'sons', u'sook', u'sool', u'soon', u'soot', u'sope', u'soph', u'sora', u'sorb', u'sore', u'sori', u'sorn', u'sort', u'sory', u'sosh', u'soso', u's
+oss', u'sots', u'soud', u'soul', u'soum', u'soup', u'sour', u'sowl', u'sown', u'sowt', u'soya', u'soap', u'sock', u'soft', u'some', u'song', u'sort', u'soup']
+[u'h', u'i', '_', '_'] -- [u'hick', u'hide', u'high', u'hike', u'hill', u'hilt', u'himp', u'hind', u'hing', u'hint', u'hipe', u'hire', u'hiro', u'hish', u'hisn', u'hiss', u'hist', u'hive', u'hizz', u'high
+']
+[u'a', u't', '_', '_'] -- [u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo']
+
+
+    A   s   h   a
+
+    d   o   i   t
+
+    a   _   _   _
+
+    i   _   _   _
+
+('checking word:', u'sori')
+[u'A', u's', u'h', u'a'] -- [u'Asha']
+[u'd', u'o', u'i', u't'] -- [u'doit']
+[u'a', u'r', '_', '_'] -- [u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu', u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui
+', u'aryl', u'arch', u'army']
+[u'i', u'i', '_', '_'] -- [u'iiwi']
+
+
+    A   s   h   a
+
+    d   o   i   t
+
+    a   r   _   _
+
+    i   i   _   _
+
+('checking word:', u'aril')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'i', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hii_
+('checking word:', u'arad')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'a', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hia_
+('checking word:', u'arty')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hit_
+('checking word:', u'aryl')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'y', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hiy_
+('checking word:', u'arch')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'c', '_'] -- [u'hick']
+[u'a', u't', u'h', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ath_
+('checking word:', u'ared')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hie_
+('checking word:', u'arms')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'm', '_'] -- [u'himp']
+[u'a', u't', u's', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ats_
+('checking word:', u'arca')
+[u'A', u'd', u'a', u'i'] -- [u'Adai']
+[u's', u'o', u'r', u'i'] -- [u'sori']
+[u'h', u'i', u'c', '_'] -- [u'hick']
+[u'a', u't', u'a', '_'] -- [u'atap']
+
+
+    A   s   h   a
+
+    d   o   i   t
+
+    a   r   c   a
+
+    i   i   _   _
+
+('checking word:', u'hick')
+[u'A', u's', u'h', u'a'] -- [u'Asha']
+[u'd', u'o', u'i', u't'] -- [u'doit']
+[u'a', u'r', u'c', u'a'] -- [u'arca']
+[u'i', u'i', u'k', '_'] -- []
+Whoops, at least one word isn't valid or has no options: iik_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'toko')
+[u't', '_', '_', '_'] -- [u'taar', u'tabu', u'tach', u'tack', u'tact', u'tade', u'tael', u'taen', u'taft', u'taha', u'tahr', u'tail', u'tain', u'tait', u'take', u'takt', u'taky', u'tala', u'talc', u'tald'
+, u'tale', u'tali', u'talk', u'tall', u'tame', u'tamp', u'tana', u'tane', u'tang', u'tanh', u'tank', u'tapa', u'tape', u'taps', u'tapu', u'tara', u'tare', u'tari', u'tarn', u'taro', u'tarp', u'tarr', u'ta
+rs', u'tart', u'tash', u'task', u'tass', u'tasu', u'tate', u'tath', u'tatu', u'taum', u'taun', u'taur', u'taut', u'tave', u'tawa', u'tawn', u'taws', u'taxi', u'taxy', u'tche', u'tchu', u'tead', u'teak', u
+'teal', u'team', u'tean', u'teap', u'tear', u'teat', u'teca', u'tech', u'teck', u'teel', u'teem', u'teen', u'teer', u'teet', u'teff', u'teil', u'teju', u'tele', u'teli', u'tell', u'telt', u'temp', u'tend'
+, u'teng', u'tent', u'tera', u'term', u'tern', u'terp', u'test', u'tete', u'teth', u'teuk', u'text', u'than', u'thar', u'that', u'thaw', u'theb', u'thee', u'them', u'then', u'thew', u'they', u'thig', u'th
+in', u'thio', u'thir', u'this', u'thob', u'thof', u'thon', u'thoo', u'thou', u'thow', u'thro', u'thud', u'thug', u'thus', u'tiao', u'tiar', u'tice', u'tick', u'tide', u'tidy', u'tied', u'tien', u'tier', u
+'tiff', u'tift', u'tige', u'tile', u'till', u'tilt', u'time', u'tind', u'tine', u'ting', u'tink', u'tint', u'tiny', u'tipe', u'tire', u'tirl', u'tirr', u'tite', u'titi', u'tivy', u'tiza', u'toad', u'toat'
+, u'tobe', u'toby', u'tock', u'toco', u'tode', u'tody', u'toed', u'toff', u'toft', u'tofu', u'toga', u'togs', u'togt', u'toho', u'toil', u'toit', u'toke', u'toko', u'told', u'tole', u'toll', u'tolt', u'to
+lu', u'tomb', u'tome', u'tone', u'tong', u'tonk', u'tony', u'took', u'tool', u'toom', u'toon', u'toop', u'toot', u'tope', u'toph', u'topi', u'topo', u'tops', u'tora', u'torc', u'tore', u'torn', u'toro', u
+'tort', u'toru', u'tory', u'tosh', u'toss', u'tost', u'tosy', u'tote', u'toto', u'toty', u'toug', u'toup', u'tour', u'tout', u'towd', u'town', u'towy', u'toxa', u'toze', u'trag', u'trah', u'tram', u'trap'
+, u'tray', u'tree', u'tref', u'trek', u'tret', u'trey', u'trig', u'trim', u'trin', u'trio', u'trip', u'trod', u'trog', u'tron', u'trot', u'trow', u'troy', u'trub', u'true', u'trug', u'trun', u'tryp', u'tr
+yt', u'tsar', u'tsia', u'tsun', u'tuan', u'tuba', u'tube', u'tuck', u'tufa', u'tuff', u'tuft', u'tuik', u'tuke', u'tula', u'tule', u'tume', u'tump', u'tuna', u'tund', u'tune', u'tung', u'tunk', u'tuno', u
+'tunu', u'tuny', u'turb', u'turd', u'turf', u'turk', u'turm', u'turn', u'turp', u'turr', u'tush', u'tusk', u'tute', u'tuth', u'tuts', u'tutu', u'tuwi', u'tuza', u'twae', u'twal', u'twas', u'twat', u'tway'
+, u'twee', u'twig', u'twin', u'twit', u'tyee', u'tyke', u'tymp', u'tynd', u'type', u'typo', u'typp', u'typy', u'tyre', u'tyro', u'tail', u'take', u'talk', u'tall', u'test', u'than', u'that', u'then', u'th
+in', u'this', u'till', u'time', u'town', u'tray', u'tree', u'true', u'turn']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+[u'k', '_', '_', '_'] -- [u'kago', u'kagu', u'kaha', u'kahu', u'kaid', u'kaik', u'kail', u'kaka', u'kaki', u'kala', u'kale', u'kali', u'kalo', u'kame', u'kana', u'kang', u'kans', u'kapa', u'kapp', u'karo'
+, u'kasa', u'kasm', u'kath', u'kava', u'kayo', u'kazi', u'keck', u'keek', u'keel', u'keen', u'keep', u'keet', u'keld', u'kele', u'kelk', u'kell', u'kelp', u'kelt', u'kemb', u'kemp', u'kend', u'keno', u'ke
+nt', u'kepi', u'kept', u'kerf', u'kern', u'keta', u'keto', u'keup', u'kexy', u'khan', u'khar', u'khat', u'khet', u'khir', u'khot', u'kibe', u'kiby', u'kick', u'kiel', u'kier', u'kike', u'kiki', u'kiku', u
+'kill', u'kiln', u'kilo', u'kilp', u'kilt', u'kina', u'kind', u'king', u'kink', u'kino', u'kipe', u'kiri', u'kirk', u'kirn', u'kish', u'kiss', u'kist', u'kite', u'kith', u'kiva', u'kivu', u'kiwi', u'kiyi'
+, u'klam', u'klip', u'klom', u'klop', u'kmet', u'knab', u'knag', u'knap', u'knar', u'knee', u'knet', u'knew', u'knez', u'knit', u'knob', u'knop', u'knot', u'know', u'knub', u'knur', u'knut', u'koae', u'ko
+bi', u'kobu', u'koda', u'koel', u'koff', u'koft', u'kohl', u'koil', u'koko', u'koku', u'kola', u'kolo', u'kona', u'koph', u'kopi', u'kora', u'kore', u'kori', u'koto', u'kozo', u'kral', u'kran', u'kras', u
+'kuan', u'kuba', u'kudu', u'kuei', u'kuge', u'kuku', u'kula', u'kulm', u'kung', u'kunk', u'kusa', u'kwan', u'kyah', u'kyar', u'kyat', u'kyle', u'kyte', u'keep', u'kick', u'kind', u'kiss', u'knee', u'knot'
+]
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+
+
+    t   o   k   o
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'tome')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+[u'm', '_', '_', '_'] -- [u'maam', u'mabi', u'mace', u'mack', u'maco', u'made', u'mado', u'mage', u'magi', u'maha', u'maid', u'mail', u'maim', u'main', u'majo', u'make', u'maki', u'mako', u'mala', u'male'
+, u'mali', u'mall', u'malm', u'malo', u'malt', u'mamo', u'mana', u'mand', u'mane', u'mang', u'mani', u'mank', u'mano', u'mant', u'many', u'mapo', u'marc', u'mare', u'mark', u'marl', u'marm', u'maro', u'ma
+rt', u'maru', u'mary', u'masa', u'mash', u'mask', u'mass', u'mast', u'masu', u'mate', u'math', u'maty', u'maud', u'maul', u'maun', u'maux', u'mawk', u'mawp', u'maya', u'maza', u'maze', u'mazy', u'mead', u
+'meak', u'meal', u'mean', u'meat', u'meed', u'meek', u'meet', u'mein', u'meio', u'mela', u'meld', u'mele', u'mell', u'melt', u'memo', u'mend', u'meng', u'menu', u'meny', u'mere', u'merk', u'merl', u'mero'
+, u'mesa', u'mese', u'mesh', u'meso', u'mess', u'meta', u'mete', u'mewl', u'mian', u'mias', u'mica', u'mice', u'mick', u'mico', u'mide', u'mids', u'mien', u'miff', u'mijl', u'mike', u'mila', u'mild', u'mi
+le', u'milk', u'mill', u'milo', u'milt', u'mima', u'mime', u'mimp', u'mina', u'mind', u'mine', u'ming', u'mink', u'mino', u'mint', u'minx', u'miny', u'mird', u'mire', u'mirk', u'miro', u'miry', u'mise', u
+'miss', u'mist', u'mite', u'mitt', u'mity', u'mixy', u'moan', u'moat', u'mock', u'mode', u'moff', u'mogo', u'moha', u'moho', u'mohr', u'moil', u'moio', u'moit', u'mojo', u'moke', u'moki', u'moko', u'moky'
+, u'mola', u'mold', u'mole', u'molt', u'moly', u'mome', u'momo', u'mona', u'mone', u'mong', u'monk', u'mono', u'mood', u'mool', u'moon', u'moop', u'moor', u'moot', u'mope', u'moph', u'mora', u'more', u'mo
+rg', u'morn', u'moro', u'mort', u'moss', u'most', u'mote', u'moth', u'mott', u'moud', u'moul', u'moup', u'mout', u'move', u'mown', u'mowt', u'moxa', u'moyo', u'much', u'muck', u'mudd', u'muff', u'muga', u
+'mugg', u'muid', u'muir', u'mule', u'mulk', u'mull', u'mult', u'mump', u'mund', u'mung', u'munj', u'munt', u'mura', u'mure', u'murk', u'muse', u'mush', u'musk', u'muss', u'must', u'muta', u'mute', u'muth'
+, u'mutt', u'muzz', u'myal', u'myna', u'myst', u'myth', u'myxa', u'myxo', u'make', u'male', u'mark', u'mass', u'meal', u'meat', u'milk', u'mind', u'mine', u'mist', u'moon', u'move', u'much']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+
+
+    t   o   k   o
+
+    o   _   _   _
+
+    m   _   _   _
+
+    e   _   _   _
+
+('checking word:', u'over')
+[u't', u'o', u'm', u'e'] -- [u'tome']
+[u'o', u'v', '_', '_'] -- [u'oval', u'oven', u'over', u'ovey', u'ovum', u'oven', u'over']
+[u'k', u'e', '_', '_'] -- [u'keck', u'keek', u'keel', u'keen', u'keep', u'keet', u'keld', u'kele', u'kelk', u'kell', u'kelp', u'kelt', u'kemb', u'kemp', u'kend', u'keno', u'kent', u'kepi', u'kept', u'kerf
+', u'kern', u'keta', u'keto', u'keup', u'kexy', u'keep']
+[u'o', u'r', '_', '_'] -- [u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna']
+
+
+    t   o   k   o
+
+    o   v   e   r
+
+    m   _   _   _
+
+    e   _   _   _
+
+('checking word:', u'oven')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', '_', '_'] -- [u'mead', u'meak', u'meal', u'mean', u'meat', u'meed', u'meek', u'meet', u'mein', u'meio', u'mela', u'meld', u'mele', u'mell', u'melt', u'memo', u'mend', u'meng', u'menu', u'meny
+', u'mere', u'merk', u'merl', u'mero', u'mesa', u'mese', u'mesh', u'meso', u'mess', u'meta', u'mete', u'mewl', u'meal', u'meat']
+[u'e', u'n', '_', '_'] -- [u'enam', u'enol', u'enow', u'ense', u'envy']
+
+
+    t   o   k   o
+
+    o   v   e   r
+
+    m   e   _   _
+
+    e   n   _   _
+
+('checking word:', u'mela')
+[u't', u'o', u'm', u'e'] -- [u'tome']
+[u'o', u'v', u'e', u'n'] -- [u'oven', u'oven']
+[u'k', u'e', u'l', '_'] -- [u'keld', u'kele', u'kelk', u'kell', u'kelp', u'kelt']
+[u'o', u'r', u'a', '_'] -- [u'orad', u'oral']
+
+
+    t   o   k   o
+
+    o   v   e   r
+
+    m   e   l   a
+
+    e   n   _   _
+
+('checking word:', u'kelk')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u'k', '_'] -- []
+Whoops, at least one word isn't valid or has no options: enk_
+('checking word:', u'kelp')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u'p', '_'] -- []
+Whoops, at least one word isn't valid or has no options: enp_
+('checking word:', u'kele')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ene_
+('checking word:', u'kelt')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ent_
+('checking word:', u'keld')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: end_
+('checking word:', u'kell')
+[u't', u'o', u'k', u'o'] -- [u'toko']
+[u'o', u'v', u'e', u'r'] -- [u'over', u'over']
+[u'm', u'e', u'l', u'a'] -- [u'mela']
+[u'e', u'n', u'l', '_'] -- []
+Whoops, at least one word isn't valid or has no options: enl_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'snur')
+[u's', '_', '_', '_'] -- [u'sabe', u'sack', u'saco', u'sade', u'sadh', u'sado', u'sadr', u'safe', u'saft', u'saga', u'sage', u'sago', u'sagy', u'sahh', u'saic', u'said', u'sail', u'saim', u'sain', u'saip'
+, u'sair', u'sake', u'saki', u'sale', u'salp', u'salt', u'same', u'samh', u'samp', u'sand', u'sane', u'sang', u'sank', u'sans', u'sant', u'sapa', u'sapo', u'sard', u'sare', u'sari', u'sark', u'sart', u'sa
+sa', u'sash', u'sate', u'sauf', u'saum', u'saur', u'saut', u'save', u'sawn', u'sawt', u'saya', u'scab', u'scad', u'scam', u'scan', u'scap', u'scar', u'scat', u'scaw', u'scho', u'scob', u'scog', u'scot', u
+'scow', u'scry', u'scud', u'scug', u'scum', u'scun', u'scup', u'scur', u'scut', u'scye', u'scyt', u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek'
+, u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'se
+ss', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'shab', u'shad', u'shag', u'shah', u'sham', u'shan', u'shap', u'shat', u'shaw', u'shay', u'shea', u'shed', u'shee', u'sher', u'shih', u'shim', u
+'shin', u'ship', u'shiv', u'shod', u'shoe', u'shog', u'shoo', u'shop', u'shoq', u'shor', u'shot', u'shou', u'show', u'shug', u'shul', u'shun', u'shut', u'siak', u'sial', u'sice', u'sick', u'side', u'sidi'
+, u'sidy', u'sier', u'sife', u'sift', u'sigh', u'sign', u'sika', u'sike', u'sile', u'silk', u'sill', u'silo', u'silt', u'sima', u'sime', u'simp', u'sina', u'sind', u'sine', u'sing', u'sinh', u'sink', u'si
+ol', u'sion', u'sipe', u'sire', u'sise', u'sish', u'sisi', u'siss', u'sist', u'site', u'sith', u'siva', u'size', u'sizy', u'sizz', u'skag', u'skal', u'skat', u'skaw', u'skee', u'skeg', u'skel', u'sken', u
+'skeo', u'skep', u'sker', u'skew', u'skey', u'skid', u'skil', u'skim', u'skin', u'skip', u'skit', u'skiv', u'skoo', u'skua', u'skun', u'slab', u'slad', u'slae', u'slag', u'slam', u'slap', u'slat', u'slaw'
+, u'slay', u'sled', u'slee', u'slew', u'sley', u'slid', u'slim', u'slip', u'slit', u'slob', u'slod', u'sloe', u'slog', u'slon', u'sloo', u'slop', u'slot', u'slow', u'slub', u'slud', u'slue', u'slug', u'sl
+um', u'slur', u'slut', u'smee', u'smew', u'smit', u'smog', u'smug', u'smur', u'smut', u'snab', u'snag', u'snap', u'snaw', u'sneb', u'sned', u'snee', u'snew', u'snib', u'snig', u'snip', u'snob', u'snod', u
+'snog', u'snop', u'snot', u'snow', u'snub', u'snug', u'snum', u'snup', u'snur', u'soak', u'soam', u'soap', u'soar', u'soce', u'sock', u'soco', u'soda', u'sody', u'sofa', u'soft', u'soho', u'soil', u'soja'
+, u'soka', u'soke', u'sola', u'sold', u'sole', u'soli', u'solo', u'soma', u'some', u'sond', u'song', u'sonk', u'sons', u'sook', u'sool', u'soon', u'soot', u'sope', u'soph', u'sora', u'sorb', u'sore', u'so
+ri', u'sorn', u'sort', u'sory', u'sosh', u'soso', u'soss', u'sots', u'soud', u'soul', u'soum', u'soup', u'sour', u'sowl', u'sown', u'sowt', u'soya', u'spad', u'spae', u'spak', u'span', u'spar', u'spat', u
+'spay', u'spec', u'sped', u'spet', u'spew', u'spex', u'spig', u'spin', u'spit', u'spiv', u'spor', u'spot', u'spry', u'spud', u'spug', u'spun', u'spur', u'sput', u'stab', u'stag', u'stam', u'stap', u'star'
+, u'staw', u'stay', u'steg', u'stem', u'sten', u'step', u'stet', u'stew', u'stey', u'stib', u'stid', u'stim', u'stir', u'stoa', u'stob', u'stod', u'stof', u'stog', u'stop', u'stot', u'stow', u'stra', u'st
+re', u'stub', u'stud', u'stue', u'stug', u'stum', u'stun', u'stut', u'such', u'suck', u'sudd', u'suds', u'suer', u'suet', u'suff', u'sugh', u'sugi', u'suid', u'suit', u'suji', u'suld', u'sulk', u'sull', u
+'sump', u'sune', u'sung', u'sunk', u'sunn', u'sunt', u'supa', u'supe', u'sura', u'surd', u'sure', u'surf', u'susi', u'susu', u'suum', u'suwe', u'swab', u'swad', u'swag', u'swam', u'swan', u'swap', u'swat'
+, u'sway', u'swep', u'swig', u'swim', u'swiz', u'swob', u'swom', u'swot', u'swow', u'swum', u'syce', u'sync', u'syne', u'syre', u'syrt', u'safe', u'sail', u'salt', u'same', u'sand', u'seat', u'seed', u'se
+em', u'self', u'send', u'ship', u'shoe', u'shut', u'side', u'sign', u'silk', u'size', u'skin', u'slip', u'slow', u'snow', u'soap', u'sock', u'soft', u'some', u'song', u'sort', u'soup', u'star', u'stem', u
+'step', u'stop', u'such', u'swim']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u'u', '_', '_', '_'] -- [u'uang', u'udal', u'ugly', u'uily', u'ulex', u'ulla', u'ulmo', u'ulna', u'ulua', u'umbo', u'umph', u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy'
+, u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'upas', u'updo', u'upgo', u'upla', u'upon', u'ural', u'uran', u'urao', u'urde', u'urea', u'urge', u'uric', u'urna', u'urus', u'urva', u'usar', u'us
+ed', u'usee', u'user', u'utai', u'utas', u'utch', u'utum', u'uval', u'uvea', u'uvic', u'uvid', u'uzan', u'unit']
+[u'r', '_', '_', '_'] -- [u'raad', u'race', u'rach', u'rack', u'racy', u'rada', u'raff', u'raft', u'raga', u'rage', u'raia', u'raid', u'rail', u'rain', u'rais', u'raja', u'rake', u'rakh', u'raki', u'raku'
+, u'rame', u'rami', u'ramp', u'rana', u'rand', u'rane', u'rang', u'rani', u'rank', u'rann', u'rant', u'rape', u'rapt', u'rare', u'rasa', u'rase', u'rash', u'rasp', u'rata', u'rate', u'rath', u'rauk', u'ra
+un', u'rave', u'raya', u'raze', u'razz', u'read', u'reak', u'real', u'ream', u'reap', u'rear', u'reck', u'rect', u'redd', u'rede', u'redo', u'reed', u'reef', u'reek', u'reel', u'reem', u'reen', u'reet', u
+'reft', u'reif', u'reim', u'rein', u'reis', u'reit', u'rely', u'rend', u'renk', u'rent', u'repp', u'reps', u'resh', u'resp', u'rest', u'reve', u'rhea', u'rial', u'ribe', u'rice', u'rich', u'rick', u'ride'
+, u'riem', u'rier', u'rife', u'riff', u'rift', u'rikk', u'rile', u'rill', u'rima', u'rime', u'rimu', u'rimy', u'rind', u'rine', u'ring', u'rink', u'riot', u'ripa', u'ripe', u'rise', u'risk', u'risp', u'ri
+st', u'rita', u'rite', u'riva', u'rive', u'rixy', u'road', u'roam', u'roan', u'roar', u'robe', u'rock', u'rodd', u'rode', u'roed', u'roer', u'roey', u'roid', u'roil', u'roit', u'roka', u'roke', u'roky', u
+'role', u'roll', u'romp', u'rond', u'rone', u'rood', u'roof', u'rook', u'rool', u'room', u'roon', u'root', u'rope', u'ropp', u'ropy', u'rory', u'rose', u'ross', u'rosy', u'rota', u'rote', u'roto', u'roub'
+, u'roud', u'roue', u'roun', u'roup', u'rout', u'rove', u'rowy', u'roxy', u'royt', u'ruby', u'ruck', u'rudd', u'rude', u'ruen', u'ruer', u'ruff', u'ruga', u'ruin', u'rukh', u'rule', u'rull', u'rump', u'ru
+ne', u'rung', u'runt', u'rupa', u'ruru', u'ruse', u'rush', u'rusk', u'rust', u'ruth', u'ryal', u'ryen', u'ryme', u'rynd', u'rynt', u'ryot', u'rype', u'rail', u'rain', u'rate', u'rest', u'rice', u'ring', u
+'road', u'roll', u'roof', u'room', u'root', u'rule']
+
+
+    s   n   u   r
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'snew')
+[u's', u'n', u'u', u'r'] -- [u'snur']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+[u'w', '_', '_', '_'] -- [u'waag', u'waar', u'wabe', u'wace', u'wack', u'wade', u'wadi', u'waeg', u'waer', u'waff', u'waft', u'wage', u'waif', u'waik', u'wail', u'wain', u'wait', u'waka', u'wake', u'wakf'
+, u'waky', u'wale', u'wali', u'walk', u'wall', u'walt', u'wame', u'wamp', u'wand', u'wane', u'wang', u'want', u'wany', u'wapp', u'ward', u'ware', u'warf', u'wark', u'warl', u'warm', u'warn', u'warp', u'wa
+rt', u'wary', u'wase', u'wash', u'wasp', u'wast', u'wath', u'watt', u'wauf', u'waul', u'waup', u'waur', u'wave', u'wavy', u'wawa', u'waxy', u'ways', u'weak', u'weal', u'weam', u'wean', u'wear', u'wede', u
+'weed', u'week', u'weel', u'ween', u'weep', u'weet', u'weft', u'weir', u'weka', u'weki', u'weld', u'welk', u'well', u'wels', u'welt', u'wend', u'wene', u'went', u'wept', u'were', u'werf', u'weri', u'wert'
+, u'wese', u'west', u'weta', u'weve', u'wham', u'whan', u'whap', u'whar', u'what', u'whau', u'whee', u'when', u'whet', u'whew', u'whey', u'whid', u'whig', u'whim', u'whin', u'whip', u'whir', u'whit', u'wh
+iz', u'whoa', u'whom', u'whoo', u'whop', u'whud', u'whun', u'whup', u'whuz', u'whyo', u'wice', u'wick', u'wide', u'widu', u'wife', u'wild', u'wile', u'wilk', u'will', u'wilt', u'wily', u'wime', u'wind', u
+'wine', u'wing', u'wink', u'wint', u'winy', u'wipe', u'wips', u'wird', u'wire', u'wirl', u'wirr', u'wiry', u'wise', u'wish', u'wisp', u'wiss', u'wist', u'wite', u'with', u'wive', u'woad', u'woak', u'woan'
+, u'wode', u'woft', u'woke', u'wold', u'wolf', u'womb', u'wone', u'wong', u'wont', u'wood', u'woof', u'wool', u'woom', u'woon', u'wops', u'word', u'wore', u'work', u'worm', u'worn', u'wort', u'wote', u'wo
+ts', u'wouf', u'wove', u'wowt', u'wran', u'wrap', u'wraw', u'wren', u'wrig', u'writ', u'wrox', u'wudu', u'wugg', u'wulk', u'wull', u'wush', u'wusp', u'wuss', u'wust', u'wuzu', u'wyde', u'wyke', u'wyle', u
+'wynd', u'wyne', u'wynn', u'wype', u'wyss', u'wyve', u'walk', u'wall', u'warm', u'wash', u'wave', u'week', u'well', u'west', u'when', u'whip', u'wide', u'will', u'wind', u'wine', u'wing', u'wire', u'wise'
+, u'with', u'wood', u'wool', u'word', u'work', u'worm']
+
+
+    s   n   u   r
+
+    n   _   _   _
+
+    e   _   _   _
+
+    w   _   _   _
+
+('checking word:', u'naut')
+[u's', u'n', u'e', u'w'] -- [u'snew']
+[u'n', u'a', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane
+', u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'nail', u'name']
+[u'u', u'u', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: uu__
+('checking word:', u'need')
+[u's', u'n', u'e', u'w'] -- [u'snew']
+[u'n', u'e', '_', '_'] -- [u'neal', u'neap', u'neat', u'neck', u'need', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve
+', u'nevo', u'news', u'newt', u'next', u'near', u'neck', u'need', u'news']
+[u'u', u'e', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ue__
+('checking word:', u'noup')
+[u's', u'n', u'e', u'w'] -- [u'snew']
+[u'n', u'o', '_', '_'] -- [u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none', u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy
+', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nose', u'note']
+[u'u', u'u', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: uu__
+('checking word:', u'napa')
+[u's', u'n', u'e', u'w'] -- [u'snew']
+[u'n', u'a', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane
+', u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'nail', u'name']
+[u'u', u'p', '_', '_'] -- [u'upas', u'updo', u'upgo', u'upla', u'upon']
+[u'r', u'a', '_', '_'] -- [u'raad', u'race', u'rach', u'rack', u'racy', u'rada', u'raff', u'raft', u'raga', u'rage', u'raia', u'raid', u'rail', u'rain', u'rais', u'raja', u'rake', u'rakh', u'raki', u'raku
+', u'rame', u'rami', u'ramp', u'rana', u'rand', u'rane', u'rang', u'rani', u'rank', u'rann', u'rant', u'rape', u'rapt', u'rare', u'rasa', u'rase', u'rash', u'rasp', u'rata', u'rate', u'rath', u'rauk', u'r
+aun', u'rave', u'raya', u'raze', u'razz', u'rail', u'rain', u'rate']
+
+
+    s   n   u   r
+
+    n   a   p   a
+
+    e   _   _   _
+
+    w   _   _   _
+
+('checking word:', u'napu')
+[u's', u'n', u'u', u'r'] -- [u'snur']
+[u'n', u'a', u'p', u'a'] -- [u'napa']
+[u'e', u'p', '_', '_'] -- [u'epee', u'epha', u'epic', u'epos']
+[u'w', u'u', '_', '_'] -- [u'wudu', u'wugg', u'wulk', u'wull', u'wush', u'wusp', u'wuss', u'wust', u'wuzu']
+
+
+    s   n   u   r
+
+    n   a   p   a
+
+    e   p   _   _
+
+    w   u   _   _
+
+('checking word:', u'epos')
+[u's', u'n', u'e', u'w'] -- [u'snew']
+[u'n', u'a', u'p', u'u'] -- [u'napu']
+[u'u', u'p', u'o', '_'] -- [u'upon']
+[u'r', u'a', u's', '_'] -- [u'rasa', u'rase', u'rash', u'rasp']
+
+
+    s   n   u   r
+
+    n   a   p   a
+
+    e   p   o   s
+
+    w   u   _   _
+
+('checking word:', u'upon')
+[u's', u'n', u'u', u'r'] -- [u'snur']
+[u'n', u'a', u'p', u'a'] -- [u'napa']
+[u'e', u'p', u'o', u's'] -- [u'epos']
+[u'w', u'u', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: wun_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'pleb')
+[u'p', '_', '_', '_'] -- [u'paal', u'paar', u'paca', u'pace', u'pack', u'paco', u'pact', u'paga', u'page', u'paha', u'pahi', u'paho', u'paik', u'pail', u'pain', u'paip', u'pair', u'pais', u'pale', u'pali'
+, u'pall', u'palm', u'palp', u'palt', u'paly', u'pand', u'pane', u'pang', u'pank', u'pant', u'paon', u'papa', u'pape', u'para', u'pard', u'pare', u'pari', u'park', u'parr', u'part', u'pash', u'pasi', u'pa
+ss', u'past', u'pata', u'pate', u'path', u'pato', u'patu', u'paty', u'paup', u'paut', u'pave', u'pavy', u'pawk', u'pawl', u'pawn', u'peag', u'peai', u'peak', u'peal', u'pean', u'pear', u'peat', u'peba', u
+'pech', u'peck', u'peda', u'peed', u'peek', u'peel', u'peen', u'peep', u'peer', u'pega', u'peho', u'pelf', u'pell', u'pelt', u'pelu', u'pend', u'penk', u'pent', u'peon', u'pepo', u'peri', u'perk', u'perm'
+, u'pern', u'pert', u'pesa', u'peso', u'pess', u'pest', u'pete', u'peto', u'pewy', u'pfui', u'phew', u'phit', u'phiz', u'phoh', u'phon', u'phoo', u'phos', u'phot', u'phut', u'pial', u'pian', u'pica', u'pi
+ce', u'pick', u'pico', u'pict', u'pied', u'pien', u'pier', u'piet', u'piff', u'pika', u'pike', u'piki', u'piky', u'pile', u'pili', u'pill', u'pilm', u'pily', u'pimp', u'pina', u'pind', u'pine', u'ping', u
+'pink', u'pino', u'pint', u'piny', u'pipa', u'pipe', u'pipi', u'pipy', u'pirl', u'pirn', u'pirr', u'pise', u'pish', u'pisk', u'piso', u'piss', u'pist', u'pita', u'pith', u'pity', u'pixy', u'pize', u'plak'
+, u'plan', u'plap', u'plat', u'play', u'plea', u'pleb', u'pled', u'plew', u'plex', u'plim', u'plod', u'plop', u'plot', u'plow', u'ploy', u'plud', u'plug', u'plum', u'plup', u'plus', u'pobs', u'pock', u'po
+co', u'poem', u'poet', u'pogy', u'poha', u'poil', u'poke', u'poky', u'pole', u'polk', u'poll', u'polo', u'polt', u'poly', u'pome', u'pomp', u'pond', u'pone', u'pong', u'pont', u'pony', u'pooa', u'poof', u
+'pooh', u'pook', u'pool', u'poon', u'poop', u'poor', u'poot', u'pope', u'pore', u'pork', u'porr', u'port', u'pory', u'pose', u'posh', u'poss', u'post', u'posy', u'pote', u'pott', u'pouf', u'pour', u'pout'
+, u'poxy', u'prad', u'pram', u'prat', u'prau', u'pray', u'prep', u'prey', u'prig', u'prim', u'proa', u'prob', u'prod', u'prof', u'prog', u'proo', u'prop', u'prow', u'pruh', u'prut', u'psha', u'puan', u'pu
+ce', u'puck', u'pudu', u'puff', u'pugh', u'puja', u'puka', u'puke', u'puku', u'puky', u'pule', u'puli', u'pulk', u'pull', u'pulp', u'pulu', u'puly', u'puma', u'pump', u'puna', u'pung', u'punk', u'punt', u
+'puny', u'pupa', u'pure', u'purl', u'purr', u'push', u'puss', u'putt', u'puxy', u'pyal', u'pyic', u'pyin', u'pyke', u'pyla', u'pyre', u'pyro', u'page', u'pain', u'part', u'past', u'pipe', u'play', u'poor'
+, u'pull', u'pump', u'push']
+[u'l', '_', '_', '_'] -- [u'lace', u'lack', u'lacy', u'lade', u'lady', u'laet', u'laic', u'laid', u'lain', u'lair', u'lake', u'laky', u'lall', u'lalo', u'lama', u'lamb', u'lame', u'lamp', u'land', u'lane'
+, u'lank', u'lant', u'lanx', u'lard', u'lari', u'lark', u'lasa', u'lash', u'lask', u'lass', u'last', u'lata', u'late', u'lath', u'laud', u'laun', u'laur', u'lava', u'lave', u'lawk', u'lawn', u'laze', u'la
+zy', u'lead', u'leaf', u'leak', u'leal', u'leam', u'lean', u'leap', u'lear', u'leat', u'lech', u'leck', u'lede', u'leed', u'leek', u'leep', u'leer', u'lees', u'leet', u'left', u'lehr', u'lend', u'lene', u
+'leno', u'lens', u'lent', u'lepa', u'lerp', u'less', u'lest', u'lete', u'leud', u'leuk', u'levo', u'levy', u'lewd', u'liar', u'lich', u'lick', u'lied', u'lief', u'lien', u'lier', u'lieu', u'life', u'lifo'
+, u'lift', u'liin', u'lija', u'like', u'lile', u'lill', u'lilt', u'lily', u'limb', u'lime', u'limn', u'limp', u'limu', u'limy', u'lina', u'line', u'ling', u'link', u'linn', u'lino', u'lint', u'liny', u'li
+on', u'lipa', u'lira', u'lire', u'lish', u'lisk', u'lisp', u'liss', u'list', u'lite', u'lith', u'litz', u'live', u'llyn', u'load', u'loaf', u'loam', u'loan', u'lobe', u'lobo', u'loca', u'loch', u'loci', u
+'lock', u'loco', u'lode', u'loft', u'loge', u'logy', u'loin', u'loir', u'loka', u'loke', u'loll', u'loma', u'lone', u'long', u'lood', u'loof', u'look', u'loom', u'loon', u'loop', u'loot', u'lope', u'lora'
+, u'lord', u'lore', u'lori', u'lorn', u'loro', u'lors', u'lory', u'lose', u'losh', u'loss', u'lost', u'lota', u'lote', u'lots', u'loud', u'louk', u'loup', u'lour', u'lout', u'love', u'lowa', u'lown', u'lo
+wy', u'lube', u'luce', u'luck', u'lucy', u'ludo', u'lues', u'luff', u'luge', u'luke', u'lull', u'lulu', u'lump', u'luna', u'lune', u'lung', u'lunn', u'lunt', u'lupe', u'lura', u'lure', u'lurg', u'lurk', u
+'lush', u'lusk', u'lust', u'lute', u'luxe', u'lyam', u'lynx', u'lyra', u'lyre', u'lyse', u'land', u'last', u'late', u'lead', u'leaf', u'left', u'lift', u'like', u'line', u'list', u'lock', u'long', u'look'
+, u'loss', u'loud', u'love']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+[u'b', '_', '_', '_'] -- [u'baal', u'baar', u'baba', u'babe', u'babu', u'baby', u'bach', u'back', u'bade', u'baff', u'baft', u'baga', u'bago', u'baho', u'baht', u'bail', u'bain', u'bait', u'baka', u'bake'
+, u'baku', u'bald', u'bale', u'bali', u'balk', u'ball', u'balm', u'balu', u'banc', u'band', u'bane', u'bang', u'bani', u'bank', u'bant', u'bara', u'barb', u'bard', u'bare', u'bari', u'bark', u'barm', u'ba
+rn', u'baru', u'base', u'bash', u'bask', u'bass', u'bast', u'bate', u'bath', u'bats', u'batt', u'batz', u'baud', u'baul', u'baun', u'bawd', u'bawl', u'bawn', u'baya', u'baze', u'bead', u'beak', u'beal', u
+'beam', u'bean', u'bear', u'beat', u'beau', u'beck', u'beef', u'beek', u'been', u'beer', u'bees', u'beet', u'bego', u'behn', u'bela', u'beld', u'bell', u'belt', u'bely', u'bema', u'bena', u'bend', u'bene'
+, u'beng', u'beni', u'benj', u'benn', u'beno', u'bent', u'bere', u'berg', u'berm', u'besa', u'best', u'beta', u'beth', u'bevy', u'bhat', u'bhoy', u'bhut', u'bias', u'bibb', u'bibi', u'bice', u'bick', u'bi
+de', u'bien', u'bier', u'biff', u'biga', u'bigg', u'bija', u'bike', u'bikh', u'bile', u'bilk', u'bill', u'bilo', u'bind', u'bine', u'bing', u'binh', u'bink', u'bino', u'bint', u'biod', u'bion', u'bios', u
+'bird', u'biri', u'birk', u'birl', u'birn', u'birr', u'bite', u'biti', u'bito', u'bitt', u'biwa', u'bizz', u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee'
+, u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue', u'blup', u'blur', u'boar', u'boat', u'boba', u'bobo', u'boce', u'bock', u'bode', u'body', u'boga', u'bogo', u'bogy', u'bo
+ho', u'boid', u'boil', u'bojo', u'boke', u'bola', u'bold', u'bole', u'bolk', u'boll', u'bolo', u'bolt', u'boma', u'bomb', u'bond', u'bone', u'bong', u'bonk', u'bony', u'boob', u'bood', u'boof', u'book', u
+'bool', u'boom', u'boon', u'boor', u'boot', u'bora', u'bord', u'bore', u'borg', u'borh', u'born', u'boro', u'bort', u'bose', u'bosh', u'bosk', u'bosn', u'boss', u'bota', u'bote', u'both', u'bott', u'boud'
+, u'bouk', u'boun', u'bout', u'bouw', u'bowk', u'bowl', u'boxy', u'boza', u'bozo', u'brab', u'brad', u'brae', u'brag', u'bran', u'brat', u'braw', u'bray', u'bred', u'bree', u'brei', u'bret', u'brew', u'br
+ey', u'brig', u'brim', u'brin', u'brit', u'brob', u'brod', u'brog', u'broo', u'brot', u'brow', u'brut', u'bual', u'buba', u'bubo', u'buck', u'buda', u'buff', u'bufo', u'buhl', u'buhr', u'bukh', u'bulb', u
+'bulk', u'bull', u'bult', u'bump', u'buna', u'bund', u'bung', u'bunk', u'bunt', u'buoy', u'burd', u'bure', u'burg', u'buri', u'burl', u'burn', u'buro', u'burp', u'burr', u'burt', u'bury', u'bush', u'busk'
+, u'buss', u'bust', u'busy', u'butt', u'buzz', u'byee', u'bygo', u'byon', u'byre', u'byth', u'baby', u'back', u'ball', u'band', u'base', u'bath', u'bell', u'bent', u'bird', u'bite', u'blow', u'blue', u'bo
+at', u'body', u'bone', u'book', u'boot', u'bulb', u'burn']
+
+
+    p   l   e   b
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'play')
+[u'p', u'l', u'e', u'b'] -- [u'pleb']
+[u'l', '_', '_', '_'] -- [u'lace', u'lack', u'lacy', u'lade', u'lady', u'laet', u'laic', u'laid', u'lain', u'lair', u'lake', u'laky', u'lall', u'lalo', u'lama', u'lamb', u'lame', u'lamp', u'land', u'lane'
+, u'lank', u'lant', u'lanx', u'lard', u'lari', u'lark', u'lasa', u'lash', u'lask', u'lass', u'last', u'lata', u'late', u'lath', u'laud', u'laun', u'laur', u'lava', u'lave', u'lawk', u'lawn', u'laze', u'la
+zy', u'lead', u'leaf', u'leak', u'leal', u'leam', u'lean', u'leap', u'lear', u'leat', u'lech', u'leck', u'lede', u'leed', u'leek', u'leep', u'leer', u'lees', u'leet', u'left', u'lehr', u'lend', u'lene', u
+'leno', u'lens', u'lent', u'lepa', u'lerp', u'less', u'lest', u'lete', u'leud', u'leuk', u'levo', u'levy', u'lewd', u'liar', u'lich', u'lick', u'lied', u'lief', u'lien', u'lier', u'lieu', u'life', u'lifo'
+, u'lift', u'liin', u'lija', u'like', u'lile', u'lill', u'lilt', u'lily', u'limb', u'lime', u'limn', u'limp', u'limu', u'limy', u'lina', u'line', u'ling', u'link', u'linn', u'lino', u'lint', u'liny', u'li
+on', u'lipa', u'lira', u'lire', u'lish', u'lisk', u'lisp', u'liss', u'list', u'lite', u'lith', u'litz', u'live', u'llyn', u'load', u'loaf', u'loam', u'loan', u'lobe', u'lobo', u'loca', u'loch', u'loci', u
+'lock', u'loco', u'lode', u'loft', u'loge', u'logy', u'loin', u'loir', u'loka', u'loke', u'loll', u'loma', u'lone', u'long', u'lood', u'loof', u'look', u'loom', u'loon', u'loop', u'loot', u'lope', u'lora'
+, u'lord', u'lore', u'lori', u'lorn', u'loro', u'lors', u'lory', u'lose', u'losh', u'loss', u'lost', u'lota', u'lote', u'lots', u'loud', u'louk', u'loup', u'lour', u'lout', u'love', u'lowa', u'lown', u'lo
+wy', u'lube', u'luce', u'luck', u'lucy', u'ludo', u'lues', u'luff', u'luge', u'luke', u'lull', u'lulu', u'lump', u'luna', u'lune', u'lung', u'lunn', u'lunt', u'lupe', u'lura', u'lure', u'lurg', u'lurk', u
+'lush', u'lusk', u'lust', u'lute', u'luxe', u'lyam', u'lynx', u'lyra', u'lyre', u'lyse', u'land', u'last', u'late', u'lead', u'leaf', u'left', u'lift', u'like', u'line', u'list', u'lock', u'long', u'look'
+, u'loss', u'loud', u'love']
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+[u'y', '_', '_', '_'] -- [u'yaba', u'yabu', u'yade', u'yaff', u'yagi', u'yair', u'yaje', u'yalb', u'yale', u'yali', u'yamp', u'yang', u'yank', u'yapa', u'yapp', u'yarb', u'yard', u'yare', u'yark', u'yarl'
+, u'yarm', u'yarn', u'yarr', u'yate', u'yati', u'yaud', u'yava', u'yawl', u'yawn', u'yawp', u'yaws', u'yawy', u'yaya', u'ycie', u'yday', u'yeah', u'yean', u'year', u'yeat', u'yede', u'yeel', u'yees', u'ye
+gg', u'yeld', u'yelk', u'yell', u'yelm', u'yelp', u'yelt', u'yeni', u'yerb', u'yerd', u'yere', u'yerk', u'yern', u'yese', u'yeso', u'yest', u'yeta', u'yeth', u'yeuk', u'yigh', u'yill', u'yilt', u'yird', u
+'yirk', u'yirm', u'yirn', u'yirr', u'yite', u'yobi', u'yock', u'yodh', u'yoga', u'yogh', u'yogi', u'yoke', u'yoky', u'yolk', u'yond', u'yont', u'yook', u'yoop', u'yore', u'york', u'yote', u'youd', u'youl'
+, u'youp', u'your', u'yowl', u'yowt', u'yuan', u'yuca', u'yuck', u'yuft', u'yule', u'yurt', u'yutu', u'year']
+
+
+    p   l   e   b
+
+    l   _   _   _
+
+    a   _   _   _
+
+    y   _   _   _
+
+('checking word:', u'lobe')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', '_', '_'] -- [u'load', u'loaf', u'loam', u'loan', u'lobe', u'lobo', u'loca', u'loch', u'loci', u'lock', u'loco', u'lode', u'loft', u'loge', u'logy', u'loin', u'loir', u'loka', u'loke', u'loll
+', u'loma', u'lone', u'long', u'lood', u'loof', u'look', u'loom', u'loon', u'loop', u'loot', u'lope', u'lora', u'lord', u'lore', u'lori', u'lorn', u'loro', u'lors', u'lory', u'lose', u'losh', u'loss', u'l
+ost', u'lota', u'lote', u'lots', u'loud', u'louk', u'loup', u'lour', u'lout', u'love', u'lowa', u'lown', u'lowy', u'lock', u'long', u'look', u'loss', u'loud', u'love']
+[u'e', u'b', '_', '_'] -- [u'eboe', u'ebon']
+[u'b', u'e', '_', '_'] -- [u'bead', u'beak', u'beal', u'beam', u'bean', u'bear', u'beat', u'beau', u'beck', u'beef', u'beek', u'been', u'beer', u'bees', u'beet', u'bego', u'behn', u'bela', u'beld', u'bell
+', u'belt', u'bely', u'bema', u'bena', u'bend', u'bene', u'beng', u'beni', u'benj', u'benn', u'beno', u'bent', u'bere', u'berg', u'berm', u'besa', u'best', u'beta', u'beth', u'bevy', u'bell', u'bent']
+
+
+    p   l   e   b
+
+    l   o   b   e
+
+    a   _   _   _
+
+    y   _   _   _
+
+('checking word:', u'loir')
+[u'p', u'l', u'e', u'b'] -- [u'pleb']
+[u'l', u'o', u'b', u'e'] -- [u'lobe']
+[u'a', u'i', '_', '_'] -- [u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy']
+[u'y', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: yr__
+('checking word:', u'lori')
+[u'p', u'l', u'e', u'b'] -- [u'pleb']
+[u'l', u'o', u'b', u'e'] -- [u'lobe']
+[u'a', u'r', '_', '_'] -- [u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu', u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui
+', u'aryl', u'arch', u'army']
+[u'y', u'i', '_', '_'] -- [u'yigh', u'yill', u'yilt', u'yird', u'yirk', u'yirm', u'yirn', u'yirr', u'yite']
+
+
+    p   l   e   b
+
+    l   o   b   e
+
+    a   r   _   _
+
+    y   i   _   _
+
+('checking word:', u'arse')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u's', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebs_
+('checking word:', u'arch')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'c', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebc_
+('checking word:', u'aryl')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'y', '_'] -- []
+Whoops, at least one word isn't valid or has no options: eby_
+('checking word:', u'argo')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'g', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebg_
+('checking word:', u'ardu')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebd_
+('checking word:', u'arui')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'u', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebu_
+('checking word:', u'arar')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'a', '_'] -- []
+Whoops, at least one word isn't valid or has no options: eba_
+('checking word:', u'aril')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'i', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebi_
+('checking word:', u'arms')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebm_
+('checking word:', u'arna')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebn_
+('checking word:', u'arch')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'c', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebc_
+('checking word:', u'ared')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebe_
+('checking word:', u'aria')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'i', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebi_
+('checking word:', u'area')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebe_
+('checking word:', u'arca')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'c', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebc_
+('checking word:', u'army')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebm_
+('checking word:', u'arba')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'b', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebb_
+('checking word:', u'arni')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebn_
+('checking word:', u'arty')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebt_
+('checking word:', u'army')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebm_
+('checking word:', u'arow')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'o', '_'] -- [u'eboe', u'ebon']
+[u'b', u'e', u'w', '_'] -- []
+Whoops, at least one word isn't valid or has no options: bew_
+('checking word:', u'arad')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'a', '_'] -- []
+Whoops, at least one word isn't valid or has no options: eba_
+('checking word:', u'arid')
+[u'p', u'l', u'a', u'y'] -- [u'play', u'play']
+[u'l', u'o', u'r', u'i'] -- [u'lori']
+[u'e', u'b', u'i', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ebi_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'upgo')
+[u'u', '_', '_', '_'] -- [u'uang', u'udal', u'ugly', u'uily', u'ulex', u'ulla', u'ulmo', u'ulna', u'ulua', u'umbo', u'umph', u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy'
+, u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'upas', u'updo', u'upgo', u'upla', u'upon', u'ural', u'uran', u'urao', u'urde', u'urea', u'urge', u'uric', u'urna', u'urus', u'urva', u'usar', u'us
+ed', u'usee', u'user', u'utai', u'utas', u'utch', u'utum', u'uval', u'uvea', u'uvic', u'uvid', u'uzan', u'unit']
+[u'p', '_', '_', '_'] -- [u'paal', u'paar', u'paca', u'pace', u'pack', u'paco', u'pact', u'paga', u'page', u'paha', u'pahi', u'paho', u'paik', u'pail', u'pain', u'paip', u'pair', u'pais', u'pale', u'pali'
+, u'pall', u'palm', u'palp', u'palt', u'paly', u'pand', u'pane', u'pang', u'pank', u'pant', u'paon', u'papa', u'pape', u'para', u'pard', u'pare', u'pari', u'park', u'parr', u'part', u'pash', u'pasi', u'pa
+ss', u'past', u'pata', u'pate', u'path', u'pato', u'patu', u'paty', u'paup', u'paut', u'pave', u'pavy', u'pawk', u'pawl', u'pawn', u'peag', u'peai', u'peak', u'peal', u'pean', u'pear', u'peat', u'peba', u
+'pech', u'peck', u'peda', u'peed', u'peek', u'peel', u'peen', u'peep', u'peer', u'pega', u'peho', u'pelf', u'pell', u'pelt', u'pelu', u'pend', u'penk', u'pent', u'peon', u'pepo', u'peri', u'perk', u'perm'
+, u'pern', u'pert', u'pesa', u'peso', u'pess', u'pest', u'pete', u'peto', u'pewy', u'pfui', u'phew', u'phit', u'phiz', u'phoh', u'phon', u'phoo', u'phos', u'phot', u'phut', u'pial', u'pian', u'pica', u'pi
+ce', u'pick', u'pico', u'pict', u'pied', u'pien', u'pier', u'piet', u'piff', u'pika', u'pike', u'piki', u'piky', u'pile', u'pili', u'pill', u'pilm', u'pily', u'pimp', u'pina', u'pind', u'pine', u'ping', u
+'pink', u'pino', u'pint', u'piny', u'pipa', u'pipe', u'pipi', u'pipy', u'pirl', u'pirn', u'pirr', u'pise', u'pish', u'pisk', u'piso', u'piss', u'pist', u'pita', u'pith', u'pity', u'pixy', u'pize', u'plak'
+, u'plan', u'plap', u'plat', u'play', u'plea', u'pleb', u'pled', u'plew', u'plex', u'plim', u'plod', u'plop', u'plot', u'plow', u'ploy', u'plud', u'plug', u'plum', u'plup', u'plus', u'pobs', u'pock', u'po
+co', u'poem', u'poet', u'pogy', u'poha', u'poil', u'poke', u'poky', u'pole', u'polk', u'poll', u'polo', u'polt', u'poly', u'pome', u'pomp', u'pond', u'pone', u'pong', u'pont', u'pony', u'pooa', u'poof', u
+'pooh', u'pook', u'pool', u'poon', u'poop', u'poor', u'poot', u'pope', u'pore', u'pork', u'porr', u'port', u'pory', u'pose', u'posh', u'poss', u'post', u'posy', u'pote', u'pott', u'pouf', u'pour', u'pout'
+, u'poxy', u'prad', u'pram', u'prat', u'prau', u'pray', u'prep', u'prey', u'prig', u'prim', u'proa', u'prob', u'prod', u'prof', u'prog', u'proo', u'prop', u'prow', u'pruh', u'prut', u'psha', u'puan', u'pu
+ce', u'puck', u'pudu', u'puff', u'pugh', u'puja', u'puka', u'puke', u'puku', u'puky', u'pule', u'puli', u'pulk', u'pull', u'pulp', u'pulu', u'puly', u'puma', u'pump', u'puna', u'pung', u'punk', u'punt', u
+'puny', u'pupa', u'pure', u'purl', u'purr', u'push', u'puss', u'putt', u'puxy', u'pyal', u'pyic', u'pyin', u'pyke', u'pyla', u'pyre', u'pyro', u'page', u'pain', u'part', u'past', u'pipe', u'play', u'poor'
+, u'pull', u'pump', u'push']
+[u'g', '_', '_', '_'] -- [u'gabi', u'gaby', u'gade', u'gaen', u'gaet', u'gaff', u'gage', u'gain', u'gair', u'gait', u'gala', u'gale', u'gali', u'gall', u'galp', u'galt', u'gamb', u'game', u'gamp', u'gamy'
+, u'gane', u'gang', u'gant', u'gaol', u'gapa', u'gape', u'gapo', u'gapy', u'gara', u'garb', u'gare', u'garn', u'gash', u'gasp', u'gast', u'gata', u'gate', u'gaub', u'gaud', u'gaum', u'gaun', u'gaup', u'ga
+ur', u'gaus', u'gaut', u'gave', u'gawk', u'gawm', u'gawn', u'gaze', u'gazi', u'gazy', u'geal', u'gean', u'gear', u'geat', u'geck', u'geek', u'geet', u'gegg', u'gein', u'geld', u'gell', u'gelt', u'gena', u
+'gene', u'gens', u'gent', u'genu', u'gerb', u'germ', u'gers', u'gest', u'geta', u'geum', u'ghat', u'ghee', u'gibe', u'gied', u'gien', u'gift', u'gild', u'gill', u'gilo', u'gilt', u'gimp', u'ging', u'gink'
+, u'gird', u'girl', u'girn', u'giro', u'girr', u'girt', u'gish', u'gist', u'gith', u'give', u'gizz', u'glad', u'glam', u'glar', u'glee', u'gleg', u'glen', u'glia', u'glib', u'glom', u'glop', u'glor', u'gl
+ow', u'gloy', u'glub', u'glue', u'glug', u'glum', u'glut', u'gnar', u'gnat', u'gnaw', u'goad', u'goaf', u'goal', u'goat', u'gobi', u'gobo', u'goby', u'gode', u'goel', u'goer', u'goes', u'goff', u'gogo', u
+'gola', u'gold', u'golf', u'goli', u'gone', u'gong', u'gony', u'good', u'goof', u'gook', u'gool', u'goon', u'gora', u'gorb', u'gore', u'gory', u'gosh', u'gote', u'goup', u'gout', u'gove', u'gowf', u'gowk'
+, u'gowl', u'gown', u'grab', u'grad', u'gram', u'grat', u'gray', u'gree', u'grew', u'grey', u'grid', u'grig', u'grim', u'grin', u'grip', u'gris', u'grit', u'grog', u'gros', u'grot', u'grow', u'grub', u'gr
+ue', u'grum', u'grun', u'guan', u'guao', u'guar', u'gude', u'gufa', u'guff', u'gugu', u'guhr', u'guib', u'gula', u'gule', u'gulf', u'gull', u'gulp', u'gump', u'guna', u'gunj', u'gunk', u'gunl', u'gurk', u
+'gurl', u'gurr', u'gurt', u'guru', u'gush', u'guss', u'gust', u'gutt', u'guze', u'gwag', u'gyle', u'gyne', u'gype', u'gyps', u'gyre', u'gyri', u'gyro', u'gyte', u'gyve', u'girl', u'give', u'goat', u'gold'
+, u'good', u'grey', u'grip']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+
+
+    u   p   g   o
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'unio')
+[u'u', u'p', u'g', u'o'] -- [u'upgo']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+
+
+    u   p   g   o
+
+    n   _   _   _
+
+    i   _   _   _
+
+    o   _   _   _
+
+('checking word:', u'noir')
+[u'u', u'n', u'i', u'o'] -- [u'unio']
+[u'p', u'o', '_', '_'] -- [u'pobs', u'pock', u'poco', u'poem', u'poet', u'pogy', u'poha', u'poil', u'poke', u'poky', u'pole', u'polk', u'poll', u'polo', u'polt', u'poly', u'pome', u'pomp', u'pond', u'pone
+', u'pong', u'pont', u'pony', u'pooa', u'poof', u'pooh', u'pook', u'pool', u'poon', u'poop', u'poor', u'poot', u'pope', u'pore', u'pork', u'porr', u'port', u'pory', u'pose', u'posh', u'poss', u'post', u'p
+osy', u'pote', u'pott', u'pouf', u'pour', u'pout', u'poxy', u'poor']
+[u'g', u'i', '_', '_'] -- [u'gibe', u'gied', u'gien', u'gift', u'gild', u'gill', u'gilo', u'gilt', u'gimp', u'ging', u'gink', u'gird', u'girl', u'girn', u'giro', u'girr', u'girt', u'gish', u'gist', u'gith
+', u'give', u'gizz', u'girl', u'give']
+[u'o', u'r', '_', '_'] -- [u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna']
+
+
+    u   p   g   o
+
+    n   o   i   r
+
+    i   _   _   _
+
+    o   _   _   _
+
+('checking word:', u'pooa')
+[u'u', u'p', u'g', u'o'] -- [u'upgo']
+[u'n', u'o', u'i', u'r'] -- [u'noir']
+[u'i', u'o', '_', '_'] -- [u'iodo', u'iota']
+[u'o', u'a', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty']
+
+
+    u   p   g   o
+
+    n   o   i   r
+
+    i   o   _   _
+
+    o   a   _   _
+
+('checking word:', u'iodo')
+[u'u', u'n', u'i', u'o'] -- [u'unio']
+[u'p', u'o', u'o', u'a'] -- [u'pooa']
+[u'g', u'i', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: gid_
+('checking word:', u'iota')
+[u'u', u'n', u'i', u'o'] -- [u'unio']
+[u'p', u'o', u'o', u'a'] -- [u'pooa']
+[u'g', u'i', u't', '_'] -- [u'gith']
+[u'o', u'r', u'a', '_'] -- [u'orad', u'oral']
+
+
+    u   p   g   o
+
+    n   o   i   r
+
+    i   o   t   a
+
+    o   a   _   _
+
+('checking word:', u'gith')
+[u'u', u'p', u'g', u'o'] -- [u'upgo']
+[u'n', u'o', u'i', u'r'] -- [u'noir']
+[u'i', u'o', u't', u'a'] -- [u'iota']
+[u'o', u'a', u'h', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oah_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'plow')
+[u'p', '_', '_', '_'] -- [u'paal', u'paar', u'paca', u'pace', u'pack', u'paco', u'pact', u'paga', u'page', u'paha', u'pahi', u'paho', u'paik', u'pail', u'pain', u'paip', u'pair', u'pais', u'pale', u'pali'
+, u'pall', u'palm', u'palp', u'palt', u'paly', u'pand', u'pane', u'pang', u'pank', u'pant', u'paon', u'papa', u'pape', u'para', u'pard', u'pare', u'pari', u'park', u'parr', u'part', u'pash', u'pasi', u'pa
+ss', u'past', u'pata', u'pate', u'path', u'pato', u'patu', u'paty', u'paup', u'paut', u'pave', u'pavy', u'pawk', u'pawl', u'pawn', u'peag', u'peai', u'peak', u'peal', u'pean', u'pear', u'peat', u'peba', u
+'pech', u'peck', u'peda', u'peed', u'peek', u'peel', u'peen', u'peep', u'peer', u'pega', u'peho', u'pelf', u'pell', u'pelt', u'pelu', u'pend', u'penk', u'pent', u'peon', u'pepo', u'peri', u'perk', u'perm'
+, u'pern', u'pert', u'pesa', u'peso', u'pess', u'pest', u'pete', u'peto', u'pewy', u'pfui', u'phew', u'phit', u'phiz', u'phoh', u'phon', u'phoo', u'phos', u'phot', u'phut', u'pial', u'pian', u'pica', u'pi
+ce', u'pick', u'pico', u'pict', u'pied', u'pien', u'pier', u'piet', u'piff', u'pika', u'pike', u'piki', u'piky', u'pile', u'pili', u'pill', u'pilm', u'pily', u'pimp', u'pina', u'pind', u'pine', u'ping', u
+'pink', u'pino', u'pint', u'piny', u'pipa', u'pipe', u'pipi', u'pipy', u'pirl', u'pirn', u'pirr', u'pise', u'pish', u'pisk', u'piso', u'piss', u'pist', u'pita', u'pith', u'pity', u'pixy', u'pize', u'plak'
+, u'plan', u'plap', u'plat', u'play', u'plea', u'pleb', u'pled', u'plew', u'plex', u'plim', u'plod', u'plop', u'plot', u'plow', u'ploy', u'plud', u'plug', u'plum', u'plup', u'plus', u'pobs', u'pock', u'po
+co', u'poem', u'poet', u'pogy', u'poha', u'poil', u'poke', u'poky', u'pole', u'polk', u'poll', u'polo', u'polt', u'poly', u'pome', u'pomp', u'pond', u'pone', u'pong', u'pont', u'pony', u'pooa', u'poof', u
+'pooh', u'pook', u'pool', u'poon', u'poop', u'poor', u'poot', u'pope', u'pore', u'pork', u'porr', u'port', u'pory', u'pose', u'posh', u'poss', u'post', u'posy', u'pote', u'pott', u'pouf', u'pour', u'pout'
+, u'poxy', u'prad', u'pram', u'prat', u'prau', u'pray', u'prep', u'prey', u'prig', u'prim', u'proa', u'prob', u'prod', u'prof', u'prog', u'proo', u'prop', u'prow', u'pruh', u'prut', u'psha', u'puan', u'pu
+ce', u'puck', u'pudu', u'puff', u'pugh', u'puja', u'puka', u'puke', u'puku', u'puky', u'pule', u'puli', u'pulk', u'pull', u'pulp', u'pulu', u'puly', u'puma', u'pump', u'puna', u'pung', u'punk', u'punt', u
+'puny', u'pupa', u'pure', u'purl', u'purr', u'push', u'puss', u'putt', u'puxy', u'pyal', u'pyic', u'pyin', u'pyke', u'pyla', u'pyre', u'pyro', u'page', u'pain', u'part', u'past', u'pipe', u'play', u'poor'
+, u'pull', u'pump', u'push']
+[u'l', '_', '_', '_'] -- [u'lace', u'lack', u'lacy', u'lade', u'lady', u'laet', u'laic', u'laid', u'lain', u'lair', u'lake', u'laky', u'lall', u'lalo', u'lama', u'lamb', u'lame', u'lamp', u'land', u'lane'
+, u'lank', u'lant', u'lanx', u'lard', u'lari', u'lark', u'lasa', u'lash', u'lask', u'lass', u'last', u'lata', u'late', u'lath', u'laud', u'laun', u'laur', u'lava', u'lave', u'lawk', u'lawn', u'laze', u'la
+zy', u'lead', u'leaf', u'leak', u'leal', u'leam', u'lean', u'leap', u'lear', u'leat', u'lech', u'leck', u'lede', u'leed', u'leek', u'leep', u'leer', u'lees', u'leet', u'left', u'lehr', u'lend', u'lene', u
+'leno', u'lens', u'lent', u'lepa', u'lerp', u'less', u'lest', u'lete', u'leud', u'leuk', u'levo', u'levy', u'lewd', u'liar', u'lich', u'lick', u'lied', u'lief', u'lien', u'lier', u'lieu', u'life', u'lifo'
+, u'lift', u'liin', u'lija', u'like', u'lile', u'lill', u'lilt', u'lily', u'limb', u'lime', u'limn', u'limp', u'limu', u'limy', u'lina', u'line', u'ling', u'link', u'linn', u'lino', u'lint', u'liny', u'li
+on', u'lipa', u'lira', u'lire', u'lish', u'lisk', u'lisp', u'liss', u'list', u'lite', u'lith', u'litz', u'live', u'llyn', u'load', u'loaf', u'loam', u'loan', u'lobe', u'lobo', u'loca', u'loch', u'loci', u
+'lock', u'loco', u'lode', u'loft', u'loge', u'logy', u'loin', u'loir', u'loka', u'loke', u'loll', u'loma', u'lone', u'long', u'lood', u'loof', u'look', u'loom', u'loon', u'loop', u'loot', u'lope', u'lora'
+, u'lord', u'lore', u'lori', u'lorn', u'loro', u'lors', u'lory', u'lose', u'losh', u'loss', u'lost', u'lota', u'lote', u'lots', u'loud', u'louk', u'loup', u'lour', u'lout', u'love', u'lowa', u'lown', u'lo
+wy', u'lube', u'luce', u'luck', u'lucy', u'ludo', u'lues', u'luff', u'luge', u'luke', u'lull', u'lulu', u'lump', u'luna', u'lune', u'lung', u'lunn', u'lunt', u'lupe', u'lura', u'lure', u'lurg', u'lurk', u
+'lush', u'lusk', u'lust', u'lute', u'luxe', u'lyam', u'lynx', u'lyra', u'lyre', u'lyse', u'land', u'last', u'late', u'lead', u'leaf', u'left', u'lift', u'like', u'line', u'list', u'lock', u'long', u'look'
+, u'loss', u'loud', u'love']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+[u'w', '_', '_', '_'] -- [u'waag', u'waar', u'wabe', u'wace', u'wack', u'wade', u'wadi', u'waeg', u'waer', u'waff', u'waft', u'wage', u'waif', u'waik', u'wail', u'wain', u'wait', u'waka', u'wake', u'wakf'
+, u'waky', u'wale', u'wali', u'walk', u'wall', u'walt', u'wame', u'wamp', u'wand', u'wane', u'wang', u'want', u'wany', u'wapp', u'ward', u'ware', u'warf', u'wark', u'warl', u'warm', u'warn', u'warp', u'wa
+rt', u'wary', u'wase', u'wash', u'wasp', u'wast', u'wath', u'watt', u'wauf', u'waul', u'waup', u'waur', u'wave', u'wavy', u'wawa', u'waxy', u'ways', u'weak', u'weal', u'weam', u'wean', u'wear', u'wede', u
+'weed', u'week', u'weel', u'ween', u'weep', u'weet', u'weft', u'weir', u'weka', u'weki', u'weld', u'welk', u'well', u'wels', u'welt', u'wend', u'wene', u'went', u'wept', u'were', u'werf', u'weri', u'wert'
+, u'wese', u'west', u'weta', u'weve', u'wham', u'whan', u'whap', u'whar', u'what', u'whau', u'whee', u'when', u'whet', u'whew', u'whey', u'whid', u'whig', u'whim', u'whin', u'whip', u'whir', u'whit', u'wh
+iz', u'whoa', u'whom', u'whoo', u'whop', u'whud', u'whun', u'whup', u'whuz', u'whyo', u'wice', u'wick', u'wide', u'widu', u'wife', u'wild', u'wile', u'wilk', u'will', u'wilt', u'wily', u'wime', u'wind', u
+'wine', u'wing', u'wink', u'wint', u'winy', u'wipe', u'wips', u'wird', u'wire', u'wirl', u'wirr', u'wiry', u'wise', u'wish', u'wisp', u'wiss', u'wist', u'wite', u'with', u'wive', u'woad', u'woak', u'woan'
+, u'wode', u'woft', u'woke', u'wold', u'wolf', u'womb', u'wone', u'wong', u'wont', u'wood', u'woof', u'wool', u'woom', u'woon', u'wops', u'word', u'wore', u'work', u'worm', u'worn', u'wort', u'wote', u'wo
+ts', u'wouf', u'wove', u'wowt', u'wran', u'wrap', u'wraw', u'wren', u'wrig', u'writ', u'wrox', u'wudu', u'wugg', u'wulk', u'wull', u'wush', u'wusp', u'wuss', u'wust', u'wuzu', u'wyde', u'wyke', u'wyle', u
+'wynd', u'wyne', u'wynn', u'wype', u'wyss', u'wyve', u'walk', u'wall', u'warm', u'wash', u'wave', u'week', u'well', u'west', u'when', u'whip', u'wide', u'will', u'wind', u'wine', u'wing', u'wire', u'wise'
+, u'with', u'wood', u'wool', u'word', u'work', u'worm']
+
+
+    p   l   o   w
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'pulk')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', '_', '_', '_'] -- [u'uang', u'udal', u'ugly', u'uily', u'ulex', u'ulla', u'ulmo', u'ulna', u'ulua', u'umbo', u'umph', u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy'
+, u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'upas', u'updo', u'upgo', u'upla', u'upon', u'ural', u'uran', u'urao', u'urde', u'urea', u'urge', u'uric', u'urna', u'urus', u'urva', u'usar', u'us
+ed', u'usee', u'user', u'utai', u'utas', u'utch', u'utum', u'uval', u'uvea', u'uvic', u'uvid', u'uzan', u'unit']
+[u'l', '_', '_', '_'] -- [u'lace', u'lack', u'lacy', u'lade', u'lady', u'laet', u'laic', u'laid', u'lain', u'lair', u'lake', u'laky', u'lall', u'lalo', u'lama', u'lamb', u'lame', u'lamp', u'land', u'lane'
+, u'lank', u'lant', u'lanx', u'lard', u'lari', u'lark', u'lasa', u'lash', u'lask', u'lass', u'last', u'lata', u'late', u'lath', u'laud', u'laun', u'laur', u'lava', u'lave', u'lawk', u'lawn', u'laze', u'la
+zy', u'lead', u'leaf', u'leak', u'leal', u'leam', u'lean', u'leap', u'lear', u'leat', u'lech', u'leck', u'lede', u'leed', u'leek', u'leep', u'leer', u'lees', u'leet', u'left', u'lehr', u'lend', u'lene', u
+'leno', u'lens', u'lent', u'lepa', u'lerp', u'less', u'lest', u'lete', u'leud', u'leuk', u'levo', u'levy', u'lewd', u'liar', u'lich', u'lick', u'lied', u'lief', u'lien', u'lier', u'lieu', u'life', u'lifo'
+, u'lift', u'liin', u'lija', u'like', u'lile', u'lill', u'lilt', u'lily', u'limb', u'lime', u'limn', u'limp', u'limu', u'limy', u'lina', u'line', u'ling', u'link', u'linn', u'lino', u'lint', u'liny', u'li
+on', u'lipa', u'lira', u'lire', u'lish', u'lisk', u'lisp', u'liss', u'list', u'lite', u'lith', u'litz', u'live', u'llyn', u'load', u'loaf', u'loam', u'loan', u'lobe', u'lobo', u'loca', u'loch', u'loci', u
+'lock', u'loco', u'lode', u'loft', u'loge', u'logy', u'loin', u'loir', u'loka', u'loke', u'loll', u'loma', u'lone', u'long', u'lood', u'loof', u'look', u'loom', u'loon', u'loop', u'loot', u'lope', u'lora'
+, u'lord', u'lore', u'lori', u'lorn', u'loro', u'lors', u'lory', u'lose', u'losh', u'loss', u'lost', u'lota', u'lote', u'lots', u'loud', u'louk', u'loup', u'lour', u'lout', u'love', u'lowa', u'lown', u'lo
+wy', u'lube', u'luce', u'luck', u'lucy', u'ludo', u'lues', u'luff', u'luge', u'luke', u'lull', u'lulu', u'lump', u'luna', u'lune', u'lung', u'lunn', u'lunt', u'lupe', u'lura', u'lure', u'lurg', u'lurk', u
+'lush', u'lusk', u'lust', u'lute', u'luxe', u'lyam', u'lynx', u'lyra', u'lyre', u'lyse', u'land', u'last', u'late', u'lead', u'leaf', u'left', u'lift', u'like', u'line', u'list', u'lock', u'long', u'look'
+, u'loss', u'loud', u'love']
+[u'k', '_', '_', '_'] -- [u'kago', u'kagu', u'kaha', u'kahu', u'kaid', u'kaik', u'kail', u'kaka', u'kaki', u'kala', u'kale', u'kali', u'kalo', u'kame', u'kana', u'kang', u'kans', u'kapa', u'kapp', u'karo'
+, u'kasa', u'kasm', u'kath', u'kava', u'kayo', u'kazi', u'keck', u'keek', u'keel', u'keen', u'keep', u'keet', u'keld', u'kele', u'kelk', u'kell', u'kelp', u'kelt', u'kemb', u'kemp', u'kend', u'keno', u'ke
+nt', u'kepi', u'kept', u'kerf', u'kern', u'keta', u'keto', u'keup', u'kexy', u'khan', u'khar', u'khat', u'khet', u'khir', u'khot', u'kibe', u'kiby', u'kick', u'kiel', u'kier', u'kike', u'kiki', u'kiku', u
+'kill', u'kiln', u'kilo', u'kilp', u'kilt', u'kina', u'kind', u'king', u'kink', u'kino', u'kipe', u'kiri', u'kirk', u'kirn', u'kish', u'kiss', u'kist', u'kite', u'kith', u'kiva', u'kivu', u'kiwi', u'kiyi'
+, u'klam', u'klip', u'klom', u'klop', u'kmet', u'knab', u'knag', u'knap', u'knar', u'knee', u'knet', u'knew', u'knez', u'knit', u'knob', u'knop', u'knot', u'know', u'knub', u'knur', u'knut', u'koae', u'ko
+bi', u'kobu', u'koda', u'koel', u'koff', u'koft', u'kohl', u'koil', u'koko', u'koku', u'kola', u'kolo', u'kona', u'koph', u'kopi', u'kora', u'kore', u'kori', u'koto', u'kozo', u'kral', u'kran', u'kras', u
+'kuan', u'kuba', u'kudu', u'kuei', u'kuge', u'kuku', u'kula', u'kulm', u'kung', u'kunk', u'kusa', u'kwan', u'kyah', u'kyar', u'kyat', u'kyle', u'kyte', u'keep', u'kick', u'kind', u'kiss', u'knee', u'knot'
+]
+
+
+    p   l   o   w
+
+    u   _   _   _
+
+    l   _   _   _
+
+    k   _   _   _
+
+('checking word:', u'unio')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'urde')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'unca')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'utum')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u't', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lt__
+('checking word:', u'urge')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'usar')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ls__
+('checking word:', u'urea')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'unit')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'utch')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u't', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lt__
+('checking word:', u'urva')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'urao')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'urna')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'unto')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'user')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ls__
+('checking word:', u'unci')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'untz')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'upon')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'p', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lp__
+('checking word:', u'uric')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'unco')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'uily')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', '_', '_'] -- [u'liar', u'lich', u'lick', u'lied', u'lief', u'lien', u'lier', u'lieu', u'life', u'lifo', u'lift', u'liin', u'lija', u'like', u'lile', u'lill', u'lilt', u'lily', u'limb', u'lime
+', u'limn', u'limp', u'limu', u'limy', u'lina', u'line', u'ling', u'link', u'linn', u'lino', u'lint', u'liny', u'lion', u'lipa', u'lira', u'lire', u'lish', u'lisk', u'lisp', u'liss', u'list', u'lite', u'l
+ith', u'litz', u'live', u'lift', u'like', u'line', u'list']
+[u'o', u'l', '_', '_'] -- [u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe']
+[u'w', u'y', '_', '_'] -- [u'wyde', u'wyke', u'wyle', u'wynd', u'wyne', u'wynn', u'wype', u'wyss', u'wyve']
+
+
+    p   l   o   w
+
+    u   i   l   y
+
+    l   _   _   _
+
+    k   _   _   _
+
+('checking word:', u'lisp')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ls__
+('checking word:', u'lire')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lr__
+('checking word:', u'lief')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'e', '_', '_'] -- [u'lead', u'leaf', u'leak', u'leal', u'leam', u'lean', u'leap', u'lear', u'leat', u'lech', u'leck', u'lede', u'leed', u'leek', u'leep', u'leer', u'lees', u'leet', u'left', u'lehr
+', u'lend', u'lene', u'leno', u'lens', u'lent', u'lepa', u'lerp', u'less', u'lest', u'lete', u'leud', u'leuk', u'levo', u'levy', u'lewd', u'lead', u'leaf', u'left']
+[u'k', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: kf__
+('checking word:', u'lime')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'm', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lm__
+('checking word:', u'lift')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lf__
+('checking word:', u'lino')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'list')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ls__
+('checking word:', u'lifo')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lf__
+('checking word:', u'lisk')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ls__
+('checking word:', u'liny')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'n', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ln__
+('checking word:', u'lite')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u't', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lt__
+('checking word:', u'like')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'k', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lk__
+('checking word:', u'life')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: lf__
+('checking word:', u'liar')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'a', '_', '_'] -- [u'lace', u'lack', u'lacy', u'lade', u'lady', u'laet', u'laic', u'laid', u'lain', u'lair', u'lake', u'laky', u'lall', u'lalo', u'lama', u'lamb', u'lame', u'lamp', u'land', u'lane
+', u'lank', u'lant', u'lanx', u'lard', u'lari', u'lark', u'lasa', u'lash', u'lask', u'lass', u'last', u'lata', u'late', u'lath', u'laud', u'laun', u'laur', u'lava', u'lave', u'lawk', u'lawn', u'laze', u'l
+azy', u'land', u'last', u'late']
+[u'k', u'r', '_', '_'] -- [u'kral', u'kran', u'kras']
+
+
+    p   l   o   w
+
+    u   i   l   y
+
+    l   a   _   _
+
+    k   r   _   _
+
+('checking word:', u'lade')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: old_
+('checking word:', u'lawk')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'w', '_'] -- []
+Whoops, at least one word isn't valid or has no options: olw_
+('checking word:', u'lari')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'r', '_'] -- []
+Whoops, at least one word isn't valid or has no options: olr_
+('checking word:', u'lank')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oln_
+('checking word:', u'lava')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'v', '_'] -- []
+Whoops, at least one word isn't valid or has no options: olv_
+('checking word:', u'lamp')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: olm_
+('checking word:', u'laic')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'i', '_'] -- [u'olid', u'olio']
+[u'w', u'y', u'c', '_'] -- []
+Whoops, at least one word isn't valid or has no options: wyc_
+('checking word:', u'lame')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: olm_
+('checking word:', u'laet')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'e', '_'] -- [u'oleo']
+[u'w', u'y', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: wyt_
+('checking word:', u'laid')
+[u'p', u'u', u'l', u'k'] -- [u'pulk']
+[u'l', u'i', u'a', u'r'] -- [u'liar']
+[u'o', u'l', u'i', '_'] -- [u'olid', u'olio']
+[u'w', u'y', u'd', '_'] -- [u'wyde']
+
+
+    p   l   o   w
+
+    u   i   l   y
+
+    l   a   i   d
+
+    k   r   _   _
+
+('checking word:', u'olid')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'a', u'i', u'd'] -- [u'laid']
+[u'k', u'r', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: krd_
+('checking word:', u'olio')
+[u'p', u'l', u'o', u'w'] -- [u'plow']
+[u'u', u'i', u'l', u'y'] -- [u'uily']
+[u'l', u'a', u'i', u'd'] -- [u'laid']
+[u'k', u'r', u'o', '_'] -- []
+Whoops, at least one word isn't valid or has no options: kro_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'sion')
+[u's', '_', '_', '_'] -- [u'sabe', u'sack', u'saco', u'sade', u'sadh', u'sado', u'sadr', u'safe', u'saft', u'saga', u'sage', u'sago', u'sagy', u'sahh', u'saic', u'said', u'sail', u'saim', u'sain', u'saip'
+, u'sair', u'sake', u'saki', u'sale', u'salp', u'salt', u'same', u'samh', u'samp', u'sand', u'sane', u'sang', u'sank', u'sans', u'sant', u'sapa', u'sapo', u'sard', u'sare', u'sari', u'sark', u'sart', u'sa
+sa', u'sash', u'sate', u'sauf', u'saum', u'saur', u'saut', u'save', u'sawn', u'sawt', u'saya', u'scab', u'scad', u'scam', u'scan', u'scap', u'scar', u'scat', u'scaw', u'scho', u'scob', u'scog', u'scot', u
+'scow', u'scry', u'scud', u'scug', u'scum', u'scun', u'scup', u'scur', u'scut', u'scye', u'scyt', u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek'
+, u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'se
+ss', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'shab', u'shad', u'shag', u'shah', u'sham', u'shan', u'shap', u'shat', u'shaw', u'shay', u'shea', u'shed', u'shee', u'sher', u'shih', u'shim', u
+'shin', u'ship', u'shiv', u'shod', u'shoe', u'shog', u'shoo', u'shop', u'shoq', u'shor', u'shot', u'shou', u'show', u'shug', u'shul', u'shun', u'shut', u'siak', u'sial', u'sice', u'sick', u'side', u'sidi'
+, u'sidy', u'sier', u'sife', u'sift', u'sigh', u'sign', u'sika', u'sike', u'sile', u'silk', u'sill', u'silo', u'silt', u'sima', u'sime', u'simp', u'sina', u'sind', u'sine', u'sing', u'sinh', u'sink', u'si
+ol', u'sion', u'sipe', u'sire', u'sise', u'sish', u'sisi', u'siss', u'sist', u'site', u'sith', u'siva', u'size', u'sizy', u'sizz', u'skag', u'skal', u'skat', u'skaw', u'skee', u'skeg', u'skel', u'sken', u
+'skeo', u'skep', u'sker', u'skew', u'skey', u'skid', u'skil', u'skim', u'skin', u'skip', u'skit', u'skiv', u'skoo', u'skua', u'skun', u'slab', u'slad', u'slae', u'slag', u'slam', u'slap', u'slat', u'slaw'
+, u'slay', u'sled', u'slee', u'slew', u'sley', u'slid', u'slim', u'slip', u'slit', u'slob', u'slod', u'sloe', u'slog', u'slon', u'sloo', u'slop', u'slot', u'slow', u'slub', u'slud', u'slue', u'slug', u'sl
+um', u'slur', u'slut', u'smee', u'smew', u'smit', u'smog', u'smug', u'smur', u'smut', u'snab', u'snag', u'snap', u'snaw', u'sneb', u'sned', u'snee', u'snew', u'snib', u'snig', u'snip', u'snob', u'snod', u
+'snog', u'snop', u'snot', u'snow', u'snub', u'snug', u'snum', u'snup', u'snur', u'soak', u'soam', u'soap', u'soar', u'soce', u'sock', u'soco', u'soda', u'sody', u'sofa', u'soft', u'soho', u'soil', u'soja'
+, u'soka', u'soke', u'sola', u'sold', u'sole', u'soli', u'solo', u'soma', u'some', u'sond', u'song', u'sonk', u'sons', u'sook', u'sool', u'soon', u'soot', u'sope', u'soph', u'sora', u'sorb', u'sore', u'so
+ri', u'sorn', u'sort', u'sory', u'sosh', u'soso', u'soss', u'sots', u'soud', u'soul', u'soum', u'soup', u'sour', u'sowl', u'sown', u'sowt', u'soya', u'spad', u'spae', u'spak', u'span', u'spar', u'spat', u
+'spay', u'spec', u'sped', u'spet', u'spew', u'spex', u'spig', u'spin', u'spit', u'spiv', u'spor', u'spot', u'spry', u'spud', u'spug', u'spun', u'spur', u'sput', u'stab', u'stag', u'stam', u'stap', u'star'
+, u'staw', u'stay', u'steg', u'stem', u'sten', u'step', u'stet', u'stew', u'stey', u'stib', u'stid', u'stim', u'stir', u'stoa', u'stob', u'stod', u'stof', u'stog', u'stop', u'stot', u'stow', u'stra', u'st
+re', u'stub', u'stud', u'stue', u'stug', u'stum', u'stun', u'stut', u'such', u'suck', u'sudd', u'suds', u'suer', u'suet', u'suff', u'sugh', u'sugi', u'suid', u'suit', u'suji', u'suld', u'sulk', u'sull', u
+'sump', u'sune', u'sung', u'sunk', u'sunn', u'sunt', u'supa', u'supe', u'sura', u'surd', u'sure', u'surf', u'susi', u'susu', u'suum', u'suwe', u'swab', u'swad', u'swag', u'swam', u'swan', u'swap', u'swat'
+, u'sway', u'swep', u'swig', u'swim', u'swiz', u'swob', u'swom', u'swot', u'swow', u'swum', u'syce', u'sync', u'syne', u'syre', u'syrt', u'safe', u'sail', u'salt', u'same', u'sand', u'seat', u'seed', u'se
+em', u'self', u'send', u'ship', u'shoe', u'shut', u'side', u'sign', u'silk', u'size', u'skin', u'slip', u'slow', u'snow', u'soap', u'sock', u'soft', u'some', u'song', u'sort', u'soup', u'star', u'stem', u
+'step', u'stop', u'such', u'swim']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+
+
+    s   i   o   n
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'sune')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', '_', '_', '_'] -- [u'uang', u'udal', u'ugly', u'uily', u'ulex', u'ulla', u'ulmo', u'ulna', u'ulua', u'umbo', u'umph', u'unal', u'unau', u'unbe', u'unca', u'unci', u'unco', u'unde', u'undo', u'undy'
+, u'unie', u'unio', u'unit', u'unto', u'untz', u'unze', u'upas', u'updo', u'upgo', u'upla', u'upon', u'ural', u'uran', u'urao', u'urde', u'urea', u'urge', u'uric', u'urna', u'urus', u'urva', u'usar', u'us
+ed', u'usee', u'user', u'utai', u'utas', u'utch', u'utum', u'uval', u'uvea', u'uvic', u'uvid', u'uzan', u'unit']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+
+
+    s   i   o   n
+
+    u   _   _   _
+
+    n   _   _   _
+
+    e   _   _   _
+
+('checking word:', u'unbe')
+[u's', u'u', u'n', u'e'] -- [u'sune']
+[u'i', u'n', '_', '_'] -- [u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into']
+[u'o', u'b', '_', '_'] -- [u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol']
+[u'n', u'e', '_', '_'] -- [u'neal', u'neap', u'neat', u'neck', u'need', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve
+', u'nevo', u'news', u'newt', u'next', u'near', u'neck', u'need', u'news']
+
+
+    s   i   o   n
+
+    u   n   b   e
+
+    n   _   _   _
+
+    e   _   _   _
+
+('checking word:', u'inbe')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'b', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nb__
+('checking word:', u'inby')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'b', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nb__
+('checking word:', u'into')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u't', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nt__
+('checking word:', u'inro')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'r', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nr__
+('checking word:', u'inks')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'k', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nk__
+('checking word:', u'inky')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'k', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nk__
+('checking word:', u'indy')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'd', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nd__
+('checking word:', u'inch')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'c', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nc__
+('checking word:', u'inde')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'd', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nd__
+('checking word:', u'inly')
+[u's', u'i', u'o', u'n'] -- [u'sion']
+[u'u', u'n', u'b', u'e'] -- [u'unbe']
+[u'n', u'l', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: nl__
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'boho')
+[u'b', '_', '_', '_'] -- [u'baal', u'baar', u'baba', u'babe', u'babu', u'baby', u'bach', u'back', u'bade', u'baff', u'baft', u'baga', u'bago', u'baho', u'baht', u'bail', u'bain', u'bait', u'baka', u'bake'
+, u'baku', u'bald', u'bale', u'bali', u'balk', u'ball', u'balm', u'balu', u'banc', u'band', u'bane', u'bang', u'bani', u'bank', u'bant', u'bara', u'barb', u'bard', u'bare', u'bari', u'bark', u'barm', u'ba
+rn', u'baru', u'base', u'bash', u'bask', u'bass', u'bast', u'bate', u'bath', u'bats', u'batt', u'batz', u'baud', u'baul', u'baun', u'bawd', u'bawl', u'bawn', u'baya', u'baze', u'bead', u'beak', u'beal', u
+'beam', u'bean', u'bear', u'beat', u'beau', u'beck', u'beef', u'beek', u'been', u'beer', u'bees', u'beet', u'bego', u'behn', u'bela', u'beld', u'bell', u'belt', u'bely', u'bema', u'bena', u'bend', u'bene'
+, u'beng', u'beni', u'benj', u'benn', u'beno', u'bent', u'bere', u'berg', u'berm', u'besa', u'best', u'beta', u'beth', u'bevy', u'bhat', u'bhoy', u'bhut', u'bias', u'bibb', u'bibi', u'bice', u'bick', u'bi
+de', u'bien', u'bier', u'biff', u'biga', u'bigg', u'bija', u'bike', u'bikh', u'bile', u'bilk', u'bill', u'bilo', u'bind', u'bine', u'bing', u'binh', u'bink', u'bino', u'bint', u'biod', u'bion', u'bios', u
+'bird', u'biri', u'birk', u'birl', u'birn', u'birr', u'bite', u'biti', u'bito', u'bitt', u'biwa', u'bizz', u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee'
+, u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue', u'blup', u'blur', u'boar', u'boat', u'boba', u'bobo', u'boce', u'bock', u'bode', u'body', u'boga', u'bogo', u'bogy', u'bo
+ho', u'boid', u'boil', u'bojo', u'boke', u'bola', u'bold', u'bole', u'bolk', u'boll', u'bolo', u'bolt', u'boma', u'bomb', u'bond', u'bone', u'bong', u'bonk', u'bony', u'boob', u'bood', u'boof', u'book', u
+'bool', u'boom', u'boon', u'boor', u'boot', u'bora', u'bord', u'bore', u'borg', u'borh', u'born', u'boro', u'bort', u'bose', u'bosh', u'bosk', u'bosn', u'boss', u'bota', u'bote', u'both', u'bott', u'boud'
+, u'bouk', u'boun', u'bout', u'bouw', u'bowk', u'bowl', u'boxy', u'boza', u'bozo', u'brab', u'brad', u'brae', u'brag', u'bran', u'brat', u'braw', u'bray', u'bred', u'bree', u'brei', u'bret', u'brew', u'br
+ey', u'brig', u'brim', u'brin', u'brit', u'brob', u'brod', u'brog', u'broo', u'brot', u'brow', u'brut', u'bual', u'buba', u'bubo', u'buck', u'buda', u'buff', u'bufo', u'buhl', u'buhr', u'bukh', u'bulb', u
+'bulk', u'bull', u'bult', u'bump', u'buna', u'bund', u'bung', u'bunk', u'bunt', u'buoy', u'burd', u'bure', u'burg', u'buri', u'burl', u'burn', u'buro', u'burp', u'burr', u'burt', u'bury', u'bush', u'busk'
+, u'buss', u'bust', u'busy', u'butt', u'buzz', u'byee', u'bygo', u'byon', u'byre', u'byth', u'baby', u'back', u'ball', u'band', u'base', u'bath', u'bell', u'bent', u'bird', u'bite', u'blow', u'blue', u'bo
+at', u'body', u'bone', u'book', u'boot', u'bulb', u'burn']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+[u'h', '_', '_', '_'] -- [u'haab', u'haaf', u'habu', u'hack', u'hade', u'hadj', u'haec', u'haem', u'haet', u'haff', u'haft', u'hagi', u'haik', u'hail', u'hain', u'hair', u'haje', u'hake', u'hako', u'haku'
+, u'hala', u'hale', u'half', u'hall', u'halo', u'hals', u'halt', u'hame', u'hami', u'hand', u'hank', u'hant', u'hapu', u'hard', u'hare', u'hark', u'harl', u'harm', u'harn', u'harp', u'harr', u'hart', u'ha
+sh', u'hask', u'hasp', u'hate', u'hath', u'hatt', u'haul', u'have', u'hawk', u'hawm', u'haya', u'hayz', u'haze', u'hazy', u'head', u'heaf', u'heal', u'heap', u'hear', u'heat', u'hech', u'heck', u'heed', u
+'heel', u'heer', u'heft', u'heii', u'heir', u'hele', u'hell', u'helm', u'help', u'heme', u'heml', u'hemp', u'hend', u'hent', u'herb', u'herd', u'here', u'herl', u'hern', u'hero', u'hers', u'hest', u'hevi'
+, u'hewn', u'hewt', u'hexa', u'hick', u'hide', u'high', u'hike', u'hill', u'hilt', u'himp', u'hind', u'hing', u'hint', u'hipe', u'hire', u'hiro', u'hish', u'hisn', u'hiss', u'hist', u'hive', u'hizz', u'ho
+ar', u'hoax', u'hobo', u'hock', u'hoer', u'hoga', u'hoin', u'hoit', u'hoju', u'hold', u'hole', u'holl', u'holm', u'holt', u'holy', u'home', u'homo', u'homy', u'hone', u'hong', u'honk', u'hood', u'hoof', u
+'hook', u'hoon', u'hoop', u'hoot', u'hope', u'hopi', u'hora', u'horn', u'hory', u'hose', u'host', u'hoti', u'hour', u'hove', u'howe', u'howk', u'howl', u'hubb', u'huck', u'hued', u'huer', u'huff', u'huge'
+, u'huia', u'huke', u'hula', u'hulk', u'hull', u'hulu', u'hump', u'hung', u'hunh', u'hunk', u'hunt', u'hura', u'hure', u'hurl', u'hurr', u'hurt', u'huse', u'hush', u'husk', u'huso', u'huss', u'huzz', u'hy
+ke', u'hyle', u'hymn', u'hyne', u'hypo', u'hair', u'hand', u'hard', u'hate', u'have', u'head', u'heat', u'help', u'here', u'high', u'hole', u'hook', u'hope', u'horn', u'hour']
+[u'o', '_', '_', '_'] -- [u'oaky', u'oary', u'oast', u'oath', u'oaty', u'oban', u'obex', u'obey', u'obit', u'oboe', u'obol', u'ocht', u'odal', u'odds', u'odel', u'odic', u'odor', u'odso', u'odum', u'odyl'
+, u'ogam', u'ogee', u'ogle', u'ogre', u'ogum', u'ohia', u'ohoy', u'oily', u'oime', u'oint', u'okee', u'oket', u'okia', u'okra', u'olam', u'oleo', u'olid', u'olio', u'olla', u'olpe', u'omao', u'omen', u'om
+er', u'omit', u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'oofy', u'ooid', u'oons', u'oont', u'oord', u'ooze', u'oozy', u'opah', u'opal', u'open', u'opsy', u
+'opus', u'orad', u'oral', u'orby', u'ordu', u'orgy', u'orle', u'orlo', u'orna', u'osse', u'otic', u'otto', u'ouch', u'ough', u'ours', u'oust', u'oval', u'oven', u'over', u'ovey', u'ovum', u'ower', u'owly'
+, u'owse', u'oxan', u'oxea', u'oxen', u'oxer', u'oxyl', u'oyer', u'only', u'open', u'oven', u'over']
+
+
+    b   o   h   o
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'bint')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', '_', '_', '_'] -- [u'iamb', u'ibex', u'ibid', u'ibis', u'iced', u'icho', u'ichu', u'icon', u'idea', u'ides', u'idic', u'idle', u'idly', u'idol', u'idyl', u'iffy', u'iiwi', u'ijma', u'ikat', u'ikey'
+, u'ikra', u'ilex', u'ilia', u'ilka', u'illy', u'ilot', u'imam', u'imbe', u'immi', u'impi', u'impy', u'inbe', u'inby', u'inch', u'inde', u'indy', u'inks', u'inky', u'inly', u'inro', u'into', u'iodo', u'io
+ta', u'ipid', u'ipil', u'irid', u'iris', u'irok', u'iron', u'isba', u'isle', u'ismy', u'itch', u'item', u'iter', u'itmo', u'ivin', u'iwis', u'izar', u'izle', u'idea', u'iron']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u't', '_', '_', '_'] -- [u'taar', u'tabu', u'tach', u'tack', u'tact', u'tade', u'tael', u'taen', u'taft', u'taha', u'tahr', u'tail', u'tain', u'tait', u'take', u'takt', u'taky', u'tala', u'talc', u'tald'
+, u'tale', u'tali', u'talk', u'tall', u'tame', u'tamp', u'tana', u'tane', u'tang', u'tanh', u'tank', u'tapa', u'tape', u'taps', u'tapu', u'tara', u'tare', u'tari', u'tarn', u'taro', u'tarp', u'tarr', u'ta
+rs', u'tart', u'tash', u'task', u'tass', u'tasu', u'tate', u'tath', u'tatu', u'taum', u'taun', u'taur', u'taut', u'tave', u'tawa', u'tawn', u'taws', u'taxi', u'taxy', u'tche', u'tchu', u'tead', u'teak', u
+'teal', u'team', u'tean', u'teap', u'tear', u'teat', u'teca', u'tech', u'teck', u'teel', u'teem', u'teen', u'teer', u'teet', u'teff', u'teil', u'teju', u'tele', u'teli', u'tell', u'telt', u'temp', u'tend'
+, u'teng', u'tent', u'tera', u'term', u'tern', u'terp', u'test', u'tete', u'teth', u'teuk', u'text', u'than', u'thar', u'that', u'thaw', u'theb', u'thee', u'them', u'then', u'thew', u'they', u'thig', u'th
+in', u'thio', u'thir', u'this', u'thob', u'thof', u'thon', u'thoo', u'thou', u'thow', u'thro', u'thud', u'thug', u'thus', u'tiao', u'tiar', u'tice', u'tick', u'tide', u'tidy', u'tied', u'tien', u'tier', u
+'tiff', u'tift', u'tige', u'tile', u'till', u'tilt', u'time', u'tind', u'tine', u'ting', u'tink', u'tint', u'tiny', u'tipe', u'tire', u'tirl', u'tirr', u'tite', u'titi', u'tivy', u'tiza', u'toad', u'toat'
+, u'tobe', u'toby', u'tock', u'toco', u'tode', u'tody', u'toed', u'toff', u'toft', u'tofu', u'toga', u'togs', u'togt', u'toho', u'toil', u'toit', u'toke', u'toko', u'told', u'tole', u'toll', u'tolt', u'to
+lu', u'tomb', u'tome', u'tone', u'tong', u'tonk', u'tony', u'took', u'tool', u'toom', u'toon', u'toop', u'toot', u'tope', u'toph', u'topi', u'topo', u'tops', u'tora', u'torc', u'tore', u'torn', u'toro', u
+'tort', u'toru', u'tory', u'tosh', u'toss', u'tost', u'tosy', u'tote', u'toto', u'toty', u'toug', u'toup', u'tour', u'tout', u'towd', u'town', u'towy', u'toxa', u'toze', u'trag', u'trah', u'tram', u'trap'
+, u'tray', u'tree', u'tref', u'trek', u'tret', u'trey', u'trig', u'trim', u'trin', u'trio', u'trip', u'trod', u'trog', u'tron', u'trot', u'trow', u'troy', u'trub', u'true', u'trug', u'trun', u'tryp', u'tr
+yt', u'tsar', u'tsia', u'tsun', u'tuan', u'tuba', u'tube', u'tuck', u'tufa', u'tuff', u'tuft', u'tuik', u'tuke', u'tula', u'tule', u'tume', u'tump', u'tuna', u'tund', u'tune', u'tung', u'tunk', u'tuno', u
+'tunu', u'tuny', u'turb', u'turd', u'turf', u'turk', u'turm', u'turn', u'turp', u'turr', u'tush', u'tusk', u'tute', u'tuth', u'tuts', u'tutu', u'tuwi', u'tuza', u'twae', u'twal', u'twas', u'twat', u'tway'
+, u'twee', u'twig', u'twin', u'twit', u'tyee', u'tyke', u'tymp', u'tynd', u'type', u'typo', u'typp', u'typy', u'tyre', u'tyro', u'tail', u'take', u'talk', u'tall', u'test', u'than', u'that', u'then', u'th
+in', u'this', u'till', u'time', u'town', u'tray', u'tree', u'true', u'turn']
+
+
+    b   o   h   o
+
+    i   _   _   _
+
+    n   _   _   _
+
+    t   _   _   _
+
+('checking word:', u'iffy')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'f', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: of__
+('checking word:', u'inch')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'n', '_', '_'] -- [u'onca', u'once', u'ondy', u'oner', u'only', u'onto', u'onus', u'onym', u'onyx', u'onza', u'only']
+[u'h', u'c', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hc__
+('checking word:', u'iwis')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', '_', '_'] -- [u'ower', u'owly', u'owse']
+[u'h', u'i', '_', '_'] -- [u'hick', u'hide', u'high', u'hike', u'hill', u'hilt', u'himp', u'hind', u'hing', u'hint', u'hipe', u'hire', u'hiro', u'hish', u'hisn', u'hiss', u'hist', u'hive', u'hizz', u'high
+']
+[u'o', u's', '_', '_'] -- [u'osse']
+
+
+    b   o   h   o
+
+    i   w   i   s
+
+    n   _   _   _
+
+    t   _   _   _
+
+('checking word:', u'owse')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u's', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ns__
+('checking word:', u'ower')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u'e', '_', '_'] -- [u'neal', u'neap', u'neat', u'neck', u'need', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve
+', u'nevo', u'news', u'newt', u'next', u'near', u'neck', u'need', u'news']
+[u't', u'r', '_', '_'] -- [u'trag', u'trah', u'tram', u'trap', u'tray', u'tree', u'tref', u'trek', u'tret', u'trey', u'trig', u'trim', u'trin', u'trio', u'trip', u'trod', u'trog', u'tron', u'trot', u'trow
+', u'troy', u'trub', u'true', u'trug', u'trun', u'tryp', u'tryt', u'tray', u'tree', u'true']
+
+
+    b   o   h   o
+
+    i   w   i   s
+
+    n   e   _   _
+
+    t   r   _   _
+
+('checking word:', u'neon')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'o', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hio_
+('checking word:', u'neck')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'c', '_'] -- [u'hick']
+[u'o', u's', u'k', '_'] -- []
+Whoops, at least one word isn't valid or has no options: osk_
+('checking word:', u'neve')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'v', '_'] -- [u'hive']
+[u'o', u's', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ose_
+('checking word:', u'news')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'w', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hiw_
+('checking word:', u'neap')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'a', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hia_
+('checking word:', u'nesh')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u's', '_'] -- [u'hish', u'hisn', u'hiss', u'hist']
+[u'o', u's', u'h', '_'] -- []
+Whoops, at least one word isn't valid or has no options: osh_
+('checking word:', u'nevo')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'v', '_'] -- [u'hive']
+[u'o', u's', u'o', '_'] -- []
+Whoops, at least one word isn't valid or has no options: oso_
+('checking word:', u'nese')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u's', '_'] -- [u'hish', u'hisn', u'hiss', u'hist']
+[u'o', u's', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: ose_
+('checking word:', u'need')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u'e', '_'] -- []
+Whoops, at least one word isn't valid or has no options: hie_
+('checking word:', u'ness')
+[u'b', u'i', u'n', u't'] -- [u'bint']
+[u'o', u'w', u'e', u'r'] -- [u'ower']
+[u'h', u'i', u's', '_'] -- [u'hish', u'hisn', u'hiss', u'hist']
+[u'o', u's', u's', '_'] -- [u'osse']
+
+
+    b   o   h   o
+
+    i   w   i   s
+
+    n   e   s   s
+
+    t   r   _   _
+
+('checking word:', u'hish')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u'e', u's', u's'] -- [u'ness']
+[u't', u'r', u'h', '_'] -- []
+Whoops, at least one word isn't valid or has no options: trh_
+('checking word:', u'hist')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u'e', u's', u's'] -- [u'ness']
+[u't', u'r', u't', '_'] -- []
+Whoops, at least one word isn't valid or has no options: trt_
+('checking word:', u'hiss')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u'e', u's', u's'] -- [u'ness']
+[u't', u'r', u's', '_'] -- []
+Whoops, at least one word isn't valid or has no options: trs_
+('checking word:', u'hisn')
+[u'b', u'o', u'h', u'o'] -- [u'boho']
+[u'i', u'w', u'i', u's'] -- [u'iwis']
+[u'n', u'e', u's', u's'] -- [u'ness']
+[u't', u'r', u'n', '_'] -- []
+Whoops, at least one word isn't valid or has no options: trn_
+Grid failed. Moving on.
+
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'anes')
+[u'a', '_', '_', '_'] -- [u'abac', u'abas', u'abed', u'abet', u'abey', u'abir', u'able', u'ably', u'abox', u'abut', u'acca', u'ache', u'achy', u'acid', u'acle', u'acme', u'acne', u'acor', u'acre', u'acta'
+, u'actu', u'acyl', u'adad', u'adat', u'adaw', u'aday', u'adda', u'adet', u'adit', u'admi', u'adry', u'adze', u'aeon', u'aero', u'aery', u'afar', u'affa', u'affy', u'agal', u'agar', u'aged', u'agee', u'ag
+en', u'ager', u'agha', u'agio', u'agla', u'agog', u'agon', u'agre', u'agua', u'ague', u'ahem', u'ahey', u'ahoy', u'ahum', u'aide', u'aiel', u'aile', u'aint', u'aion', u'aire', u'airt', u'airy', u'ajar', u
+'ajog', u'akee', u'akey', u'akia', u'akin', u'akov', u'akra', u'alan', u'alar', u'alas', u'alba', u'albe', u'alco', u'alec', u'alee', u'alef', u'alem', u'alen', u'alfa', u'alga', u'alif', u'alin', u'alit'
+, u'alky', u'ally', u'alma', u'alme', u'alms', u'alod', u'aloe', u'alop', u'alow', u'also', u'alto', u'alum', u'amah', u'amar', u'amba', u'ambo', u'amen', u'amic', u'amid', u'amil', u'amin', u'amir', u'am
+la', u'amli', u'amma', u'ammo', u'ammu', u'amok', u'amor', u'amra', u'amyl', u'anal', u'anam', u'anan', u'anay', u'anba', u'anda', u'anes', u'anew', u'ango', u'anil', u'anis', u'ankh', u'anna', u'anoa', u
+'anon', u'ansa', u'ansu', u'anta', u'ante', u'anti', u'antu', u'anus', u'apar', u'aper', u'apex', u'apii', u'apio', u'apod', u'apse', u'aqua', u'aquo', u'arad', u'arar', u'arba', u'arca', u'arch', u'ardu'
+, u'area', u'ared', u'argo', u'aria', u'arid', u'aril', u'arms', u'army', u'arna', u'arni', u'arow', u'arse', u'arty', u'arui', u'aryl', u'asak', u'asci', u'asem', u'ashy', u'asok', u'asop', u'asor', u'as
+se', u'assi', u'asta', u'atap', u'atef', u'ates', u'atip', u'atis', u'atle', u'atma', u'atmo', u'atom', u'atop', u'atry', u'atta', u'atwo', u'aube', u'auca', u'auge', u'augh', u'aula', u'auld', u'aulu', u
+'aune', u'aunt', u'aura', u'ausu', u'aute', u'auto', u'aval', u'aver', u'avid', u'avow', u'awag', u'awat', u'away', u'awee', u'awfu', u'awin', u'awny', u'awry', u'axal', u'axed', u'axes', u'axil', u'axis'
+, u'axle', u'axon', u'ayah', u'ayin', u'azon', u'azox', u'able', u'acid', u'arch', u'army']
+[u'n', '_', '_', '_'] -- [u'naam', u'nabk', u'nabs', u'nace', u'nach', u'nael', u'naga', u'naid', u'naif', u'naig', u'naik', u'nail', u'nain', u'naio', u'nais', u'nake', u'nako', u'name', u'nana', u'nane'
+, u'nant', u'naos', u'napa', u'nape', u'napu', u'nard', u'nark', u'narr', u'nary', u'nash', u'nasi', u'nast', u'natr', u'naut', u'nave', u'navy', u'nawt', u'naze', u'neal', u'neap', u'neat', u'neck', u'ne
+ed', u'neem', u'neep', u'neer', u'neet', u'neif', u'nema', u'neon', u'nese', u'nesh', u'ness', u'nest', u'nete', u'neth', u'neti', u'neve', u'nevo', u'news', u'newt', u'next', u'ngai', u'nibs', u'nice', u
+'nick', u'nide', u'nidi', u'nife', u'nigh', u'nimb', u'nine', u'niog', u'nipa', u'nito', u'nizy', u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none'
+, u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nude', u'nuke', u'null', u'numb', u'nail', u'name', u'ne
+ar', u'neck', u'need', u'news', u'nose', u'note']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+[u's', '_', '_', '_'] -- [u'sabe', u'sack', u'saco', u'sade', u'sadh', u'sado', u'sadr', u'safe', u'saft', u'saga', u'sage', u'sago', u'sagy', u'sahh', u'saic', u'said', u'sail', u'saim', u'sain', u'saip'
+, u'sair', u'sake', u'saki', u'sale', u'salp', u'salt', u'same', u'samh', u'samp', u'sand', u'sane', u'sang', u'sank', u'sans', u'sant', u'sapa', u'sapo', u'sard', u'sare', u'sari', u'sark', u'sart', u'sa
+sa', u'sash', u'sate', u'sauf', u'saum', u'saur', u'saut', u'save', u'sawn', u'sawt', u'saya', u'scab', u'scad', u'scam', u'scan', u'scap', u'scar', u'scat', u'scaw', u'scho', u'scob', u'scog', u'scot', u
+'scow', u'scry', u'scud', u'scug', u'scum', u'scun', u'scup', u'scur', u'scut', u'scye', u'scyt', u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek'
+, u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'se
+ss', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'shab', u'shad', u'shag', u'shah', u'sham', u'shan', u'shap', u'shat', u'shaw', u'shay', u'shea', u'shed', u'shee', u'sher', u'shih', u'shim', u
+'shin', u'ship', u'shiv', u'shod', u'shoe', u'shog', u'shoo', u'shop', u'shoq', u'shor', u'shot', u'shou', u'show', u'shug', u'shul', u'shun', u'shut', u'siak', u'sial', u'sice', u'sick', u'side', u'sidi'
+, u'sidy', u'sier', u'sife', u'sift', u'sigh', u'sign', u'sika', u'sike', u'sile', u'silk', u'sill', u'silo', u'silt', u'sima', u'sime', u'simp', u'sina', u'sind', u'sine', u'sing', u'sinh', u'sink', u'si
+ol', u'sion', u'sipe', u'sire', u'sise', u'sish', u'sisi', u'siss', u'sist', u'site', u'sith', u'siva', u'size', u'sizy', u'sizz', u'skag', u'skal', u'skat', u'skaw', u'skee', u'skeg', u'skel', u'sken', u
+'skeo', u'skep', u'sker', u'skew', u'skey', u'skid', u'skil', u'skim', u'skin', u'skip', u'skit', u'skiv', u'skoo', u'skua', u'skun', u'slab', u'slad', u'slae', u'slag', u'slam', u'slap', u'slat', u'slaw'
+, u'slay', u'sled', u'slee', u'slew', u'sley', u'slid', u'slim', u'slip', u'slit', u'slob', u'slod', u'sloe', u'slog', u'slon', u'sloo', u'slop', u'slot', u'slow', u'slub', u'slud', u'slue', u'slug', u'sl
+um', u'slur', u'slut', u'smee', u'smew', u'smit', u'smog', u'smug', u'smur', u'smut', u'snab', u'snag', u'snap', u'snaw', u'sneb', u'sned', u'snee', u'snew', u'snib', u'snig', u'snip', u'snob', u'snod', u
+'snog', u'snop', u'snot', u'snow', u'snub', u'snug', u'snum', u'snup', u'snur', u'soak', u'soam', u'soap', u'soar', u'soce', u'sock', u'soco', u'soda', u'sody', u'sofa', u'soft', u'soho', u'soil', u'soja'
+, u'soka', u'soke', u'sola', u'sold', u'sole', u'soli', u'solo', u'soma', u'some', u'sond', u'song', u'sonk', u'sons', u'sook', u'sool', u'soon', u'soot', u'sope', u'soph', u'sora', u'sorb', u'sore', u'so
+ri', u'sorn', u'sort', u'sory', u'sosh', u'soso', u'soss', u'sots', u'soud', u'soul', u'soum', u'soup', u'sour', u'sowl', u'sown', u'sowt', u'soya', u'spad', u'spae', u'spak', u'span', u'spar', u'spat', u
+'spay', u'spec', u'sped', u'spet', u'spew', u'spex', u'spig', u'spin', u'spit', u'spiv', u'spor', u'spot', u'spry', u'spud', u'spug', u'spun', u'spur', u'sput', u'stab', u'stag', u'stam', u'stap', u'star'
+, u'staw', u'stay', u'steg', u'stem', u'sten', u'step', u'stet', u'stew', u'stey', u'stib', u'stid', u'stim', u'stir', u'stoa', u'stob', u'stod', u'stof', u'stog', u'stop', u'stot', u'stow', u'stra', u'st
+re', u'stub', u'stud', u'stue', u'stug', u'stum', u'stun', u'stut', u'such', u'suck', u'sudd', u'suds', u'suer', u'suet', u'suff', u'sugh', u'sugi', u'suid', u'suit', u'suji', u'suld', u'sulk', u'sull', u
+'sump', u'sune', u'sung', u'sunk', u'sunn', u'sunt', u'supa', u'supe', u'sura', u'surd', u'sure', u'surf', u'susi', u'susu', u'suum', u'suwe', u'swab', u'swad', u'swag', u'swam', u'swan', u'swap', u'swat'
+, u'sway', u'swep', u'swig', u'swim', u'swiz', u'swob', u'swom', u'swot', u'swow', u'swum', u'syce', u'sync', u'syne', u'syre', u'syrt', u'safe', u'sail', u'salt', u'same', u'sand', u'seat', u'seed', u'se
+em', u'self', u'send', u'ship', u'shoe', u'shut', u'side', u'sign', u'silk', u'size', u'skin', u'slip', u'slow', u'snow', u'soap', u'sock', u'soft', u'some', u'song', u'sort', u'soup', u'star', u'stem', u
+'step', u'stop', u'such', u'swim']
+
+
+    a   n   e   s
+
+    _   _   _   _
+
+    _   _   _   _
+
+    _   _   _   _
+
+('checking word:', u'abet')
+[u'a', u'n', u'e', u's'] -- [u'anes']
+[u'b', '_', '_', '_'] -- [u'baal', u'baar', u'baba', u'babe', u'babu', u'baby', u'bach', u'back', u'bade', u'baff', u'baft', u'baga', u'bago', u'baho', u'baht', u'bail', u'bain', u'bait', u'baka', u'bake'
+, u'baku', u'bald', u'bale', u'bali', u'balk', u'ball', u'balm', u'balu', u'banc', u'band', u'bane', u'bang', u'bani', u'bank', u'bant', u'bara', u'barb', u'bard', u'bare', u'bari', u'bark', u'barm', u'ba
+rn', u'baru', u'base', u'bash', u'bask', u'bass', u'bast', u'bate', u'bath', u'bats', u'batt', u'batz', u'baud', u'baul', u'baun', u'bawd', u'bawl', u'bawn', u'baya', u'baze', u'bead', u'beak', u'beal', u
+'beam', u'bean', u'bear', u'beat', u'beau', u'beck', u'beef', u'beek', u'been', u'beer', u'bees', u'beet', u'bego', u'behn', u'bela', u'beld', u'bell', u'belt', u'bely', u'bema', u'bena', u'bend', u'bene'
+, u'beng', u'beni', u'benj', u'benn', u'beno', u'bent', u'bere', u'berg', u'berm', u'besa', u'best', u'beta', u'beth', u'bevy', u'bhat', u'bhoy', u'bhut', u'bias', u'bibb', u'bibi', u'bice', u'bick', u'bi
+de', u'bien', u'bier', u'biff', u'biga', u'bigg', u'bija', u'bike', u'bikh', u'bile', u'bilk', u'bill', u'bilo', u'bind', u'bine', u'bing', u'binh', u'bink', u'bino', u'bint', u'biod', u'bion', u'bios', u
+'bird', u'biri', u'birk', u'birl', u'birn', u'birr', u'bite', u'biti', u'bito', u'bitt', u'biwa', u'bizz', u'blab', u'blad', u'blae', u'blah', u'blan', u'blas', u'blat', u'blaw', u'blay', u'bleb', u'blee'
+, u'bleo', u'blet', u'blip', u'blob', u'bloc', u'blot', u'blow', u'blub', u'blue', u'blup', u'blur', u'boar', u'boat', u'boba', u'bobo', u'boce', u'bock', u'bode', u'body', u'boga', u'bogo', u'bogy', u'bo
+ho', u'boid', u'boil', u'bojo', u'boke', u'bola', u'bold', u'bole', u'bolk', u'boll', u'bolo', u'bolt', u'boma', u'bomb', u'bond', u'bone', u'bong', u'bonk', u'bony', u'boob', u'bood', u'boof', u'book', u
+'bool', u'boom', u'boon', u'boor', u'boot', u'bora', u'bord', u'bore', u'borg', u'borh', u'born', u'boro', u'bort', u'bose', u'bosh', u'bosk', u'bosn', u'boss', u'bota', u'bote', u'both', u'bott', u'boud'
+, u'bouk', u'boun', u'bout', u'bouw', u'bowk', u'bowl', u'boxy', u'boza', u'bozo', u'brab', u'brad', u'brae', u'brag', u'bran', u'brat', u'braw', u'bray', u'bred', u'bree', u'brei', u'bret', u'brew', u'br
+ey', u'brig', u'brim', u'brin', u'brit', u'brob', u'brod', u'brog', u'broo', u'brot', u'brow', u'brut', u'bual', u'buba', u'bubo', u'buck', u'buda', u'buff', u'bufo', u'buhl', u'buhr', u'bukh', u'bulb', u
+'bulk', u'bull', u'bult', u'bump', u'buna', u'bund', u'bung', u'bunk', u'bunt', u'buoy', u'burd', u'bure', u'burg', u'buri', u'burl', u'burn', u'buro', u'burp', u'burr', u'burt', u'bury', u'bush', u'busk'
+, u'buss', u'bust', u'busy', u'butt', u'buzz', u'byee', u'bygo', u'byon', u'byre', u'byth', u'baby', u'back', u'ball', u'band', u'base', u'bath', u'bell', u'bent', u'bird', u'bite', u'blow', u'blue', u'bo
+at', u'body', u'bone', u'book', u'boot', u'bulb', u'burn']
+[u'e', '_', '_', '_'] -- [u'each', u'earl', u'earn', u'ease', u'east', u'easy', u'eats', u'eave', u'eboe', u'ebon', u'ecad', u'eche', u'echo', u'ecru', u'eddo', u'eddy', u'edea', u'edge', u'edgy', u'edit'
+, u'eely', u'egad', u'eggy', u'egma', u'egol', u'eheu', u'ejoo', u'eker', u'ekka', u'elle', u'elmy', u'elod', u'else', u'emir', u'emit', u'emma', u'empt', u'emyd', u'enam', u'enol', u'enow', u'ense', u'en
+vy', u'eoan', u'epee', u'epha', u'epic', u'epos', u'eral', u'eria', u'eric', u'erne', u'eros', u'erth', u'eruc', u'esca', u'esne', u'espy', u'etch', u'etna', u'etua', u'etui', u'etym', u'euge', u'even', u
+'ever', u'evil', u'evoe', u'ewer', u'ewry', u'exam', u'exes', u'exit', u'exon', u'eyah', u'eyas', u'eyed', u'eyen', u'eyer', u'eyey', u'eyne', u'eyot', u'eyra', u'eyre', u'ezba', u'east', u'edge', u'even'
+, u'ever']
+[u't', '_', '_', '_'] -- [u'taar', u'tabu', u'tach', u'tack', u'tact', u'tade', u'tael', u'taen', u'taft', u'taha', u'tahr', u'tail', u'tain', u'tait', u'take', u'takt', u'taky', u'tala', u'talc', u'tald'
+, u'tale', u'tali', u'talk', u'tall', u'tame', u'tamp', u'tana', u'tane', u'tang', u'tanh', u'tank', u'tapa', u'tape', u'taps', u'tapu', u'tara', u'tare', u'tari', u'tarn', u'taro', u'tarp', u'tarr', u'ta
+rs', u'tart', u'tash', u'task', u'tass', u'tasu', u'tate', u'tath', u'tatu', u'taum', u'taun', u'taur', u'taut', u'tave', u'tawa', u'tawn', u'taws', u'taxi', u'taxy', u'tche', u'tchu', u'tead', u'teak', u
+'teal', u'team', u'tean', u'teap', u'tear', u'teat', u'teca', u'tech', u'teck', u'teel', u'teem', u'teen', u'teer', u'teet', u'teff', u'teil', u'teju', u'tele', u'teli', u'tell', u'telt', u'temp', u'tend'
+, u'teng', u'tent', u'tera', u'term', u'tern', u'terp', u'test', u'tete', u'teth', u'teuk', u'text', u'than', u'thar', u'that', u'thaw', u'theb', u'thee', u'them', u'then', u'thew', u'they', u'thig', u'th
+in', u'thio', u'thir', u'this', u'thob', u'thof', u'thon', u'thoo', u'thou', u'thow', u'thro', u'thud', u'thug', u'thus', u'tiao', u'tiar', u'tice', u'tick', u'tide', u'tidy', u'tied', u'tien', u'tier', u
+'tiff', u'tift', u'tige', u'tile', u'till', u'tilt', u'time', u'tind', u'tine', u'ting', u'tink', u'tint', u'tiny', u'tipe', u'tire', u'tirl', u'tirr', u'tite', u'titi', u'tivy', u'tiza', u'toad', u'toat'
+, u'tobe', u'toby', u'tock', u'toco', u'tode', u'tody', u'toed', u'toff', u'toft', u'tofu', u'toga', u'togs', u'togt', u'toho', u'toil', u'toit', u'toke', u'toko', u'told', u'tole', u'toll', u'tolt', u'to
+lu', u'tomb', u'tome', u'tone', u'tong', u'tonk', u'tony', u'took', u'tool', u'toom', u'toon', u'toop', u'toot', u'tope', u'toph', u'topi', u'topo', u'tops', u'tora', u'torc', u'tore', u'torn', u'toro', u
+'tort', u'toru', u'tory', u'tosh', u'toss', u'tost', u'tosy', u'tote', u'toto', u'toty', u'toug', u'toup', u'tour', u'tout', u'towd', u'town', u'towy', u'toxa', u'toze', u'trag', u'trah', u'tram', u'trap'
+, u'tray', u'tree', u'tref', u'trek', u'tret', u'trey', u'trig', u'trim', u'trin', u'trio', u'trip', u'trod', u'trog', u'tron', u'trot', u'trow', u'troy', u'trub', u'true', u'trug', u'trun', u'tryp', u'tr
+yt', u'tsar', u'tsia', u'tsun', u'tuan', u'tuba', u'tube', u'tuck', u'tufa', u'tuff', u'tuft', u'tuik', u'tuke', u'tula', u'tule', u'tume', u'tump', u'tuna', u'tund', u'tune', u'tung', u'tunk', u'tuno', u
+'tunu', u'tuny', u'turb', u'turd', u'turf', u'turk', u'turm', u'turn', u'turp', u'turr', u'tush', u'tusk', u'tute', u'tuth', u'tuts', u'tutu', u'tuwi', u'tuza', u'twae', u'twal', u'twas', u'twat', u'tway'
+, u'twee', u'twig', u'twin', u'twit', u'tyee', u'tyke', u'tymp', u'tynd', u'type', u'typo', u'typp', u'typy', u'tyre', u'tyro', u'tail', u'take', u'talk', u'tall', u'test', u'than', u'that', u'then', u'th
+in', u'this', u'till', u'time', u'town', u'tray', u'tree', u'true', u'turn']
+
+
+    a   n   e   s
+
+    b   _   _   _
+
+    e   _   _   _
+
+    t   _   _   _
+
+('checking word:', u'bulb')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'u', '_', '_'] -- [u'nude', u'nuke', u'null', u'numb']
+[u'e', u'l', '_', '_'] -- [u'elle', u'elmy', u'elod', u'else']
+[u's', u'b', '_', '_'] -- []
+Whoops, at least one word isn't valid or has no options: sb__
+('checking word:', u'bone')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', '_', '_'] -- [u'nobs', u'nock', u'node', u'nodi', u'noel', u'noil', u'noir', u'noll', u'nolo', u'noma', u'nome', u'none', u'nook', u'noon', u'noop', u'nope', u'nori', u'norm', u'nose', u'nosy
+', u'note', u'noun', u'noup', u'nous', u'nova', u'nowt', u'nowy', u'noxa', u'nose', u'note']
+[u'e', u'n', '_', '_'] -- [u'enam', u'enol', u'enow', u'ense', u'envy']
+[u's', u'e', '_', '_'] -- [u'seah', u'seak', u'seal', u'seam', u'sear', u'seat', u'seax', u'sech', u'seck', u'sect', u'seed', u'seek', u'seel', u'seem', u'seen', u'seep', u'seer', u'sego', u'seit', u'sele
+', u'self', u'sell', u'selt', u'seme', u'semi', u'send', u'sent', u'seps', u'sept', u'sera', u'sere', u'serf', u'sero', u'sert', u'sess', u'seta', u'seth', u'sett', u'sewn', u'sext', u'sexy', u'seat', u's
+eed', u'seem', u'self', u'send']
+
+
+    a   n   e   s
+
+    b   o   n   e
+
+    e   _   _   _
+
+    t   _   _   _
+
+('checking word:', u'nolo')
+[u'a', u'n', u'e', u's'] -- [u'anes']
+[u'b', u'o', u'n', u'e'] -- [u'bone', u'bone']
+[u'e', u'l', '_', '_'] -- [u'elle', u'elmy', u'elod', u'else']
+[u't', u'o', '_', '_'] -- [u'toad', u'toat', u'tobe', u'toby', u'tock', u'toco', u'tode', u'tody', u'toed', u'toff', u'toft', u'tofu', u'toga', u'togs', u'togt', u'toho', u'toil', u'toit', u'toke', u'toko
+', u'told', u'tole', u'toll', u'tolt', u'tolu', u'tomb', u'tome', u'tone', u'tong', u'tonk', u'tony', u'took', u'tool', u'toom', u'toon', u'toop', u'toot', u'tope', u'toph', u'topi', u'topo', u'tops', u't
+ora', u'torc', u'tore', u'torn', u'toro', u'tort', u'toru', u'tory', u'tosh', u'toss', u'tost', u'tosy', u'tote', u'toto', u'toty', u'toug', u'toup', u'tour', u'tout', u'towd', u'town', u'towy', u'toxa',
+u'toze', u'town']
+
+
+    a   n   e   s
+
+    b   o   n   e
+
+    e   l   _   _
+
+    t   o   _   _
+
+('checking word:', u'elod')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', u'l', u'o'] -- [u'nolo']
+[u'e', u'n', u'o', '_'] -- [u'enol', u'enow']
+[u's', u'e', u'd', '_'] -- []
+Whoops, at least one word isn't valid or has no options: sed_
+('checking word:', u'elle')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', u'l', u'o'] -- [u'nolo']
+[u'e', u'n', u'l', '_'] -- []
+Whoops, at least one word isn't valid or has no options: enl_
+('checking word:', u'elmy')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', u'l', u'o'] -- [u'nolo']
+[u'e', u'n', u'm', '_'] -- []
+Whoops, at least one word isn't valid or has no options: enm_
+('checking word:', u'else')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', u'l', u'o'] -- [u'nolo']
+[u'e', u'n', u's', '_'] -- [u'ense']
+[u's', u'e', u'e', '_'] -- [u'seed', u'seek', u'seel', u'seem', u'seen', u'seep', u'seer', u'seed', u'seem']
+
+
+    a   n   e   s
+
+    b   o   n   e
+
+    e   l   s   e
+
+    t   o   _   _
+
+('checking word:', u'ense')
+[u'a', u'n', u'e', u's'] -- [u'anes']
+[u'b', u'o', u'n', u'e'] -- [u'bone', u'bone']
+[u'e', u'l', u's', u'e'] -- [u'else']
+[u't', u'o', u'e', '_'] -- [u'toed']
+
+
+    a   n   e   s
+
+    b   o   n   e
+
+    e   l   s   e
+
+    t   o   e   _
+
+('checking word:', u'toed')
+[u'a', u'b', u'e', u't'] -- [u'abet']
+[u'n', u'o', u'l', u'o'] -- [u'nolo']
+[u'e', u'n', u's', u'e'] -- [u'ense']
+[u's', u'e', u'e', u'd'] -- [u'seed', u'seed']
+
+
+    a   n   e   s
+
+    b   o   n   e
+
+    e   l   s   e
+
+    t   o   e   d
