@@ -17,3 +17,11 @@ func solve(grid):
         for letter in possibilities:
             grid --> put that letter in
             solve(grid)
+
+
+new_x = [wd.split(" ", 1)[0] for wd in xs if wd.find("-") == -1]
+x = Trie()
+for wd in new_x:
+    x.add_word(wd)
+
+
