@@ -1,7 +1,9 @@
 - when picking a word, maximize the choices for all remaining
 - save previous board state, index/dir in question, possibilities for this index/dir (and pop off that list.)
+- will need to get actual comprehensive word lists (probs off the internet)
 
---> store word list in a trie instead of a big list
+1) brute-force/random solve a 4x4 with tries to maximize choices for all remaining
+2) recursive/track choices so can backtrack
 
 ### Loop until a puzzle is solved
 solved = False

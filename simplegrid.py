@@ -67,12 +67,12 @@ def get_options(xword_entry):
     """Expects xword_entry as a list. Returns a list of all possible words that fit the
         existing string."""
     pattern = "".join(xword_entry).replace("_", ".")
-    options = [word for word in fourletter if re.match(pattern, word)]
+    options = [word for word in fourletter if re.match(pattern, word)] # REDO FOR TRIES
     return options
 
 def valid_wd_or_options_exist(xword_entry):
     # or should i return the option list?
-    if str(xword_entry) in fourletter:
+    if fourletter.valid_word(str(xword_entry)):
         return True
     else:
         options = get_options(xword_entry)

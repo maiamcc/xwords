@@ -57,6 +57,18 @@ class Trie():
             letters_so_far = self.key + letters_so_far
             return self.parent.get_parent_letters(letters_so_far)
 
+    def valid_word(self, word):
+        """If trie contains the given word (i.e. it's a valid word), return True."""
+        # or should this take a list?
+        currentNode = self
+        for i, letter in enumerate(word):
+            currentNode = currentNode.children.get(letter)
+            if not currentNode:
+                return False
+            if i == (len(word) - 1): # last letter
+                return currentNode.terminates
+
+
 def make():
     """A silly utility func. to make a trivial trie for testing. Ooh, alliteration."""
     t = Trie()
