@@ -20,7 +20,7 @@ class Trie():
                 self.children[first_letter] = new_trie
 
     def get_all_completions(self, wds_so_far=None, letters_so_far=None, prefix=None):
-        """Returns all possible completions of the given word."""
+        """Returns all possible words reachable from the current node."""
         if wds_so_far is None:
             wds_so_far = []
         if letters_so_far is None:
@@ -47,8 +47,8 @@ class Trie():
             return self.children[first_letter].get_sub_trie(rest_of_wd)
 
     def get_parent_letters(self, letters_so_far=None):
-        """Given a trie, returns a string of its parents (meaning, all of the
-            word that has been spelled leading up to this trie)."""
+        """Given a node, returns a string of its parents (meaning, all of the
+            word that has been spelled so far leading up to this node)."""
         if letters_so_far is None:
             letters_so_far = ""
         if self.parent is None:
@@ -58,21 +58,55 @@ class Trie():
             return self.parent.get_parent_letters(letters_so_far)
 
     def valid_word(self, word):
-        """If trie contains the given word (i.e. it's a valid word), return True."""
-        # or should this take a list?
-        currentNode = self
+        """If Trie contains the given word (i.e. it's a valid word), return True."""
+        # I believe this func will work the same given a string or a letter-list.
+        # Cuz who needs type safety, amirite?
+        current_node = self
         for i, letter in enumerate(word):
-            currentNode = currentNode.children.get(letter)
-            if not currentNode:
+            current_node = current_node.children.get(letter)
+            if not current_node:
                 return False
             if i == (len(word) - 1): # last letter
-                return currentNode.terminates
+                return current_node.terminates
 
+    def get_options(self, word):
+        """Given an incomplete word that probably contains some blanks, traverse the trie
+        and find all possible ways it could be completed."""
+        
+        # once we're down to only blank characters, we can call get_all_completions on
+        # the subtries we've amassed.
+        current_node = self
+        subnodes = [self] # better name
+        for i, char in enumerate(word):
+            # import pdb; pdb.set_trace()
+            print i, char
+            if char.isalpha():
+                subnodes = [node.children.get(char) for node in subnodes]
+                print [node.key for node in subnodes if node is not None]
+            else:
+                if any([char.isalpha() for char in word[i:]]):
+                    # then this is a blank but there are more letters to come,
+                    # so we can't return yet
+                    print "found a blank"
+                    subnodes = flatten([node.children.values() for node in subnodes])
+                    print [node.key for node in subnodes if node is not None]
+                else: 
+                    # then we can return
+                    # TODO: CONTROL FOR LENGTH!!!
+                    all_completions = flatten(node.get_all_completions() for node in subnodes)
+                    return [wd for wd in all_completions if len(wd) == len(word)]
+            if not any(subnodes):
+                print "whoops, no valid entries"
+                return None
 
 def make():
     """A silly utility func. to make a trivial trie for testing. Ooh, alliteration."""
     t = Trie()
-    for wd in ["hell", "hello", "help", "helm", "helmet"]:
+    for wd in ["hell", "hello", "help", "helm", "helmet", "heal", "howl", "hole"]:
         t.add_word(wd)
     return t
 
+def flatten(li):
+    """Flattens a nested list, removes None entries."""
+    # this should work even if list is not nested!
+    return [item for sublist in li for item in sublist if item is not None]

@@ -72,7 +72,7 @@ def get_options(xword_entry):
 
 def valid_wd_or_options_exist(xword_entry):
     # or should i return the option list?
-    if fourletter.valid_word(str(xword_entry)):
+    if fourletter.valid_word(xword_entry):
         return True
     else:
         options = get_options(xword_entry)
