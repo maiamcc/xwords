@@ -47,6 +47,7 @@ def new_square_at_pos(x: int, y: int, playable: bool) -> Square:
 class Board:
     def __init__(self, squares: List[List[Square]]):
         self._squares = squares
+        self.solved = False
 
     def __str__(self) -> str:
         res = []
