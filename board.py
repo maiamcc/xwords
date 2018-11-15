@@ -8,13 +8,15 @@ class BadValueException(Exception): pass
 
 
 class Square:
-    def __init__(self, playable: bool, val: str):
+    def __init__(self, playable: bool, val: str, x: int, y: int):
         if not playable and val:
             raise InvalidOpException('Square must be playable to have a value')
         self._val = val
         self._playable = playable
-        self._x = None
-        self._y = None
+
+        # idk if squares need to know their own pos...
+        self._x = x
+        self._y = y
 
     def __str__(self) -> str:
         if not self._playable:
@@ -38,8 +40,8 @@ class Square:
         return self._playable and not self._val
 
 
-def new_square(playable: bool) -> Square:
-    return Square(playable, '')
+def new_square_at_pos(x: int, y: int, playable: bool) -> Square:
+    return Square(playable, '', x, y)
 
 
 class Board:
@@ -52,11 +54,31 @@ class Board:
             res.append(' '.join([squ.__str__() for squ in row]))
         return '\n'.join(res)
 
+    def get(self, x: int, y: int) -> Square:
+        return self._squares[x][y]
+
+    def next_blank(self) -> Square:
+        """Get the next (i.e. topmost, leftmost) blank square."""
+        pass
+
+    def wd_down_for_pos(self, x: int, y: int) -> List[Square]:
+        """Get the down-word that this position is a part of."""
+        # Step up/down until hitting walls/falling off board
+        pass
+
+    def wd_acr_for_pos(self, x: int, y: int) -> List[Square]:
+        """Get the across-word that this position is a part of."""
+        # Step L/R until hitting walls/falling off board
+        pass
+
 
 def new_board(pattern: List[List[bool]]):
     # TODO: validate input (square, all rows same len)
     squares = []
-    for row in pattern:
-        squares.append([new_square(playable) for playable in row])
+    for i, row in enumerate(pattern):
+        srow = []
+        for j, playable in enumerate(row):
+            srow.append(new_square_at_pos(i, j, playable))
+        squares.append(srow)
 
     return Board(squares)
