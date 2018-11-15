@@ -30,7 +30,7 @@ class Trie():
 
         if self.terminates:
             wds_so_far.append(prefix + letters_so_far)
-            
+
         for child in list(self.children.values()):
             child.get_all_completions(wds_so_far, letters_so_far + child.key, prefix)
 
