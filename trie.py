@@ -79,24 +79,24 @@ class Trie():
         subnodes = [self] # better name
         for i, char in enumerate(word):
             # import pdb; pdb.set_trace()
-            print i, char
+            print(i, char)
             if char.isalpha():
                 subnodes = [node.children.get(char) for node in subnodes]
-                print [node.key for node in subnodes if node is not None]
+                print([node.key for node in subnodes if node is not None])
             else:
                 if any([char.isalpha() for char in word[i:]]):
                     # then this is a blank but there are more letters to come,
                     # so we can't return yet
-                    print "found a blank"
+                    print("found a blank")
                     subnodes = flatten([node.children.values() for node in subnodes])
-                    print [node.key for node in subnodes if node is not None]
+                    print([node.key for node in subnodes if node is not None])
                 else: 
                     # then we can return
                     # TODO: CONTROL FOR LENGTH!!!
                     all_completions = flatten(node.get_all_completions() for node in subnodes)
                     return [wd for wd in all_completions if len(wd) == len(word)]
             if not any(subnodes):
-                print "whoops, no valid entries"
+                print("whoops, no valid entries")
                 return None
 
 def make():
