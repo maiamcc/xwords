@@ -1,9 +1,23 @@
-class Trie():
+class Trie:
+    # TODO: enforce fixed-length Trie?
     def __init__(self, key="", parent=None):
         self.key = key
         self.parent = parent
         self.children = {}
         self.terminates = False
+
+    def __str__(self) -> str:
+        lns = []
+        if not self.key:
+            lns = ['ROOT:']
+
+        for k, v in self.children.items():
+            lns.append('\t{}'.format(k))
+            childlns = v.__str__().split('\n')
+            for ln in childlns:
+                lns.append('\t{}'.format(ln))
+
+        return '\n'.join(lns)
 
     def add_word(self, wd):
         """Add a word to the trie (creating any necessary sub-tries)."""
@@ -12,12 +26,11 @@ class Trie():
         else:
             first_letter = wd[:1]
             rest_of_wd = wd[1:]
-            if first_letter in self.children:
-                self.children[first_letter].add_word(rest_of_wd)
-            else:
-                new_trie = Trie(first_letter, self)
-                new_trie.add_word(rest_of_wd)
-                self.children[first_letter] = new_trie
+
+            if first_letter not in self.children:
+                self.children[first_letter] = Trie(first_letter, self)
+
+            self.children[first_letter].add_word(rest_of_wd)
 
     def get_all_completions(self, wds_so_far=None, letters_so_far=None, prefix=None):
         """Returns all possible words reachable from the current node."""
@@ -72,7 +85,7 @@ class Trie():
     def get_options(self, word):
         """Given an incomplete word that probably contains some blanks, traverse the trie
         and find all possible ways it could be completed."""
-        
+
         # once we're down to only blank characters, we can call get_all_completions on
         # the subtries we've amassed.
         current_node = self
@@ -90,7 +103,7 @@ class Trie():
                     print("found a blank")
                     subnodes = flatten([node.children.values() for node in subnodes])
                     print([node.key for node in subnodes if node is not None])
-                else: 
+                else:
                     # then we can return
                     # TODO: CONTROL FOR LENGTH!!!
                     all_completions = flatten(node.get_all_completions() for node in subnodes)
