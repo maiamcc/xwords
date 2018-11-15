@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 ### Fill a 4x4 grid with valid words ###
 
 from collections import namedtuple
@@ -20,9 +22,9 @@ samplegrid = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd'], 
 # Print a 4x4 grid.
 def print_grid(grid):
     """'Grid' represent a 4x4 grid (list of lists)."""
-    print "\n"
+    print("\n")
     for row in grid:
-        print "\t", "   ".join(row), "\n"
+        print("\t", "   ".join(row), "\n")
 
 # Check that all things in a 4x4 grid are valid words.
 # ...
@@ -53,10 +55,10 @@ def get_entries_affected(grid, index, dir):
         `Index` is the x or y at which the world will be played(should have a better name)."""
     results = []
     if dir == "acr":
-        for i in xrange(4):
+        for i in range(4):
             results.append(AffectedEntry(get_col(grid, i), index, i))
     elif dir == "dwn":
-        for j in xrange(4):
+        for j in range(4):
             results.append(AffectedEntry(get_row(grid, j), index, j))
     else:
         raise Exception("Womp womp, unrecognized direction. Try 'acr' or 'dwn'.")
@@ -76,16 +78,16 @@ def valid_wd_or_options_exist(xword_entry):
         return True
     else:
         options = get_options(xword_entry)
-        print xword_entry, "--", options
+        print(xword_entry, "--", options)
         return bool(options)
 
 def check_fill_in(affected_list, new_word):
-    print("checking word:", new_word)
+    print(("checking word:", new_word))
     for affected in affected_list:
         wd_to_check = affected.wd_so_far
         wd_to_check[affected.old_wd_index] = new_word[affected.new_wd_index]
         if not valid_wd_or_options_exist(wd_to_check):
-            print "Whoops, at least one word isn't valid or has no options:", "".join(wd_to_check)
+            print("Whoops, at least one word isn't valid or has no options:", "".join(wd_to_check))
             return False
     return True
 
@@ -100,7 +102,7 @@ def fill_in_col(grid, x, word):
 
 def solve_incomplete_at_random(grid):
     print_grid(grid)
-    for index in xrange(4):
+    for index in range(4):
         across = get_row(grid, index)
         if "_" in across: # entry at index-across incomplete
             # solve the across
@@ -112,7 +114,7 @@ def solve_incomplete_at_random(grid):
                 try:
                     choice = options.pop()
                 except IndexError:
-                    print "Grid failed. Moving on."
+                    print("Grid failed. Moving on.")
                     return False
                 if check_fill_in(entries_affected, choice):
                     fill_in_row(grid, index, choice)
@@ -132,7 +134,7 @@ def solve_incomplete_at_random(grid):
                 try:
                     choice = options.pop()
                 except IndexError:
-                    print "Grid failed. Moving on."
+                    print("Grid failed. Moving on.")
                     return False
                 if check_fill_in(entries_affected, choice):
                     fill_in_col(grid, index, choice)
