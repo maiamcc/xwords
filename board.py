@@ -60,15 +60,19 @@ class Board:
 
     def next_blank(self) -> Square:
         """Get the next (i.e. topmost, leftmost) blank square."""
-        pass
+        for row in self._squares:
+            for squ in row:
+                if squ.is_blank():
+                    return squ
+        return None
 
-    def wd_down_for_pos(self, x: int, y: int) -> List[Square]:
-        """Get the down-word that this position is a part of."""
+    def wd_down_for_squ(self, squ: Square) -> List[Square]:
+        """Get the down-word that this square is a part of."""
         # Step up/down until hitting walls/falling off board
         pass
 
-    def wd_acr_for_pos(self, x: int, y: int) -> List[Square]:
-        """Get the across-word that this position is a part of."""
+    def wd_acr_for_squ(self, squ: Square) -> List[Square]:
+        """Get the across-word that this square is a part of."""
         # Step L/R until hitting walls/falling off board
         pass
 
@@ -80,6 +84,21 @@ def new_board(pattern: List[List[bool]]):
         srow = []
         for j, playable in enumerate(row):
             srow.append(new_square_at_pos(i, j, playable))
+        squares.append(srow)
+
+    return Board(squares)
+
+
+def _board_from_letters(letters: List[List[str]]) -> Board:
+    # NOTE: Use underscore to signify unplayable square.
+    squares = []
+    for i, row in enumerate(letters):
+        srow = []
+        for j, letter in enumerate(row):
+            squ = new_square_at_pos(i, j, letter != '_')
+            if letter != '_':
+                squ.set(letter)
+            srow.append(squ)
         squares.append(srow)
 
     return Board(squares)

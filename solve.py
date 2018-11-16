@@ -25,4 +25,14 @@ def next_solutions(b: Board) -> Generator[Board]:
     its across-word, then its down-word.
     """
     # remember to copy instead of modifying in place
+
+    # to_solve = b.next_squares_to_solve()
+    # if not to_solve:
+    #     return  # idk how this works with generator stuff?
+    #
+    # options = words.opts_for_squares(to_solve)
+    # for opt in options:
+    #     # fill in board
+    #     # if all are valid words
+    #     # yield board
     pass

@@ -1,6 +1,6 @@
 import pytest
 
-from board import BadValueException, InvalidOpException, Square, new_board
+from board import BadValueException, InvalidOpException, Square, new_board, _board_from_letters
 
 
 def test_square_init():
@@ -53,3 +53,41 @@ def test_new_board():
             assert s._playable == pattern[x][y]
             assert s._x == x
             assert s._y == y
+
+
+def test_next_blank():
+    pattern = [
+        [False, False, True],
+        [False, True, False],
+        [True, True, True]
+    ]
+    b = new_board(pattern)
+    squ = b.next_blank()
+    assert squ._x == 0
+    assert squ._y == 2
+
+    b._squares[0][2].set('x')
+    squ = b.next_blank()
+    assert squ._x == 1
+    assert squ._y == 1
+
+
+def test_next_blank_dne():
+    pattern = [
+        [False, False],
+        [False, False]
+    ]
+    b = new_board(pattern)
+    squ = b.next_blank()
+    assert squ is None
+
+def test_wd_down_for_squ():
+    letters = [
+        ['a', 'a', '_'],
+        ['b', 'b', '_'],
+        ['c', 'c', '_'],
+    ]
+    b = _board_from_letters(letters)
+    squ = b._squares[1][1]
+
+    print(squ._val)
