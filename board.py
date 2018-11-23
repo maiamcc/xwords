@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from typing import List
+from typing import List, Optional
 
 
 class InvalidOpException(Exception): pass
@@ -55,9 +55,9 @@ class Board:
         return '\n'.join(res)
 
     def get(self, x: int, y: int) -> Square:
-        return self._squares[x][y]
+        return self._squares[y][x]
 
-    def next_blank(self) -> Square:
+    def next_blank(self) -> Optional[Square]:
         """Get the next (i.e. topmost, leftmost) blank square."""
         for row in self._squares:
             for squ in row:
@@ -83,10 +83,10 @@ class Board:
 def new_board(pattern: List[List[bool]]):
     # TODO: validate input (square, all rows same len)
     squares = []
-    for i, row in enumerate(pattern):
+    for y, row in enumerate(pattern):
         srow = []
-        for j, playable in enumerate(row):
-            srow.append(new_square_at_pos(i, j, playable))
+        for x, playable in enumerate(row):
+            srow.append(new_square_with_pos(x, y, playable))
         squares.append(srow)
 
     return Board(squares)
@@ -98,7 +98,7 @@ def _board_from_letters(letters: List[List[str]]) -> Board:
     for i, row in enumerate(letters):
         srow = []
         for j, letter in enumerate(row):
-            squ = new_square_at_pos(i, j, letter != '_')
+            squ = new_square_with_pos(i, j, letter != '_')
             if letter != '_':
                 squ.set(letter)
             srow.append(squ)
