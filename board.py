@@ -12,21 +12,20 @@ class Square:
         if not playable and val:
             raise InvalidOpException('Square must be playable to have a value')
         self._val = val
-        self._playable = playable
+        self.playable = playable
 
-        # idk if squares need to know their own pos...
-        self._x = x
-        self._y = y
+        self.x = x
+        self.y = y
 
     def __str__(self) -> str:
-        if not self._playable:
+        if not self.playable:
             return '■'
         if self.is_blank():
             return '_'
         return self._val
 
     def set(self, val: str):
-        if not self._playable:
+        if not self.playable:
             raise InvalidOpException('Square must be playable to set a value')
         if len(val) != 1:
             raise BadValueException(
@@ -37,7 +36,7 @@ class Square:
         self._val = val.lower()
 
     def is_blank(self) -> bool:
-        return self._playable and not self._val
+        return self.playable and not self._val
 
 
 def new_square_at_pos(x: int, y: int, playable: bool) -> Square:
@@ -75,6 +74,10 @@ class Board:
         """Get the across-word that this square is a part of."""
         # Step L/R until hitting walls/falling off board
         pass
+
+    def affected_wds(self, squ: Square) -> List[List[Square]]:
+        """Get all words that this square is a part of."""
+        return [self.wd_acr_for_squ(squ), self.wd_down_for_squ(squ)]
 
 
 def new_board(pattern: List[List[bool]]):

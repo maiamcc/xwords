@@ -5,17 +5,17 @@ from board import BadValueException, InvalidOpException, Square, new_board, _boa
 
 def test_square_init():
     with pytest.raises(InvalidOpException):
-        _ = Square(False, 'x', 0, 0)
+        _ = Square(False, 'a', 0, 0)
 
 
 def test_square_set():
     s = Square(True, '', 0, 0)
-    s.set('x')
-    assert s._val == 'x'
+    s.set('a')
+    assert s._val == 'a'
 
     # auto lowercase
-    s.set('Y')
-    assert s._val == 'y'
+    s.set('B')
+    assert s._val == 'b'
 
     # must be 1 char long
     with pytest.raises(BadValueException):
@@ -28,7 +28,7 @@ def test_square_set():
     # can't set val for a non-playable square
     nonplayable = Square(False, '', 0, 0)
     with pytest.raises(InvalidOpException):
-        nonplayable.set('x')
+        nonplayable.set('a')
 
 
 def test_square_str():
@@ -38,8 +38,8 @@ def test_square_str():
     blocked = Square(False, '', 0, 0)
     assert blocked.__str__() == '■'
 
-    has_val = Square(True, 'x', 0, 0)
-    assert has_val.__str__() == 'x'
+    has_val = Square(True, 'a', 0, 0)
+    assert has_val.__str__() == 'a'
 
 
 def test_new_board():
@@ -48,11 +48,11 @@ def test_new_board():
 
     for x in range(2):
         for y in range(2):
-            s = b._squares[x][y]
+            s = b.get(x, y)
             assert s._val == ''
-            assert s._playable == pattern[x][y]
-            assert s._x == x
-            assert s._y == y
+            assert s.playable == pattern[x][y]
+            assert s.x == x
+            assert s.y == y
 
 
 def test_next_blank():
@@ -63,13 +63,13 @@ def test_next_blank():
     ]
     b = new_board(pattern)
     squ = b.next_blank()
-    assert squ._x == 0
-    assert squ._y == 2
+    assert squ.x == 0
+    assert squ.y == 2
 
-    b._squares[0][2].set('x')
+    b.get(0, 2).set('a')
     squ = b.next_blank()
-    assert squ._x == 1
-    assert squ._y == 1
+    assert squ.x == 1
+    assert squ.y == 1
 
 
 def test_next_blank_dne():
@@ -81,13 +81,14 @@ def test_next_blank_dne():
     squ = b.next_blank()
     assert squ is None
 
+
 def test_wd_down_for_squ():
     letters = [
-        ['a', 'a', '_'],
-        ['b', 'b', '_'],
-        ['c', 'c', '_'],
+        ['a', 'd', '_'],
+        ['b', 'e', '_'],
+        ['c', 'f', '_'],
     ]
     b = _board_from_letters(letters)
-    squ = b._squares[1][1]
+    squ = b.get(1, 1)
 
     print(squ._val)
