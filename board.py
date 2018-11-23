@@ -7,6 +7,8 @@ class InvalidOpException(Exception): pass
 class BadValueException(Exception): pass
 
 
+WALL_CH = '■'
+
 class Square:
     def __init__(self, playable: bool, val: str, x: int, y: int):
         if not playable and val:
@@ -19,7 +21,7 @@ class Square:
 
     def __str__(self) -> str:
         if not self.playable:
-            return '■'
+            return WALL_CH
         if self.is_blank():
             return '_'
         return self._val
@@ -39,8 +41,12 @@ class Square:
         return self.playable and not self._val
 
 
-def new_square_at_pos(x: int, y: int, playable: bool) -> Square:
+def new_square_with_pos(x: int, y: int, playable: bool) -> Square:
     return Square(playable, '', x, y)
+
+
+def squares_to_chars(squs: List[Square]) -> List[Optional[str]]:
+    return [s._val for s in squs]
 
 
 class Board:
@@ -67,8 +73,22 @@ class Board:
 
     def wd_down_for_squ(self, squ: Square) -> List[Square]:
         """Get the down-word that this square is a part of."""
-        # Step up/down until hitting walls/falling off board
-        pass
+        if not squ.playable:
+            return []
+
+        start_y = squ.y  # y index of start of the word
+        for y in reversed(range(squ.y)):
+            if not self.get(squ.x, y).playable:
+                break
+            start_y = y
+
+        end_y = squ.y  # y index of end of word (inclusive)
+        for y in range(squ.y, len(self._squares)):
+            if not self.get(squ.x, y).playable:
+                break
+            end_y = y
+
+        return [self.get(squ.x, y) for y in range(start_y, end_y+1)]
 
     def wd_acr_for_squ(self, squ: Square) -> List[Square]:
         """Get the across-word that this square is a part of."""
@@ -93,13 +113,13 @@ def new_board(pattern: List[List[bool]]):
 
 
 def _board_from_letters(letters: List[List[str]]) -> Board:
-    # NOTE: Use underscore to signify unplayable square.
+    # NOTE: Use ■ to signify unplayable square.
     squares = []
-    for i, row in enumerate(letters):
+    for y, row in enumerate(letters):
         srow = []
-        for j, letter in enumerate(row):
-            squ = new_square_with_pos(i, j, letter != '_')
-            if letter != '_':
+        for x, letter in enumerate(row):
+            squ = new_square_with_pos(x, y, letter != WALL_CH)
+            if letter != WALL_CH:
                 squ.set(letter)
             srow.append(squ)
         squares.append(srow)
