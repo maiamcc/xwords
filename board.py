@@ -92,8 +92,22 @@ class Board:
 
     def wd_acr_for_squ(self, squ: Square) -> List[Square]:
         """Get the across-word that this square is a part of."""
-        # Step L/R until hitting walls/falling off board
-        pass
+        if not squ.playable:
+            return []
+
+        start_x = squ.x  # x index of start of the word
+        for x in reversed(range(squ.x)):
+            if not self.get(x, squ.y).playable:
+                break
+            start_x = x
+
+        end_x = squ.x  # x index of end of word (inclusive)
+        for x in range(squ.x, len(self._squares[squ.y])):
+            if not self.get(x, squ.y).playable:
+                break
+            end_x = x
+
+        return [self.get(x, squ.y) for x in range(start_x, end_x+1)]
 
     def affected_wds(self, squ: Square) -> List[List[Square]]:
         """Get all words that this square is a part of."""

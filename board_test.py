@@ -84,13 +84,13 @@ def test_next_blank_dne():
 
 def test_wd_down_for_squ():
     letters = [
-        ['a', WALL_CH, 'm', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['b', 'h', 'n', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['c', 'i', 'o', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['d', 'j', WALL_CH, WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['e', WALL_CH, 'p', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['f', 'k', 'q', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
-        ['g', 'l', 'r', WALL_CH, WALL_CH, WALL_CH, WALL_CH],
+        ['a', WALL_CH, 'm'],
+        ['b', 'h', 'n'],
+        ['c', 'i', 'o'],
+        ['d', 'j', WALL_CH],
+        ['e', WALL_CH, 'p'],
+        ['f', 'k', 'q'],
+        ['g', 'l', 'r'],
     ]
     b = _board_from_letters(letters)
 
@@ -125,4 +125,46 @@ def test_wd_down_for_squ():
     # called on a wall
     s = b.get(1, 0)
     wd = b.wd_down_for_squ(s)
+    assert wd == []
+
+
+def test_wd_across_for_squ():
+    letters = [
+        ['a', 'b', 'c', 'd', 'e', 'f'],
+        ['g', 'h', 'i', WALL_CH, 'j', 'k'],
+        [WALL_CH, 'l', 'm', 'n', WALL_CH, WALL_CH, WALL_CH]
+    ]
+    b = _board_from_letters(letters)
+
+    # walls on either side (test from beginning, middle, end squares
+    expected = ['l', 'm', 'n']
+    to_check = [b.get(1, 2), b.get(2, 2), b.get(3, 2)]
+    for s in to_check:
+        wd = b.wd_acr_for_squ(s)
+        assert squares_to_chars(wd) == expected
+
+    # starts at left edge
+    expected = ['g', 'h', 'i']
+    to_check = [b.get(x, 1) for x in range(3)]
+    for s in to_check:
+        wd = b.wd_acr_for_squ(s)
+        assert squares_to_chars(wd) == expected
+
+    # ends at right edge
+    expected = ['j', 'k']
+    to_check = [b.get(4, 1), b.get(5, 1)]
+    for s in to_check:
+        wd = b.wd_acr_for_squ(s)
+        assert squares_to_chars(wd) == expected
+
+    # spans full board
+    expected = ['a', 'b', 'c', 'd', 'e', 'f']
+    to_check = [b.get(x, 0) for x in range(len(b._squares[0]))]
+    for s in to_check:
+        wd = b.wd_acr_for_squ(s)
+        assert squares_to_chars(wd) == expected
+
+    # called on a wall
+    s = b.get(0, 2)
+    wd = b.wd_acr_for_squ(s)
     assert wd == []
