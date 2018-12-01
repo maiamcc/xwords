@@ -38,6 +38,24 @@ def test_get_parents():
     assert so_far == "abcd"
 
 
+def test_get_all_completions():
+    t = trie_from_words(["hell", "hello", "help", "helm", "helmet", "heal", "howl", "hole"])
+    h = t.children['h']
+    e = h.children['e']
+    wds = e.get_all_completions()
+
+    expected = {'hell', 'hello', 'help', 'helm', 'helmet', 'heal'}
+
+    assert set(wds) == expected
 
 
+def test_get_all_completions_of_len():
+    t = trie_from_words(["hell", "hello", "help", "helm", "helmet", "heal", "howl", "hole"])
+    h = t.children['h']
+    e = h.children['e']
+    wds = e.get_all_completions_of_len(4)
+
+    expected = {'hell', 'help', 'helm', 'heal'}
+
+    assert set(wds) == expected
 

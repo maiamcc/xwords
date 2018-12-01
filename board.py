@@ -113,6 +113,20 @@ class Board:
         """Get all words that this square is a part of."""
         return [self.wd_acr_for_squ(squ), self.wd_down_for_squ(squ)]
 
+    def next_to_solve(self) -> List[Square]:
+        """Get squares representing the next word that needs solving.
+
+        Currently, always returns an across-word. Maybe vary this sometime?"""
+
+        next_squ = self.next_blank()
+        if next_squ is None:
+            # No blank squares!
+            return []
+
+        return self.wd_acr_for_squ(next_squ)
+
+
+
 
 def new_board(pattern: List[List[bool]]):
     # TODO: validate input (square, all rows same len)

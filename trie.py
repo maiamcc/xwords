@@ -86,6 +86,11 @@ class Trie:
 
         return wds_so_far
 
+    def get_all_completions_of_len(self, length: int) -> List[str]:
+        """Returns all possible words of given len reachable from the current node."""
+        wds = self.get_all_completions()
+        return [wd for wd in wds if len(wd) == length]
+
     def get_sub_trie(self, wd):
         """This... gets the trie that's the endpoint of the given word/prefix/string?
         I guess? Past Maia, what were you trying to do with this function?"""
@@ -96,14 +101,15 @@ class Trie:
             rest_of_wd = wd[1:]
             return self.children[first_letter].get_sub_trie(rest_of_wd)
 
-    def get_options(self, word):
+    def get_options(self, word):  # 'ru_h__' --> 'ruthie', 'rushes'
         """Given an incomplete word that probably contains some blanks, traverse the trie
         and find all possible ways it could be completed."""
 
         # once we're down to only blank characters, we can call get_all_completions on
-        # the subtries we've amassed.
+        # the sub-tries we've amassed.
+
         current_node = self
-        subnodes = [self] # better name
+        subnodes = [self]  # better name
         for i, char in enumerate(word):
             # import pdb; pdb.set_trace()
             print(i, char)

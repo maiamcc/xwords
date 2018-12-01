@@ -26,10 +26,11 @@ def next_solutions(b: Board) -> Generator[Board]:
     """
     # remember to copy instead of modifying in place
 
-    # to_solve = b.next_squares_to_solve()
-    # if not to_solve:
-    #     return  # idk how this works with generator stuff?
-    #
+    to_solve = b.next_to_solve()
+    if len(to_solve) == 0:
+        # board is solved
+        yield b
+
     # options = words.opts_for_squares(to_solve)
     # for opt in options:
     #     # fill in board
