@@ -91,16 +91,6 @@ class Trie:
         wds = self.get_all_completions()
         return [wd for wd in wds if len(wd) == length]
 
-    def get_sub_trie(self, wd):
-        """This... gets the trie that's the endpoint of the given word/prefix/string?
-        I guess? Past Maia, what were you trying to do with this function?"""
-        if len(wd) < 1:
-            return self
-        else:
-            first_letter = wd[:1]
-            rest_of_wd = wd[1:]
-            return self.children[first_letter].get_sub_trie(rest_of_wd)
-
     def get_options(self, word):  # 'ru_h__' --> 'ruthie', 'rushes'
         """Given an incomplete word that probably contains some blanks, traverse the trie
         and find all possible ways it could be completed."""

@@ -84,13 +84,13 @@ def test_next_blank_dne():
 
 def test_wd_down_for_squ():
     letters = [
-        ['a', WALL_CH, 'm'],
-        ['b', 'h', 'n'],
-        ['c', 'i', 'o'],
-        ['d', 'j', WALL_CH],
-        ['e', WALL_CH, 'p'],
-        ['f', 'k', 'q'],
-        ['g', 'l', 'r'],
+        ['a', WALL_CH, 'm',     's'],
+        ['b', 'h',     'n',     WALL_CH],
+        ['c', 'i',     'o',     WALL_CH],
+        ['d', 'j',     WALL_CH, 't'],
+        ['e', WALL_CH, 'p',     WALL_CH],
+        ['f', 'k',     'q',     WALL_CH],
+        ['g', 'l',     'r',     'u'],
     ]
     b = _board_from_letters(letters)
 
@@ -122,6 +122,16 @@ def test_wd_down_for_squ():
         wd = b.wd_down_for_squ(s)
         assert squares_to_chars(wd) == expected
 
+    # one-letter words (top, middle, bottom)
+    wd = b.wd_down_for_squ(b.get(3, 0))
+    assert squares_to_chars(wd) == ['s']
+
+    wd = b.wd_down_for_squ(b.get(3, 3))
+    assert squares_to_chars(wd) == ['t']
+
+    wd = b.wd_down_for_squ(b.get(3, 6))
+    assert squares_to_chars(wd) == ['u']
+
     # called on a wall
     s = b.get(1, 0)
     wd = b.wd_down_for_squ(s)
@@ -132,13 +142,14 @@ def test_wd_across_for_squ():
     letters = [
         ['a', 'b', 'c', 'd', 'e', 'f'],
         ['g', 'h', 'i', WALL_CH, 'j', 'k'],
-        [WALL_CH, 'l', 'm', 'n', WALL_CH, WALL_CH, WALL_CH]
+        [WALL_CH, 'l', 'm', 'n', WALL_CH, WALL_CH, WALL_CH],
+        ['o', WALL_CH, 'p', WALL_CH, WALL_CH, WALL_CH, 'q'],
     ]
     b = _board_from_letters(letters)
 
-    # walls on either side (test from beginning, middle, end squares
-    expected = ['l', 'm', 'n']
-    to_check = [b.get(1, 2), b.get(2, 2), b.get(3, 2)]
+    # spans full board
+    expected = ['a', 'b', 'c', 'd', 'e', 'f']
+    to_check = [b.get(x, 0) for x in range(len(b._squares[0]))]
     for s in to_check:
         wd = b.wd_acr_for_squ(s)
         assert squares_to_chars(wd) == expected
@@ -157,12 +168,22 @@ def test_wd_across_for_squ():
         wd = b.wd_acr_for_squ(s)
         assert squares_to_chars(wd) == expected
 
-    # spans full board
-    expected = ['a', 'b', 'c', 'd', 'e', 'f']
-    to_check = [b.get(x, 0) for x in range(len(b._squares[0]))]
+    # walls on either side (test from beginning, middle, end squares
+    expected = ['l', 'm', 'n']
+    to_check = [b.get(1, 2), b.get(2, 2), b.get(3, 2)]
     for s in to_check:
         wd = b.wd_acr_for_squ(s)
         assert squares_to_chars(wd) == expected
+
+    # one-letter words (left edge, center, right edge)
+    wd = b.wd_acr_for_squ(b.get(0, 3))
+    assert squares_to_chars(wd) == ['o']
+
+    wd = b.wd_acr_for_squ(b.get(2, 3))
+    assert squares_to_chars(wd) == ['p']
+
+    wd = b.wd_acr_for_squ(b.get(6, 3))
+    assert squares_to_chars(wd) == ['q']
 
     # called on a wall
     s = b.get(0, 2)

@@ -123,7 +123,10 @@ class Board:
             # No blank squares!
             return []
 
-        return self.wd_acr_for_squ(next_squ)
+        across = self.wd_acr_for_squ(next_squ)
+        if all([not squ.is_blank() for squ in across]):
+            return across
+        return self.wd_down_for_squ()
 
 
 
