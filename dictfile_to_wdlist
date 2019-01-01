@@ -1,5 +1,0 @@
->>> results = []
->>> for ln in txt:
-...     m = re.search("^.*?(?= \()", ln)
-...     if m:
-...         results.append(m.group())
