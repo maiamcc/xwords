@@ -10,7 +10,7 @@ class BadValueException(Exception): pass
 WALL_CH = '■'
 
 class Square:
-    def __init__(self, playable: bool, val: str, x: int, y: int):
+    def __init__(self, playable: bool, val: Optional[str], x: int, y: int):
         if not playable and val:
             raise InvalidOpException('Square must be playable to have a value')
         self._val = val
@@ -29,6 +29,8 @@ class Square:
     def set(self, val: str):
         if not self.playable:
             raise InvalidOpException('Square must be playable to set a value')
+        if val is None:
+            self._val = None
         if len(val) != 1:
             raise BadValueException(
                 'Value to `set` must be a single character (passed {}'.format(val))
@@ -42,7 +44,7 @@ class Square:
 
 
 def new_square_with_pos(x: int, y: int, playable: bool) -> Square:
-    return Square(playable, '', x, y)
+    return Square(playable, None, x, y)
 
 
 def squares_to_chars(squs: List[Square]) -> List[Optional[str]]:
@@ -129,8 +131,6 @@ class Board:
         return self.wd_down_for_squ()
 
 
-
-
 def new_board(pattern: List[List[bool]]):
     # TODO: validate input (square, all rows same len)
     squares = []
@@ -143,7 +143,7 @@ def new_board(pattern: List[List[bool]]):
     return Board(squares)
 
 
-def _board_from_letters(letters: List[List[str]]) -> Board:
+def _board_from_letters(letters: List[List[Optional[str]]]) -> Board:
     # NOTE: Use ■ to signify unplayable square.
     squares = []
     for y, row in enumerate(letters):

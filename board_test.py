@@ -9,7 +9,7 @@ def test_square_init():
 
 
 def test_square_set():
-    s = Square(True, '', 0, 0)
+    s = Square(True, None, 0, 0)
     s.set('a')
     assert s._val == 'a'
 
@@ -26,16 +26,16 @@ def test_square_set():
         s.set('1')
 
     # can't set val for a non-playable square
-    nonplayable = Square(False, '', 0, 0)
+    nonplayable = Square(False, None, 0, 0)
     with pytest.raises(InvalidOpException):
         nonplayable.set('a')
 
 
 def test_square_str():
-    empty = Square(True, '', 0, 0)
+    empty = Square(True, None, 0, 0)
     assert empty.__str__() == '_'
 
-    blocked = Square(False, '', 0, 0)
+    blocked = Square(False, None, 0, 0)
     assert blocked.__str__() == WALL_CH
 
     has_val = Square(True, 'a', 0, 0)
@@ -49,7 +49,7 @@ def test_new_board():
     for y in range(2):
         for x in range(2):
             s = b.get(x, y)
-            assert s._val == ''
+            assert s._val is None
             assert s.playable == pattern[y][x]
             assert s.x == x
             assert s.y == y

@@ -1,4 +1,5 @@
-from typing import List
+from typing import List, Optional
+
 
 class Trie:
     # TODO: enforce fixed-length Trie?
@@ -91,12 +92,14 @@ class Trie:
         wds = self.get_all_completions()
         return [wd for wd in wds if len(wd) == length]
 
-    def get_options(self, word):  # 'ru_h__' --> 'ruthie', 'rushes'
+    def get_options(self, word: List[Optional[str]]):
         """Given an incomplete word that probably contains some blanks, traverse the trie
         and find all possible ways it could be completed."""
 
         # once we're down to only blank characters, we can call get_all_completions on
         # the sub-tries we've amassed.
+
+        # ['r', 'u', None, 'h', None, None] --> 'ruthie', 'rushes'
 
         current_node = self
         subnodes = [self]  # better name

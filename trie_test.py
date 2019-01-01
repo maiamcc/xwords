@@ -59,3 +59,6 @@ def test_get_all_completions_of_len():
 
     assert set(wds) == expected
 
+def test_get_options():
+    pass
+
