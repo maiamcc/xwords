@@ -1,7 +1,7 @@
-from copy import deepcopy
-from typing import Generator
+from typing import List  # , Generator
 
 from board import Board
+from words import opts_for_squares
 
 
 def solve(b: Board) -> Board:
@@ -17,7 +17,7 @@ def solve(b: Board) -> Board:
     return b
 
 
-def next_solutions(b: Board) -> Generator[Board]:
+def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
     """
     Generate all possible solutions for the next word on the given board.
 
@@ -31,9 +31,11 @@ def next_solutions(b: Board) -> Generator[Board]:
         # board is solved
         yield b
 
-    # options = words.opts_for_squares(to_solve)
-    # for opt in options:
-    #     # fill in board
-    #     # if all are valid words
-    #     # yield board
+    options = opts_for_squares(to_solve)
+    for opt in options:
+        # check validity
+
+
+        # fill in board and yield
+        board_with_opt = b.new_with_fill(to_solve, opt)
     pass

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from copy import deepcopy
 from typing import List, Optional
 
 
@@ -129,7 +130,13 @@ class Board:
         across = self.wd_acr_for_squ(next_squ)
         if all([not squ.is_blank() for squ in across]):
             return across
-        return self.wd_down_for_squ()
+        return self.wd_down_for_squ(next_squ)
+
+    def new_with_fill(self, squs: List[Square], word: str):
+        copied = deepcopy(self)
+        for i, squ in enumerate(squs):
+            copied.get(squ.x, squ.y).set(word[i])
+        return copied
 
 
 def new_board(pattern: List[List[bool]]):
