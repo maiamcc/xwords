@@ -31,6 +31,7 @@ class Square:
             raise InvalidOpException('Square must be playable to set a value')
         if val is None:
             self._val = None
+            return
         if len(val) != 1:
             raise BadValueException(
                 'Value to `set` must be a single character (passed {}'.format(val))

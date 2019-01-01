@@ -1,5 +1,7 @@
 from typing import List, Optional
 
+from utils import flatten, isalpha
+
 
 class Trie:
     # TODO: enforce fixed-length Trie?
@@ -89,41 +91,31 @@ class Trie:
 
     def get_all_completions_of_len(self, length: int) -> List[str]:
         """Returns all possible words of given len reachable from the current node."""
+        # TODO: this still traverses all the way down, we don't need to traverse past n letters
         wds = self.get_all_completions()
         return [wd for wd in wds if len(wd) == length]
 
-    def get_options(self, word: List[Optional[str]]):
+    def get_options(self, word: List[Optional[str]]) -> List[str]:
         """Given an incomplete word that probably contains some blanks, traverse the trie
         and find all possible ways it could be completed."""
 
-        # once we're down to only blank characters, we can call get_all_completions on
-        # the sub-tries we've amassed.
-
         # ['r', 'u', None, 'h', None, None] --> 'ruthie', 'rushes'
 
-        current_node = self
-        subnodes = [self]  # better name
+        subnodes = [self]
         for i, char in enumerate(word):
-            # import pdb; pdb.set_trace()
-            print(i, char)
-            if char.isalpha():
+            if isalpha(char):  # we have a letter -- get a specific child
                 subnodes = [node.children.get(char) for node in subnodes]
-                print([node.key for node in subnodes if node is not None])
-            else:
-                if any([char.isalpha() for char in word[i:]]):
+            else:  # found a blank, so keep looking down all children of current node
+                if any([isalpha(char) for char in word[i:]]):
                     # then this is a blank but there are more letters to come,
                     # so we can't return yet
-                    print("found a blank")
                     subnodes = flatten([node.children.values() for node in subnodes])
-                    print([node.key for node in subnodes if node is not None])
                 else:
                     # then we can return
-                    # TODO: CONTROL FOR LENGTH!!!
-                    all_completions = flatten(node.get_all_completions() for node in subnodes)
-                    return [wd for wd in all_completions if len(wd) == len(word)]
+                    return flatten(node.get_all_completions_of_len(len(word)) for node in subnodes)
             if not any(subnodes):
-                print("whoops, no valid entries")
-                return None
+                return []
+        return [node.word_so_far() for node in subnodes if node.terminates]
 
 
 def trie_from_words(wds: List[str]) -> Trie:
@@ -133,16 +125,3 @@ def trie_from_words(wds: List[str]) -> Trie:
 
     return t
 
-
-def make():
-    """A silly utility func. to make a trivial trie for testing. Ooh, alliteration."""
-    t = Trie()
-    for wd in ["hell", "hello", "help", "helm", "helmet", "heal", "howl", "hole"]:
-        t.add(wd)
-    return t
-
-
-def flatten(li):
-    """Flattens a nested list, removes None entries."""
-    # this should work even if list is not nested!
-    return [item for sublist in li for item in sublist if item is not None]

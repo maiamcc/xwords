@@ -59,6 +59,21 @@ def test_get_all_completions_of_len():
 
     assert set(wds) == expected
 
-def test_get_options():
-    pass
 
+def test_get_options():
+    t = trie_from_words(["bell", "ball", "hell", "hello", "heal", "howl", "hole", "holly", "holla", "hollabackgirl"])
+
+    # test cases: blanks at beginning
+    inp = [None, None, "l", "l"]
+    opts = t.get_options(inp)
+    assert set(opts) == {"bell", "ball", "hell"}
+
+    # test cases: blanks interspersed
+    inp = ["h", None, "l", "l", None]
+    opts = t.get_options(inp)
+    assert set(opts) == {"hello", "holly", "holla"}
+
+    # test cases: blanks at end
+    inp = ["h", "o", "l", None, None]
+    opts = t.get_options(inp)
+    assert set(opts) == {"holly", "holla"}

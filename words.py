@@ -8,6 +8,8 @@ VOCAB = ["hell", "hello", "help", "helm", "helmet", "heal", "howl", "hole"]
 
 WORDS = trie.trie_from_words(VOCAB)
 
-def opts_for_squares(squs: List[board.Square]) -> Generator[str]:
+
+def opts_for_squares(squs: List[board.Square]) -> str:  # Generator[str]:
     chars = board.squares_to_chars(squs)  # ["C", None, "T"]
+
 
