@@ -6,10 +6,11 @@ from words import opts_for_squares
 
 def solve(b: Board) -> Board:
     """Solve the given board, returning the solved version."""
-    for solution in next_solutions(b):  # generator
-        maybe_solved = solve(solution)
-        if maybe_solved.solved:
-            return maybe_solved
+    for solution in next_solutions(b): # generator
+        if solution.solved:
+            return solution
+
+        return solve(solution)
 
     # Didn't solve it -- return the current board (wherever we failed to find
     # a valid next step) -- b.solved = false so recursive calls further up
@@ -29,6 +30,7 @@ def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
     to_solve = b.next_to_solve()
     if len(to_solve) == 0:
         # board is solved
+        b.solved = True
         yield b
 
     options = opts_for_squares(to_solve)
@@ -37,5 +39,4 @@ def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
 
 
         # fill in board and yield
-        board_with_opt = b.new_with_fill(to_solve, opt)
-    pass
+        yield b.new_with_fill(to_solve, opt)
