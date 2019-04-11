@@ -189,3 +189,22 @@ def test_wd_across_for_squ():
     s = b.get(0, 2)
     wd = b.wd_acr_for_squ(s)
     assert wd == []
+
+
+def test_new_with_fill():
+    pattern = [
+        [True, True, True],
+        [True, True, True],
+        [True, True, True]
+    ]
+    b = new_board(pattern)
+
+    first_row = b.wd_acr_for_squ(b.get(0,0))
+    with_fill = b.new_with_fill(first_row, "foo")
+    new_first_row = with_fill.wd_acr_for_squ(with_fill.get(0, 0))
+    assert squares_to_chars(new_first_row) == ["f", "o", "o"]
+
+    first_col = b.wd_down_for_squ(b.get(0,0))
+    with_fill = b.new_with_fill(first_col, "bar")
+    new_first_col = with_fill.wd_down_for_squ(with_fill.get(0, 0))
+    assert squares_to_chars(new_first_col) == ["b", "a", "r"]
