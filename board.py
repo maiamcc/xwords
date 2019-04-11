@@ -3,6 +3,7 @@
 from copy import deepcopy
 from typing import List, Optional
 
+from words import is_valid
 
 class InvalidOpException(Exception): pass
 class BadValueException(Exception): pass
@@ -118,9 +119,7 @@ class Board:
         return [self.wd_acr_for_squ(squ), self.wd_down_for_squ(squ)]
 
     def next_to_solve(self) -> List[Square]:
-        """Get squares representing the next word that needs solving.
-
-        Currently, always returns an across-word. Maybe vary this sometime?"""
+        """Get squares representing the next word that needs solving."""
 
         next_squ = self.next_blank()
         if next_squ is None:
@@ -137,6 +136,24 @@ class Board:
         for i, squ in enumerate(squs):
             copied.get(squ.x, squ.y).set(word[i])
         return copied
+
+    def validate(self, squs: List[Square]) -> bool:
+        """
+        For each given square, ensure that the across and down words it belongs
+        to are either valid (i.e. a word in the dict.) or potentially valid (there
+        are OPTIONS in the dict. that can complete it).
+        """
+        for squ in squs:
+            # TODO: redundant validation here, can make a set of already-validated wds
+            acr = self.wd_acr_for_squ(squ)
+            acr_valid = is_valid(squares_to_chars(acr))
+            if not acr_valid:
+                return False
+            down = self.wd_down_for_squ(squ)
+            down_valid = is_valid(squares_to_chars(down))
+            if not down_valid:
+                return False
+        return True
 
 
 def new_board(pattern: List[List[bool]]):

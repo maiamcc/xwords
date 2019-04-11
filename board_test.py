@@ -208,3 +208,7 @@ def test_new_with_fill():
     with_fill = b.new_with_fill(first_col, "bar")
     new_first_col = with_fill.wd_down_for_squ(with_fill.get(0, 0))
     assert squares_to_chars(new_first_col) == ["b", "a", "r"]
+
+def test_validate():
+    # TODO! (Will have to patch out WORDS variable.)
+    pass

@@ -1,7 +1,7 @@
 from typing import List  # , Generator
 
-from board import Board
-from words import opts_for_squares
+from board import Board, squares_to_chars
+from words import opts_for_chars
 
 
 def solve(b: Board) -> Board:
@@ -33,10 +33,9 @@ def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
         b.solved = True
         yield b
 
-    options = opts_for_squares(to_solve)
+    options = opts_for_chars(squares_to_chars(to_solve))
     for opt in options:
-        # check validity
-
-
-        # fill in board and yield
-        yield b.new_with_fill(to_solve, opt)
+        # fill in board and yield if valid
+        with_opt = b.new_with_fill(to_solve, opt)
+        if with_opt.validate(to_solve):
+            yield with_opt
