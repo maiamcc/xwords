@@ -3,6 +3,7 @@
 from copy import deepcopy
 from typing import List, Optional
 
+from trie import Trie
 from words import is_valid
 
 class InvalidOpException(Exception): pass
@@ -137,7 +138,7 @@ class Board:
             copied.get(squ.x, squ.y).set(word[i])
         return copied
 
-    def validate(self, squs: List[Square]) -> bool:
+    def validate(self, wds: Trie, squs: List[Square]) -> bool:
         """
         For each given square, ensure that the across and down words it belongs
         to are either valid (i.e. a word in the dict.) or potentially valid (there
@@ -146,11 +147,11 @@ class Board:
         for squ in squs:
             # TODO: redundant validation here, can make a set of already-validated wds
             acr = self.wd_acr_for_squ(squ)
-            acr_valid = is_valid(squares_to_chars(acr))
+            acr_valid = is_valid(wds, squares_to_chars(acr))
             if not acr_valid:
                 return False
             down = self.wd_down_for_squ(squ)
-            down_valid = is_valid(squares_to_chars(down))
+            down_valid = is_valid(wds, squares_to_chars(down))
             if not down_valid:
                 return False
         return True

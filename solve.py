@@ -1,16 +1,17 @@
 from typing import List  # , Generator
 
 from board import Board, squares_to_chars
+from trie import Trie
 from words import opts_for_chars
 
 
-def solve(b: Board) -> Board:
+def solve(wds: Trie, b: Board) -> Board:
     """Solve the given board, returning the solved version."""
-    for solution in next_solutions(b): # generator
+    for solution in next_solutions(wds, b):
         if solution.solved:
             return solution
 
-        return solve(solution)
+        return solve(wds, solution)
 
     # Didn't solve it -- return the current board (wherever we failed to find
     # a valid next step) -- b.solved = false so recursive calls further up
@@ -18,7 +19,7 @@ def solve(b: Board) -> Board:
     return b
 
 
-def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
+def next_solutions(wds: Trie, b: Board) -> List[Board]:  # Generator[Board]:
     """
     Generate all possible solutions for the next word on the given board.
 
@@ -33,9 +34,9 @@ def next_solutions(b: Board) -> List[Board]:  # Generator[Board]:
         b.solved = True
         yield b
 
-    options = opts_for_chars(squares_to_chars(to_solve))
+    options = opts_for_chars(wds, squares_to_chars(to_solve))
     for opt in options:
         # fill in board and yield if valid
         with_opt = b.new_with_fill(to_solve, opt)
-        if with_opt.validate(to_solve):
+        if with_opt.validate(wds, to_solve):
             yield with_opt
