@@ -14,3 +14,10 @@ def is_valid(wds: trie.Trie, chars: List[Optional[str]]) -> bool:
     # TODO: This doesn't need to get ALL options, we only care that there's at least one.
     opts = wds.get_options(chars)
     return bool(opts)
+
+
+def clean(wd: str) -> str:
+    """
+    Reduce the word to alpha characters (i.e. remove any special chars, whitespace etc.)
+    """
+    return "".join([ch.lower() for ch in wd if ch.isalpha()])

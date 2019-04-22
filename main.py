@@ -6,6 +6,7 @@ from nltk.corpus import wordnet as wn
 from board import new_board
 from solve import solve
 from trie import trie_from_words
+from words import clean
 
 
 def all_four_letter_words():
@@ -16,7 +17,7 @@ def all_four_letter_words():
         print("don't have wordnet, downloading")
         nltk.download('wordnet')
         all_words = wn.words()
-    return [wd for wd in all_words if len(wd) == 4 and all([ch.isalpha() for ch in wd])]
+    return [clean(wd) for wd in all_words if len(clean(wd)) == 4]
 
 
 def main():

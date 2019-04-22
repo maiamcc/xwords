@@ -11,7 +11,9 @@ def solve(wds: Trie, b: Board) -> Board:
         if solution.solved:
             return solution
 
-        return solve(wds, solution)
+        maybe_solved = solve(wds, solution)
+        if maybe_solved.solved:
+            return maybe_solved
 
     # Didn't solve it -- return the current board (wherever we failed to find
     # a valid next step) -- b.solved = false so recursive calls further up
